@@ -1,0 +1,8 @@
+/**
+ * Font Face
+ */
+@include font-face('Proxima Nova', /assets/fonts/ProximaNova-Light, 300, normal, eot ttf woff);
+@include font-face('Proxima Nova', /assets/fonts/ProximaNova-Regular, 400, normal, eot ttf woff);
+@include font-face('Proxima Nova', /assets/fonts/ProximaNova-Semibold, 600, normal, eot ttf woff);
+@include font-face('Proxima Nova', /assets/fonts/ProximaNova-Bold, 700, normal, eot ttf woff);
+@include font-face('Proxima Nova', /assets/fonts/ProximaNova-Extrabld, 800, normal, eot ttf woff);

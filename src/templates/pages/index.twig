@@ -1,0 +1,97 @@
+{% extends '../layouts/default.twig' %}
+{% set head_title = 'Index' %}
+{% set body_class = '' %}
+
+{% block page %}
+
+  <style>
+    /* Inline styling for the demo purpose */
+    body,
+    .demo {
+      padding: 1.5rem;
+    }
+    body {
+      background-color: #fafafa;
+    }
+    .demo {
+      max-width: 640px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: white;
+      border: 1px solid #eee;
+    }
+    .demo-title,
+    .demo-subtitle {
+      margin-bottom: 1.5rem;
+    }
+    .demo-subtitle {
+      color: #7a7a7a;
+    }
+    .demo-list {
+      list-style: none;
+      padding-left: 0;
+      margin-bottom: 0;
+      font-size: 1.125rem;
+    }
+    .demo-list li {
+      display: block;
+      padding: .75rem 0;
+      margin-bottom: 0;
+      border-bottom: 1px solid #eee;
+    }
+    .demo-list li:last-child {
+      border-bottom: none;
+    }
+    @media (min-width: 768px) {
+      body,
+      .demo {
+        padding: 2rem;
+      }
+      .demo-title {
+        font-size: 2.25rem;
+      }
+    }
+  </style>
+
+  {% set pages = {
+    1: {
+      t: "Demo Page",
+      u: "demo"
+    },
+    2: {
+      t: "Мое время",
+      u: "moe-vremya"
+    },
+    3: {
+      t: "Финрадар",
+      u: "finradar"
+    },
+    4: {
+      t: "Растущий доход",
+      u: "dohod"
+    },
+    5: {
+      t: "Nps",
+      u: "nps"
+    },
+    6: {
+      t: "Карьера - главная",
+      u: "career"
+    },
+  } %}
+
+  <div class="demo">
+    <h1 class="demo-title">
+      RSHB.ru
+    </h1>
+    <p class="demo-subtitle">
+      Верстка страниц сайта
+    </p>
+    <ul class="demo-list">
+      {% for page in pages %}
+      <li><a href="{{ page.u }}.html">{{ page.t }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+
+{% endblock %}

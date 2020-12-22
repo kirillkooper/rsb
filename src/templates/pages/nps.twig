@@ -1,0 +1,10 @@
+{% extends '../layouts/default.twig' %}
+{% set head_title = 'NPS' %}
+{% set body_class = '' %}
+{% set menu_active = 'blank-page' %}
+{% set page = 'nps' %}
+{% set src = '/assets/img/nps/' %}
+
+{% block page %}
+    {% include '../../modules/nps-pop/nps-pop.twig' %}
+{% endblock %}

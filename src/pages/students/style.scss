@@ -1,0 +1,312 @@
+$src : '/assets/img/students/';
+@import '../../styles/settings/**/*.scss';
+@import '../../styles/tools/**/*.scss';
+
+.students{
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 16px;
+  .container{
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  h1,
+  h2,
+  h3,
+  h4{
+    margin-top: 0;
+  }
+  h1{
+    font-size: 24px;
+    font-weight: bold;
+  }
+  h4{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  @media screen and (min-width: 576px) {
+    h1{
+      font-size: 28px;
+    }
+    .container{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    h1{
+      font-size: 28px;
+    }
+    h3{
+      font-size: 22px;
+    }
+    .container{
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    h1{
+      font-size: 32px;
+    }
+    .container{
+      padding-left: 28px;
+      padding-right: 28px;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 18px;
+    h1{
+      font-size: 40px;
+    }
+    h3{
+      font-size: 24px;
+    }
+    .container{
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+  }
+  &-young{
+    font-size: 1.25em;
+    .container{
+      background-color: #d2f4bd;
+      padding-top: 24px;
+    }
+    &-img{
+      text-align: center;
+      margin-top: 20px;
+    }
+    &-text{
+      border-left: 3px solid $color-yellow;
+      padding-left: 24px;
+    }
+    @media screen and (min-width: 576px) {
+      .container{
+        border-radius: 10px;
+        margin-bottom: 32px;
+        margin-top: 32px;
+      }
+    }
+    @media screen and (min-width: 768px) {
+      .container{
+        display: flex;
+        padding-top: 0;
+        margin-bottom: 40px;
+        margin-top: 40px;
+      }
+      &-img{
+        margin-top: -38px;
+        max-width: 40%;
+      }
+      &-text{
+        padding-bottom: 24px;
+        padding-top: 24px;
+        align-self: center;
+        padding-right: 40px;
+      }
+    }
+    @media screen and (min-width: 1200px) {
+      .container{
+        margin-bottom: 64px;
+        margin-top: 64px;
+      }
+      &-text{
+        max-width: 60%;
+        padding-left: 64px;
+      }
+    }
+  }
+  &-block{
+    padding-top: 32px;
+    padding-bottom: 16px;
+    &-text{
+      margin-bottom: 24px;
+    }
+    &-img{
+      margin-bottom: 24px;
+      img{
+        width: 100%;
+      }
+    }
+    @media screen and (min-width: 768px) {
+      padding-top: 40px;
+      padding-bottom: 0;
+      &-wrap{
+        display: flex;
+        margin-bottom: 16px;
+        .students-block-text{
+          max-width: 60%;
+          padding-right: 20px;
+        }
+        .left,
+        .right{
+          max-width: 50%;
+        }
+        .left{
+          margin-right: 12px;
+        }
+        .right{
+          margin-left: 12px;
+        }
+
+        &-reverse{
+          margin-bottom: 16px;
+          display: flex;
+          flex-direction: row-reverse;
+          .students-block-text{
+            max-width: 60%;
+            padding-right: 0;
+            padding-left: 20px;
+          }
+        }
+      }
+    }
+    @media screen and (min-width: 1200px) {
+      padding-top: 64px;
+      padding-bottom: 32px;
+      &-wrap{
+        .left{
+          margin-right: 16px;
+        }
+        .right{
+          margin-left: 16px;
+        }
+        .students-block-text{
+          padding-right: 30px;
+        }
+        &-reverse{
+          .students-block-text{
+            padding-left: 30px;
+          }
+        }
+      }
+    }
+  }
+  &-gray{
+    background-color: #f9fafb;
+  }
+  &-young-for{
+    padding: 24px 0;
+    .left-line{
+      border-left: 3px solid #ffcb00;
+      padding-left: 20px;
+    }
+    &-left,
+    &-right{
+      color: white;
+      padding: 16px 16px 0 16px;
+      .container{
+        padding: 16px 16px 90px 16px;
+        border-radius: 10px;
+        background-image: url("#{$src}young-left.jpg");
+        background-size: cover;
+        position: relative;
+        min-height: 320px;
+        &:after{
+          content: url("#{$src}arrow.svg");
+          position: absolute;
+          right: 16px;
+          bottom: 16px;
+        }
+      }
+      &:hover{
+        text-decoration: none;
+        color: white;
+      }
+    }
+    &-right{
+      .container{
+        background-image: url("#{$src}young-right.jpg");
+      }
+    }
+    @media screen and (min-width: 414px) {
+      &-left,
+      &-right{
+        .container{
+          min-height: 270px;
+        }
+      }
+    }
+    @media screen and (min-width: 576px) {
+      padding: 0;
+      padding-bottom: 32px;
+      &-left,
+      &-right{
+        .container{
+          padding: 20px 80px 20px 20px;
+          min-height: 240px;
+        }
+      }
+
+    }
+    @media screen and (min-width: 768px) {
+      padding-bottom: 40px;
+      &-wrap{
+        display: flex;
+        max-width: 720px;
+        margin: 0 auto;
+        padding-top: 16px;
+        padding-bottom: 48px;
+      }
+      &-left,
+      &-right{
+        padding: 0;
+        .container{
+          height: 100%;
+          padding: 24px 24px 80px 24px;
+        }
+      }
+      &-left{
+        padding-right: 10px;
+      }
+      &-right{
+        padding-left: 10px;
+      }
+    }
+    @media screen and (min-width: 992px) {
+      .left-line{
+        padding-left: 32px;
+      }
+      &-wrap{
+        max-width: 960px;
+        padding-top: 8px;
+        padding-bottom: 48px;
+      }
+      &-left,
+      &-right{
+        .container{
+          height: 100%;
+          padding: 28px 28px 80px 28px;
+          &:after{
+            right: 28px;
+            bottom: 24px;
+          }
+        }
+      }
+    }
+    @media screen and (min-width: 1200px) {
+      padding-bottom: 64px;
+      .left-line{
+        padding-left: 40px;
+      }
+      &-wrap{
+        max-width: 1140px;
+        padding-top: 16px;
+        padding-bottom: 40px;
+      }
+      &-left,
+      &-right{
+        .container{
+          height: 100%;
+          padding: 32px 32px 80px 32px;
+        }
+      }
+      &-left{
+        padding-right: 16px;
+      }
+      &-right{
+        padding-left: 16px;
+      }
+    }
+  }
+}

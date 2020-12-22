@@ -1,0 +1,168 @@
+$src : '/assets/img/nps/';
+@import '../../styles/settings/**/*.scss';
+@import '../../styles/tools/**/*.scss';
+
+.nps{
+  font-family: "Proxima Nova", sans-serif;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+  &.hide,
+  .hide{
+    display: none;
+  }
+  &_back{
+    position: absolute;
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+    bottom: 0;
+  }
+  &_front{
+    max-width: 480px;
+    background: white;
+    padding: 16px 16px 24px 16px;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    position: relative;
+    z-index: 999;
+    h2{
+      font-family: "Proxima Nova", sans-serif;
+      font-size: 19px;
+      line-height: 1.2em;
+      text-align: center;
+      font-weight: bold;
+      margin-top: 0;
+    }
+    &__close{
+      text-align: right;
+      svg{
+        &:hover{
+          fill: #6aa744;
+        }
+      }
+    }
+    &__stars{
+      display: flex;
+      &-button{
+        min-width: 20%;
+        text-align: center;
+        svg{
+          height: 48px;
+          width: 48px;
+        }
+        &:hover,
+        &.hover,
+        &.active{
+          cursor: pointer;
+          svg{
+            fill: #6aa744;
+          }
+        }
+      }
+    }
+    &__reason{
+      padding-top: 20px;
+      &-label{
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        padding-top: 4px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        font-size: 15px;
+        line-height: 18px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        font-weight: 400;
+        input {
+          position: absolute;
+          opacity: 0;
+          cursor: pointer;
+          height: 0;
+          width: 0;
+          &:checked{
+            & ~ .checkmark {
+              background-color: #6aa744;
+            }
+            & ~ .checkmark:after {
+              display: block;
+            }
+          }
+        }
+        .checkmark {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 25px;
+          width: 25px;
+          background-color: #e0e0e0;
+          border-radius: 50%;
+          &:after {
+            content: "";
+            position: absolute;
+            display: none;
+            top: 9px;
+            left: 9px;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: white;
+          }
+        }
+        &:hover input ~ .checkmark {
+          background-color: #6aa744;
+          &:after{
+            display: block;
+          }
+        }
+      }
+    }
+    &__details{
+      textarea{
+        display: block;
+        box-sizing: border-box;
+        padding: 8px;
+        width: 100%;
+        margin-bottom: 20px;
+        border: 1px solid #e0e0e0;
+        &:focus{
+          outline: 0;
+        }
+      }
+      .btn{
+        display: block;
+        background: $color-yellow;
+        color: $color-black;
+        padding: .5em 1.5em;
+        margin: 0 auto;
+        border-radius: 2px;
+        text-decoration: none;
+        text-align: center;
+        &:hover{
+          background: darken($color-yellow, 3%);
+        }
+      }
+    }
+    &__thanks{
+      text-align: center;
+    }
+  }
+  @media screen and (min-width: 480px) {
+    height: 100%;
+    &_front {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 8px 8px 8px 8px;
+      h2{
+        font-size: 22px;
+      }
+    }
+  }
+}
+
