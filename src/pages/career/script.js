@@ -1,10 +1,6 @@
 
 export default function career() {
     const log = console.log.bind(console);
-
-
-
-
     window.career = window.career || {
         city:{},
         panel: {
@@ -16,6 +12,7 @@ export default function career() {
             email: document.getElementById("off-panel-email"),
         },
         filter: document.getElementById("filter"),
+
         init: function(){
             this.getCityList()
                 .then(res => res.getVacancy(this.filter));
@@ -30,6 +27,7 @@ export default function career() {
             let self = this;
             const citySelect = document.getElementById("filter-city");
             const buildSelect = function(cityList){
+                //log(cityList);
                 citySelect.innerHTML = '';
                 cityList.entries.forEach(function(entry){
                     citySelect.innerHTML += `<option value="${entry.name}">${entry.name}</option>`;
@@ -96,7 +94,7 @@ export default function career() {
         },
         showVacancy: function (id){
             const data = this.data.entries[id];
-            log(data);
+            //log(data);
             this.panel.title.innerHTML = data.title;
             this.panel.options.innerHTML = `
             <div class="option">${data.department.name||''}</div>
@@ -124,5 +122,7 @@ export default function career() {
             this.panel.window.classList.toggle('hidden');
         }
 
-    };window.career.init();
+    };
+
+    window.career.init();
 }

@@ -92,6 +92,9 @@ select:focus + .focus {
     font-size: 20px;
     font-weight: bold;
   }
+  h4{
+    font-size: 18px;
+  }
   &-btn{
     display: inline-block;
     background: $color-yellow;
@@ -408,6 +411,8 @@ select:focus + .focus {
           position: absolute;
           right: 16px;
           bottom: 16px;
+          width: 56px;
+          height: 56px;
         }
       }
       &:hover{
