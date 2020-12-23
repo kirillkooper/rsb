@@ -27,8 +27,6 @@ export default function career() {
             this.filter.addEventListener('change',function (){
                 this.filterData(this.filter);
             }.bind(this));
-
-
         },
 
         getCityList: function(){
@@ -43,7 +41,7 @@ export default function career() {
                     let city = entry.city.name;
                     if(!cityArr.includes(city)){
                         cityArr.push(city);
-                        if(city == "Москва"){
+                        if(city === "Москва"){
                             citySelect.innerHTML += `<option selected value="${city}">${city}</option>`;
                         }
                         else{
@@ -68,8 +66,8 @@ export default function career() {
 
         filterData: function(form){
             const filters = {
-                city: entry => entry.city.name == form.city.value,
-                exp:  entry => entry.exp == form.exp.value,
+                city: entry => entry.city.name === form.city.value,
+                exp:  entry => entry.exp === form.exp.value,
                 direction: {
                     col : [],
                     predicate: entry => {
@@ -90,10 +88,14 @@ export default function career() {
                 }
             }
 
-
+            // фильтрация по городу
             this.showData = filter(this.data.entries, filters.city);
+
+            // установка фильтров по городу
             this.expSelect(this.showData, form.exp.value);
             this.directionSelect(this.showData, filters.direction.col);
+
+            // фильтрация
             if(form.exp.value){
                 this.showData = filter(this.showData, filters.exp);
             }
@@ -110,15 +112,17 @@ export default function career() {
             select.innerHTML = '';
             uniq(flattenDeep(map(data, 'direction'))).forEach(function(direction){
                 if(directions.includes(direction)){
-                    select.innerHTML += `<label class="career-job-form_direction">
-                                <input type="checkbox" checked name="direction" value="${direction}">
-                                <span class="checkmark">${direction}</span>
-                            </label>`;
+                    select.innerHTML += `
+                        <label class="career-job-form_direction">
+                            <input type="checkbox" checked name="direction" value="${direction}">
+                            <span class="checkmark">${direction}</span>
+                        </label>`;
                 }else{
-                    select.innerHTML += `<label class="career-job-form_direction">
-                                <input type="checkbox" name="direction" value="${direction}">
-                                <span class="checkmark">${direction}</span>
-                            </label>`;
+                    select.innerHTML += `
+                        <label class="career-job-form_direction">
+                            <input type="checkbox" name="direction" value="${direction}">
+                            <span class="checkmark">${direction}</span>
+                        </label>`;
                 }
             });
 
@@ -127,7 +131,7 @@ export default function career() {
             let select = this.selectExp;
             select.innerHTML = `<option value="">Не важно</option>`;
             uniq(map(data, 'exp')).sort().forEach(function(val){
-                if(val == exp){
+                if(val === exp){
                     select.innerHTML += `<option selected value="${val}">${val}</option>`;
                 }else{
                     select.innerHTML += `<option value="${val}">${val}</option>`;

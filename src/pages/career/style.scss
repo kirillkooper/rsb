@@ -722,10 +722,11 @@ select:focus + .focus {
     }
   }
   &-content{
-    padding-top: 32px;
+    padding-top: 64px;
+    padding-bottom: 64px;
     position: absolute;
     height: 100%;
-    width: 90%;
+    width: 99%;
     background-color: white;
     right: 0;
     box-shadow: 0 0 20px 0 rgba(102, 102, 102, .5);
@@ -746,6 +747,21 @@ select:focus + .focus {
     color: $color-green1;
     &:hover{
       color: darken($color-green1, 10);
+    }
+  }
+  @media screen and (min-width: 576px) {
+    &-content{
+      width: 95%;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    &-content{
+      width: 90%;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    &-content{
+      width: 85%;
     }
   }
 }
