@@ -9,6 +9,7 @@
 //import 'Utils/_foreach.polyfill.js';
 import 'Utils/_fetch.polyfill.js';
 import 'Utils/_promise.polyfill.js';
+import 'Utils/_includes.polyfill.js';
 
 // Misc
 // Use log() instead of console.log()
