@@ -21,7 +21,7 @@ export function imgmin() {
 export function imgwebp() {
     return src(paths.images.src+'.{jpg,png}')
         .pipe(plumber({errorHandler}))
-        .pipe(webp({quality: 65}))
+        .pipe(webp({quality: 80}))
         .pipe(dest(paths.images.dest));
 }
 
