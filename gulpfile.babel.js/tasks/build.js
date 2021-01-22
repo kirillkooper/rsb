@@ -13,6 +13,7 @@ import { pagescss } from './pages';
 import { scripts } from './scripts';
 import { templates } from './templates';
 import { assets } from './assets';
+import { images } from './images';
 import { copy } from './copy';
 
 // Config
@@ -20,5 +21,5 @@ import { paths } from "../config";
 
 export const build = series(
   clean,
-  parallel(styles, scripts, pagescss, templates, assets, copy)
+  parallel(styles, scripts, pagescss, templates, assets, copy, images)
 );

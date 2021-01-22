@@ -15,6 +15,8 @@ import { scripts } from './scripts';
 import { templates } from './templates';
 import { assets } from './assets';
 import { copy } from './copy';
+import { images } from './images';
+
 
 // Config
 import { paths } from "../config";
@@ -25,6 +27,7 @@ function watchFiles() {
   gulp.watch([paths.scripts.watch, paths.scripts.modules, paths.scripts.pages], series(scripts, reload));
   gulp.watch([paths.templates.watch, paths.templates.modules], series(templates, reload));
   gulp.watch(paths.assets.src, series(assets, reload));
+  gulp.watch(paths.images.src, images);
   gulp.watch(paths.copy.src, series(copy, reload));
 }
 

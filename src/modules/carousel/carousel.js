@@ -6,9 +6,9 @@
 import Flickity from 'flickity';
 import 'flickity/css/flickity.css';
 
-export default function carousel() {
+export default function carousel(carousel, options) {
 
-  const carousel = document.querySelector('[data-js="carousel"]');
+
 
   // When Carousel exists
   if (carousel) {
@@ -18,11 +18,7 @@ export default function carousel() {
     var carouselInit = function () {
       carousel.classList.remove('is-hidden');
       carousel.offsetHeight;
-      new Flickity( carousel, {
-        // options
-        cellAlign: 'left',
-        wrapAround: true
-      } );
+      new Flickity( carousel, options );
     };
 
     carouselInit();

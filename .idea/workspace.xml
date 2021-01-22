@@ -1,7 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30e4d0d8-f9cd-40dc-89ec-88023220dab7" name="Default Changelist" comment="" />
+    <list default="true" id="30e4d0d8-f9cd-40dc-89ec-88023220dab7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/career/Group 1216.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/career/Group 1216.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/career/bank-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/career/bank-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/career/bank-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/career/bank-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/career/top-img.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/career/top-img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/career/yong-img.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/career/yong-img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/career/young-left.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/career/young-left.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/career/young-right.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/career/young-right.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/dohod/top-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/dohod/top-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/dohod/top-img.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/dohod/top-img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/finradar/card-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/finradar/card-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/finradar/card-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/finradar/card-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/finradar/tabs-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/finradar/tabs-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/finradar/top-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/finradar/top-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/finradar/top-img.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/finradar/top-img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/moe-vremya/card-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/moe-vremya/card-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/moe-vremya/card-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/moe-vremya/card-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/moe-vremya/card-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/moe-vremya/card-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/moe-vremya/top-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/moe-vremya/top-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/moe-vremya/top-img.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/moe-vremya/top-img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/students/yong-img.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/students/yong-img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/students/young-left.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/students/young-left.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/students/young-right.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/students/young-right.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/students/young1.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/students/young1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/students/young2.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/students/young2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/students/young3.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/students/young3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/students/young4.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/students/young4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/students/young5.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/students/young5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/career.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/career.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/career/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/career/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/dohod/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/dohod/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/finradar/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/finradar/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/moe-vremya/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/moe-vremya/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/moe-vremya/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/moe-vremya/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/nps/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/nps/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/students/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/students/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/students/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/students/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/dohod.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/dohod.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/finradar.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/finradar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/app.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/vendor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/vendor.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/vendor.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/moe-vremya.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/moe-vremya.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/nps.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/nps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/students.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/students.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.babel.js/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.babel.js/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.babel.js/tasks/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.babel.js/tasks/build.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.babel.js/tasks/pages.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.babel.js/tasks/pages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.babel.js/tasks/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.babel.js/tasks/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.babel.js/tasks/templates.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.babel.js/tasks/templates.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.babel.js/tasks/watch.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.babel.js/tasks/watch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/carousel/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/carousel/carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/career/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/career/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/moe-vremya/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/moe-vremya/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/students/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/students/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/utils/_foreach.polyfill.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/utils/_foreach.polyfill.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/tools/_font-face.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/tools/_font-face.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/layouts/default.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/layouts/default.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/pages/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/pages/index.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +85,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1j8LqBenBqBwuNMeRAu9hQKKiZ3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -27,14 +99,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/img/students" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.stylelint" value="$PROJECT_DIR$/node_modules/stylelint" />
+    <property name="node.js.selected.package.stylelint" value="$PROJECT_DIR$/src/node_modules/stylelint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -43,11 +115,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/assets/img/mobile-bank" />
       <recent name="$PROJECT_DIR$/src/assets/img/students" />
       <recent name="$PROJECT_DIR$/src/scripts/utils" />
       <recent name="$PROJECT_DIR$/src/templates/pages" />
-      <recent name="$PROJECT_DIR$/src/styles/tools" />
-      <recent name="$PROJECT_DIR$/src/assets/fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages/mobile-bank" />
     </key>
   </component>
   <component name="RunManager" selected="npm.build">
@@ -125,7 +200,13 @@
       <workItem from="1607929511385" duration="49662000" />
       <workItem from="1608144132958" duration="49014000" />
       <workItem from="1608445545156" duration="33498000" />
-      <workItem from="1608614123510" duration="27552000" />
+      <workItem from="1608614123510" duration="45935000" />
+      <workItem from="1608982335472" duration="4066000" />
+      <workItem from="1609043504864" duration="3511000" />
+      <workItem from="1609047460509" duration="12483000" />
+      <workItem from="1609147070825" duration="28359000" />
+      <workItem from="1609564709024" duration="2000" />
+      <workItem from="1610610284319" duration="24304000" />
     </task>
     <servers />
   </component>
@@ -133,51 +214,62 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="586" y="391" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603360396635">
+    <state x="666" y="478" key="#Stylelint" timestamp="1609048015739">
+      <screen x="0" y="25" width="1920" height="1120" />
+    </state>
+    <state x="666" y="478" key="#Stylelint/0.25.1920.1120@0.25.1920.1120" timestamp="1609048015739" />
+    <state x="586" y="391" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610613605710">
       <screen x="0" y="25" width="1920" height="1120" />
     </state>
     <state x="586" y="391" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1920.1120@0.25.1920.1120" timestamp="1603200469266" />
+    <state x="1172" y="705" key="#com.intellij.fileTypes.FileTypeChooser/0.25.3840.2080@0.25.3840.2080" timestamp="1608885148474" />
     <state x="586" y="391" key="#com.intellij.fileTypes.FileTypeChooser/1920.-215.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1603360396635" />
-    <state width="1922" height="152" key="GridCell.Tab.0.bottom" timestamp="1608713407794">
-      <screen x="0" y="25" width="3840" height="2080" />
+    <state x="586" y="391" key="#com.intellij.fileTypes.FileTypeChooser/1920.25.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1610613605710" />
+    <state width="1878" height="388" key="GridCell.Tab.0.bottom" timestamp="1611297141818">
+      <screen x="0" y="25" width="1920" height="1120" />
     </state>
-    <state width="1653" height="152" key="GridCell.Tab.0.bottom/0.25.1920.1120@0.25.1920.1120" timestamp="1608699773573" />
-    <state width="1922" height="152" key="GridCell.Tab.0.bottom/0.25.3840.2080@0.25.3840.2080" timestamp="1608713407794" />
+    <state width="1878" height="457" key="GridCell.Tab.0.bottom/0.25.1920.1120@0.25.1920.1120" timestamp="1609409982107" />
+    <state width="1878" height="457" key="GridCell.Tab.0.bottom/0.25.3840.2080@0.25.3840.2080" timestamp="1609310174842" />
     <state width="1516" height="306" key="GridCell.Tab.0.bottom/1920.-215.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1603969978391" />
-    <state width="1516" height="227" key="GridCell.Tab.0.bottom/1920.25.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1608201880467" />
-    <state width="1922" height="152" key="GridCell.Tab.0.center" timestamp="1608713407793">
-      <screen x="0" y="25" width="3840" height="2080" />
+    <state width="1878" height="388" key="GridCell.Tab.0.bottom/1920.25.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1611297141818" />
+    <state width="1878" height="438" key="GridCell.Tab.0.bottom/1920.25.2560.1415/0.25.1920.1120@1920.25.2560.1415" timestamp="1611130942472" />
+    <state width="1878" height="388" key="GridCell.Tab.0.center" timestamp="1611297141816">
+      <screen x="0" y="25" width="1920" height="1120" />
     </state>
-    <state width="1653" height="152" key="GridCell.Tab.0.center/0.25.1920.1120@0.25.1920.1120" timestamp="1608699773572" />
-    <state width="1922" height="152" key="GridCell.Tab.0.center/0.25.3840.2080@0.25.3840.2080" timestamp="1608713407793" />
+    <state width="1878" height="457" key="GridCell.Tab.0.center/0.25.1920.1120@0.25.1920.1120" timestamp="1609409982105" />
+    <state width="1878" height="457" key="GridCell.Tab.0.center/0.25.3840.2080@0.25.3840.2080" timestamp="1609310174841" />
     <state width="1516" height="306" key="GridCell.Tab.0.center/1920.-215.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1603969978388" />
-    <state width="1516" height="227" key="GridCell.Tab.0.center/1920.25.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1608201880466" />
-    <state width="1922" height="152" key="GridCell.Tab.0.left" timestamp="1608713407792">
-      <screen x="0" y="25" width="3840" height="2080" />
+    <state width="1878" height="388" key="GridCell.Tab.0.center/1920.25.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1611297141816" />
+    <state width="1878" height="438" key="GridCell.Tab.0.center/1920.25.2560.1415/0.25.1920.1120@1920.25.2560.1415" timestamp="1611130942470" />
+    <state width="1878" height="388" key="GridCell.Tab.0.left" timestamp="1611297141799">
+      <screen x="0" y="25" width="1920" height="1120" />
     </state>
-    <state width="1653" height="152" key="GridCell.Tab.0.left/0.25.1920.1120@0.25.1920.1120" timestamp="1608699773571" />
-    <state width="1922" height="152" key="GridCell.Tab.0.left/0.25.3840.2080@0.25.3840.2080" timestamp="1608713407792" />
+    <state width="1878" height="457" key="GridCell.Tab.0.left/0.25.1920.1120@0.25.1920.1120" timestamp="1609409982104" />
+    <state width="1878" height="457" key="GridCell.Tab.0.left/0.25.3840.2080@0.25.3840.2080" timestamp="1609310174840" />
     <state width="1516" height="306" key="GridCell.Tab.0.left/1920.-215.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1603969978386" />
-    <state width="1516" height="227" key="GridCell.Tab.0.left/1920.25.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1608201880465" />
-    <state width="1922" height="152" key="GridCell.Tab.0.right" timestamp="1608713407793">
-      <screen x="0" y="25" width="3840" height="2080" />
+    <state width="1878" height="388" key="GridCell.Tab.0.left/1920.25.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1611297141799" />
+    <state width="1878" height="438" key="GridCell.Tab.0.left/1920.25.2560.1415/0.25.1920.1120@1920.25.2560.1415" timestamp="1611130942469" />
+    <state width="1878" height="388" key="GridCell.Tab.0.right" timestamp="1611297141817">
+      <screen x="0" y="25" width="1920" height="1120" />
     </state>
-    <state width="1653" height="152" key="GridCell.Tab.0.right/0.25.1920.1120@0.25.1920.1120" timestamp="1608699773572" />
-    <state width="1922" height="152" key="GridCell.Tab.0.right/0.25.3840.2080@0.25.3840.2080" timestamp="1608713407793" />
+    <state width="1878" height="457" key="GridCell.Tab.0.right/0.25.1920.1120@0.25.1920.1120" timestamp="1609409982106" />
+    <state width="1878" height="457" key="GridCell.Tab.0.right/0.25.3840.2080@0.25.3840.2080" timestamp="1609310174841" />
     <state width="1516" height="306" key="GridCell.Tab.0.right/1920.-215.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1603969978390" />
-    <state width="1516" height="227" key="GridCell.Tab.0.right/1920.25.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1608201880467" />
-    <state x="325" y="220" key="SettingsEditor" timestamp="1604063123170">
+    <state width="1878" height="388" key="GridCell.Tab.0.right/1920.25.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1611297141817" />
+    <state width="1878" height="438" key="GridCell.Tab.0.right/1920.25.2560.1415/0.25.1920.1120@1920.25.2560.1415" timestamp="1611130942471" />
+    <state x="325" y="220" key="SettingsEditor" timestamp="1609047728766">
       <screen x="0" y="25" width="1920" height="1120" />
     </state>
     <state x="325" y="220" key="SettingsEditor/0.25.1920.1120/1920.-467.3008.1667@0.25.1920.1120" timestamp="1604063123170" />
+    <state x="325" y="220" key="SettingsEditor/0.25.1920.1120@0.25.1920.1120" timestamp="1609047728766" />
     <state x="609" y="194" width="1049" height="764" key="dock-window-1" timestamp="1603191644240">
       <screen x="0" y="25" width="1920" height="1120" />
     </state>
     <state x="609" y="194" width="1049" height="764" key="dock-window-1/0.25.1920.1120@0.25.1920.1120" timestamp="1603191644240" />
-    <state x="1036" y="491" width="1340" height="1256" key="search.everywhere.popup" timestamp="1608279812107">
-      <screen x="0" y="25" width="3840" height="2080" />
+    <state x="518" y="276" width="670" height="676" key="search.everywhere.popup" timestamp="1609063542553">
+      <screen x="0" y="25" width="1920" height="1120" />
     </state>
-    <state x="518" y="276" width="670" height="676" key="search.everywhere.popup/0.25.1920.1120@0.25.1920.1120" timestamp="1603205092758" />
+    <state x="518" y="276" width="670" height="676" key="search.everywhere.popup/0.25.1920.1120@0.25.1920.1120" timestamp="1609063542553" />
     <state x="1036" y="491" width="1340" height="1256" key="search.everywhere.popup/0.25.3840.2080@0.25.3840.2080" timestamp="1608279812107" />
   </component>
 </project>

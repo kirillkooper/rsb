@@ -1,0 +1,10 @@
+{% extends '../layouts/default.twig' %}
+{% set head_title = 'web-chat' %}
+{% set body_class = '' %}
+{% set menu_active = 'blank-page' %}
+{% set page = 'chat' %}
+{% set src = '/assets/img/chat/' %}
+
+{% block page %}
+    {% include '../../modules/chat/chat.twig' %}
+{% endblock %}

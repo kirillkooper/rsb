@@ -8,6 +8,7 @@ import { src, dest, series } from 'gulp';
 import gulpif from 'gulp-if';
 import plumber from 'gulp-plumber';
 import sass from 'gulp-sass';
+import webpcss from 'gulp-webpcss';
 import sassGlob from 'gulp-sass-glob';
 import sourcemaps from 'gulp-sourcemaps';
 import postcss from 'gulp-postcss';
@@ -32,7 +33,11 @@ export function scss() {
       outputStyle: 'compressed'
     }))
     .pipe(postcss([ autoprefixer() ]))
-
+      .pipe(webpcss({
+          webpClass:'.webp',
+          replace_from:/\.(png|jpg|jpeg)/,
+          replace_to:'.webp',
+      }))
     .pipe(gulpif(isProd, sourcemaps.write('.') ))
     .pipe(dest(paths.styles.dest))
     .pipe(browserSync.stream())

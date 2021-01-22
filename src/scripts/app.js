@@ -4,8 +4,8 @@
  */
 
 // Polyfills
-//import 'Utils/_closest.polyfill.js';
-//import 'Utils/_matches.polyfill.js';
+import 'Utils/_closest.polyfill.js';
+import 'Utils/_matches.polyfill.js';
 //import 'Utils/_foreach.polyfill.js';
 import 'Utils/_fetch.polyfill.js';
 import 'Utils/_promise.polyfill.js';
@@ -16,7 +16,6 @@ import 'Utils/_includes.polyfill.js';
  //const log = console.log.bind(console);
 
 // Modules
-//import carousel from 'Modules/carousel/carousel';
 //import navbar from 'Modules/navbar/navbar';
 //import searchOverlay from 'Modules/search-overlay/search-overlay';
 //import nps from 'Modules/nps-pop/nps-pop';
@@ -28,6 +27,7 @@ import smoothScroll from 'Components/smooth-scroll';
 
 // Pages
 import career from 'Pages/career/script';
+//import mbank from 'Pages/mobile-bank/script';
 
 document.addEventListener('DOMContentLoaded', function() {
 
@@ -40,7 +40,10 @@ document.addEventListener('DOMContentLoaded', function() {
   //collapse();
   smoothScroll();
   //toggleElement();
+
+  // pages
   //nps();
-    career();
+   career();
+  //  mbank();
 
 })

@@ -9,6 +9,7 @@ import gulpif from 'gulp-if';
 import plumber from 'gulp-plumber';
 import sass from 'gulp-sass';
 import sassGlob from 'gulp-sass-glob';
+import webpcss from "gulp-webpcss";
 import sourcemaps from 'gulp-sourcemaps';
 import postcss from 'gulp-postcss';
 import autoprefixer from 'autoprefixer';
@@ -22,6 +23,7 @@ import browserSync from 'browser-sync'
 // Config
 import { paths } from "../config";
 
+
 export function scss() {
     return src(paths.pages.src)
         .pipe(plumber({errorHandler}))
@@ -32,7 +34,11 @@ export function scss() {
             outputStyle: 'compressed'
         }))
         .pipe(postcss([ autoprefixer() ]))
-
+        .pipe(webpcss({
+            webpClass:'.webp',
+            replace_from:/\.(png|jpg|jpeg)/,
+            replace_to:'.webp',
+        }))
         .pipe(gulpif(isProd, sourcemaps.write('.') ))
         .pipe(dest(paths.pages.dest))
         .pipe(browserSync.stream())

@@ -34,8 +34,12 @@ export const paths = {
     dest: 'dist/'
   },
   assets: {
-    src: 'src/assets/**/*',
-    dest: 'dist/assets'
+    src: 'src/assets/fonts/*',
+    dest: 'dist/assets/fonts'
+  },
+  images: {
+    src: 'src/assets/img/**/*',
+    dest: 'dist/assets/img'
   },
   copy: {
     src: 'src/robots.txt',

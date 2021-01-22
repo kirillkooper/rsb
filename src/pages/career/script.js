@@ -161,7 +161,7 @@ export default function career() {
             }, 1000);
         },
         showVacancy: function (id){
-            const data = this.data.entries[id];
+            const data = this.showData[id];
             //log(data);
             this.panel.title.innerHTML = data.title;
             this.panel.options.innerHTML = `

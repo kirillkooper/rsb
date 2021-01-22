@@ -18,7 +18,9 @@
 
   <section class="top">
     <div class="top-image">
-      <img src="/assets/img/dohod/top-img.png" />
+      <picture>
+        <source srcset="/assets/img/dohod/top-img.webp" type="image/webp"><img src="/assets/img/dohod/top-img.png" />
+      </picture>
     </div>
     <div class="container">
       <div class="top-title">
@@ -61,8 +63,16 @@
               Для всех клиентов РоссельхозБанк
             </div>
             <div class="b-gray-3-block-logos">
-              <a href="#"><img src="/assets/img/dohod/play.svg" /></a>
-              <a href="#"><img src="/assets/img/dohod/app.svg" /></a>
+              <a href="#">
+                <picture>
+                  <source srcset="/assets/img/dohod/play.svg" type="image/webp"><img src="/assets/img/dohod/play.svg" />
+                </picture>
+              </a>
+              <a href="#">
+                <picture>
+                  <source srcset="/assets/img/dohod/app.svg" type="image/webp"><img src="/assets/img/dohod/app.svg" />
+                </picture>
+              </a>
             </div>
             <a class="b-gray-3-block-btn" href="#" target="_blank">Войти в интернет-банк</a>
           </div>
@@ -75,8 +85,12 @@
             <div class="b-gray-3-block-text__small">
               Пройдите регистрацию через Госуслуги при наличии данных в Единой биометрической системе
             </div>
-            <img src="/assets/img/dohod/gos.svg" class="mob-logo" />
-            <img src="/assets/img/dohod/gos2.svg" class="desk-logo" />
+            <picture>
+              <source srcset="/assets/img/dohod/gos.svg" type="image/webp"><img src="/assets/img/dohod/gos.svg" class="mob-logo" />
+            </picture>
+            <picture>
+              <source srcset="/assets/img/dohod/gos2.svg" type="image/webp"><img src="/assets/img/dohod/gos2.svg" class="desk-logo" />
+            </picture>
             <a class="b-gray-3-block-btn" href="#" target="_blank">Зарегистрироваться</a>
           </div>
         </div>
@@ -96,7 +110,6 @@
   </section>
 
   <link rel="stylesheet" href="css/dohod/style.css">
-  <script src="js/dohod/script.js"></script>
   <script src="js/vendor.js"></script>
   <script src="js/app.js"></script>
 
