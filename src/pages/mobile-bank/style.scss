@@ -295,6 +295,7 @@ $displays: none, inline, inline-block, block, table, table-row, table-cell, flex
         padding: 16px;
         padding-right: 0;
         min-width: 86px;
+        max-width: 86px;
         img{
           width: 100%;
         }
