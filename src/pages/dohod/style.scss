@@ -1,8 +1,11 @@
 $src : '/assets/img/dohod/';
 @import '../../styles/settings/**/*.scss';
 @import '../../styles/tools/**/*.scss';
-
+*{
+  box-sizing: border-box;
+}
 .top{
+  box-sizing: border-box;
   background: $color-green1;
   overflow: hidden;
   font-size: 18px;
@@ -23,11 +26,13 @@ $src : '/assets/img/dohod/';
       left: 0;
     }
     &:before{
-      content: url("#{$src}qr.svg");
-      display: inline-block;
+      content: '';
+      background-image: url("#{$src}qr.svg");
+      background-size: cover;
+      display: block;
       position: absolute;
-      height: 130px;
-      width: 120px;
+      height: 136px;
+      width: 136px;
       z-index: 99;
       bottom: 0;
       right: 50px;
@@ -114,8 +119,8 @@ $src : '/assets/img/dohod/';
       &:before{
         left: 53%;
         right: auto;
-        height: 150px;
-        width: 140px;
+        height: 152px;
+        width: 152px;
       }
     }
     &-title{
@@ -149,9 +154,9 @@ $src : '/assets/img/dohod/';
       width: 45%;
       overflow: visible;
       &:before{
-        width: 90px;
-        height: 148px;
-        left: -60px;
+        width: 152px;
+        height: 160px;
+        left: -70px;
       }
     }
     &-bar{
@@ -184,9 +189,9 @@ $src : '/assets/img/dohod/';
       height: 400px;
 
       &:before{
-        left: -30px;
-        width: 140px;
-        height: 154px;
+        left: -64px;
+        width: 168px;
+        height: 176px;
       }
     }
     &-bar{
@@ -202,9 +207,9 @@ $src : '/assets/img/dohod/';
     &-image{
       height: 460px;
       &:before{
-        height: 154px;
-        width: 140px;
-        left: -48px;
+        height: 220px;
+        width: 200px;
+        left: -84px;
       }
     }
     &-title{
@@ -221,9 +226,9 @@ $src : '/assets/img/dohod/';
     &-image{
       height: 540px;
       &:before{
-        height: 148px;
-        width: 200px;
-        left: -48px;
+        height: 240px;
+        width: 240px;
+        left: -86px;
       }
     }
     &-title{

@@ -23,7 +23,9 @@
     <div class="container">
       <div class="navbar__wrapper">
         <a class="navbar__brand" href="index.html">
-          Logo
+          <picture>
+            <source srcset="/logo.svg" type="image/webp"><img src="/logo.svg" />
+          </picture>
         </a>
         <button class="navbar__toggler" role="button" data-js="navbar-toggler">
           <span class="navbar__toggler-line"></span>
@@ -50,11 +52,52 @@
     </p>
   </div>
 
-  <div class="footer">
+  <section class="footer">
     <div class="container">
-      Hi, I am footer component.
-    </div>
-  </div>
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-4 ">
+          <picture>
+            <source srcset="/logo_rshb_gray.svg" type="image/webp"><img src="/logo_rshb_gray.svg" />
+          </picture>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex align-items-center">
+          <a href="https://www.instagram.com/rshb_official" target="_blank">
+            <picture>
+              <source srcset="/social-icon_instagram.svg" type="image/webp"><img src="/social-icon_instagram.svg" />
+            </picture>
+          </a>
+          <a href="https://www.ok.ru/group/52665958400202" target="_blank">
+            <picture>
+              <source srcset="/social-icon_ok.svg" type="image/webp"><img src="/social-icon_ok.svg" />
+            </picture>
+          </a>
+          <a href="https://vk.com/rshbru" target="_blank">
+            <picture>
+              <source srcset="/social-icon_twitter.svg" type="image/webp"><img src="/social-icon_twitter.svg" />
+            </picture>
+          </a>
+          <a href="https://vk.com/rshbru" target="_blank">
+            <picture>
+              <source srcset="/social-icon_vk.svg" type="image/webp"><img src="/social-icon_vk.svg" />
+            </picture>
+          </a>
+          <a href="https://www.facebook.com/rshb.ru" target="_blank">
+            <picture>
+              <source srcset="/social-icon_facebook.svg" type="image/webp"><img src="/social-icon_facebook.svg" />
+            </picture>
+          </a>
+        </div>
+        <div class="col-12 col-md-4  text-sm">
+          119034, г. Москва, Гагаринский пер., д.3.<br />
+          E-mail: office@rshb.ru
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-xs" style="padding: 0">
+          <div class="pt-1" style="border-top: 1px solid #d9d9d9">© 2000-2021 АО «Россельхозбанк» Генеральная лицензия Банка России № 3349 от 12.08.2015 г.<div></div>
+          </div>
+        </div>
+  </section>
 
 
   <script src="js/vendor.js"></script>

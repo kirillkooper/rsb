@@ -2,16 +2,16 @@
  * Buttons
  */
 
-$btn-color-bg: $color-primary !default;
-$btn-color-bg-hover: darken($color-primary, 10%) !default;
+$btn-color-bg: #ffcb05 !default;
+$btn-color-bg-hover: #ffc105 !default;
 
-$btn-color-text: white !default;
-$btn-color-text-hover: white !default;
+$btn-color-text: #333 !default;
+$btn-color-text-hover: black !default;
 
-$btn-font-weight: inherit !default;
+$btn-font-weight: 600 !default;
 $btn-font-size: 1rem !default;
 
-$btn-padding-x: .75rem !default;
+$btn-padding-x: 1rem !default;
 $btn-padding-y: .5rem !default;
 
 $btn-border-color: transparent !default;

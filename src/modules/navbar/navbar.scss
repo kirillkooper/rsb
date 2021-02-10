@@ -2,11 +2,11 @@
  * Navbar
  */
 
-$navbar-height-desktop: 80px;
-$navbar-height-mobile: 50px;
+$navbar-height-desktop: 72px;
+$navbar-height-mobile: 64px;
 $navbar-color-bg: #fafafa;
-$navbar-color-link: $color-link-color;
-$navbar-color-link-hover: $color-link-color-hover;
+$navbar-color-link: #333;
+$navbar-color-link-hover: #19502e;
 $navbar-size-toggler: 8px;
 $navbar-z-index: 1000;
 $navbar-z-index-toggler: 1010;
@@ -14,6 +14,7 @@ $navbar-z-index-toggler: 1010;
 .navbar {
   background-color: $navbar-color-bg;
   z-index: $navbar-z-index;
+  box-shadow: 0 2px 5px 0 rgba(51, 51, 51, .2);
 }
 .navbar__wrapper {
   display: flex;
@@ -21,6 +22,7 @@ $navbar-z-index-toggler: 1010;
 }
 .navbar__brand {
   color: $navbar-color-link;
+  font-weight: 600;
   &:hover {
     text-decoration: none;
     color: $navbar-color-link-hover;
@@ -46,13 +48,18 @@ $navbar-z-index-toggler: 1010;
   transition: $transition-base;
   color: $navbar-color-link;
   text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  &:hover{
+    color: $navbar-color-link-hover;
+  }
 }
 .navbar__item--selected .navbar__link {
   color: $navbar-color-link-hover;
 }
 
 // Media: Small breakpoint and down
-@include media-breakpoint-down(sm) {
+@include media-breakpoint-down(lg) {
   .navbar__wrapper {
     height: $navbar-height-mobile;
   }
@@ -145,7 +152,7 @@ $navbar-z-index-toggler: 1010;
 }
 
 // Media: Medium breakpoint and up
-@include media-breakpoint-up(md) {
+@include media-breakpoint-up(xl) {
   .navbar__wrapper {
     height: $navbar-height-desktop;
   }
@@ -162,10 +169,10 @@ $navbar-z-index-toggler: 1010;
 
 // Adding some spacing to the body tag when the navbar is fixed
 body {
-  @include media-breakpoint-down(sm) {
+  @include media-breakpoint-down(lg) {
     padding-top: $navbar-height-mobile;
   }
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(xl) {
     padding-top: $navbar-height-desktop;
   }
 }

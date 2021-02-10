@@ -28,22 +28,22 @@ h6,
 h1,
 .h1 {
   @include font-size(
-    rem(28),
+    rem(24),
     '',
+    '',
+    rem(28),
     rem(32),
-    rem(40),
-    ''
   );
 }
 
 h2,
 .h2 {
   @include font-size(
-    rem(24),
+    rem(20),
     '',
-    rem(26),
-    rem(32),
-    ''
+    '',
+    rem(22),
+    rem(24),
   );
 }
 
