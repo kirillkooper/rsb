@@ -34,7 +34,7 @@ export default function sokolov() {
         const data = new FormData();
         data.append("uid", uidMask.unmaskedValue);
         data.append("phone", phoneMask.unmaskedValue);
-        fetch('ajax/promocodecheck/promocodechrck.php',{
+        fetch('ajax/promocodecheck/promocodecheck.php',{
             method: 'post',
             body: data
         }).then(res => res.text()).then(res => codeResult(res));
