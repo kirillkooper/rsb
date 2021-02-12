@@ -205,5 +205,8 @@ body.modal-open{
   &-copy{
     background-color: #ffcb05;
     padding: 8px;
+    &:hover{
+      cursor: pointer;
+    }
   }
 }

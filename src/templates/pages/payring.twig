@@ -1,0 +1,195 @@
+{% extends '../layouts/default.twig' %}
+{% set head_title = 'PayRing' %}
+{% set body_class = '' %}
+{% set menu_active = 'blank-page' %}
+{% set page = 'payring' %}
+{% set src = '/assets/img/payring' %}
+
+{% block page %}
+    <main class="ring">
+        <section class="ring-top">
+            <div class="ring-top-img">
+                <img src="{{ src }}/transp.png" class="hide-m" />
+                <img src="{{ src }}/top-img-m.jpg" class="hide-d"/>
+            </div>
+            <div class="ring-top-title">
+                <div class="container">
+                    <h1>Платежные кольца PayRing <span class="nowrap">от РоссельхозБанк</span></h1>
+                    <span>Новая форма платежной карты: удобно носить, удобно платить!</span>
+                    <a class="banner-button" href="#ringshop" data-scroll >
+                        Показать кольца
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="ring-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4 ring-bar-item">
+                        <h4 style="background-image: url('/assets/img/payring/security.svg')">Безопасность</h4>
+                        Нет скрытого взаимодействия с терминалом
+                    </div>
+                    <div class="col-12 col-md-4 ring-bar-item">
+                        <h4 style="background-image: url('/assets/img/payring/nfc.svg')">Технология NFC</h4>
+                        Работает благодаря встроенным в них NFC-модулям
+                    </div>
+                    <div class="col-12 col-md-4 ring-bar-item">
+                        <h4 style="background-image: url('/assets/img/payring/drop.svg')">Водозащищенность</h4>
+                        Не боится влаги и нагрузок благодаря прочным материалам
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ring-what">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-7 col-lg-8">
+                        <h2>
+                            Что это?
+                        </h2>
+                        <p>Платежное кольцо — новый инструмент для бесконтактной оплаты, выполненный в виде стильного аксессуара. Наденьте кольцо и поднесите руку к терминалу — средства спишутся автоматически.</p>
+
+                        <p>Платежное кольцо можно носить на руке, не снимая: оно защищено от ударов и влаги, в нем можно заниматься спортом и принимать душ. Благодаря лаконичному дизайну кольцо одинаково удачно сочетается с одеждой в спортивном или бизнес-стиле.</p>
+                    </div>
+                    <div class="col-12 col-md-5 col-lg-4" style="position: relative;">
+                        <div class="ring-what-img">
+                            <img src="/assets/img/payring/ring-img.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ring-benefits">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-7 col-lg-6">
+                        <h2>Преимущества платежного кольца</h2>
+                        <h4>Удобство использования</h4>
+                        <p>Кольцо всегда находится на руке — вам больше не надо носить с собой пластиковые карты и наличные деньги. Отправляйтесь на прогулку налегке, оставив сумку
+                            и бумажник дома, и оплачивайте с помощью PayRing покупки товаров и услуг</p>
+                        <h4>Функция электронного ключа</h4>
+                        <p>
+                            PayRing может быть запрограммировано не только как платежное кольцо, но и как электронный ключ к бесключевым электронным замкам, которым необходимо обеспечить дополнительный уровень защиты путем идентификации открывающего.
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-5 col-lg-6">
+                        <img src="/assets/img/payring/ring-img-2.png" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ring-variants" id="ringshop" >
+            <div class="container">
+
+                    <div class="carousel is-hidden" id="variants">
+                        <div class="carousel-cell">
+                            <div class="ring-variants-item">
+                                <div class="ring-variants-item_text">
+                                    <div class="image si"></div>
+                                    <h3>SATURN S-I</h3>
+                                    <div class="desc">
+                                        Керамическое кольцо с гладкой, глянцевой поверхностью
+                                    </div>
+                                    <div class="color">
+                                        <span>Доступные цвета</span><div class="color-select color-black"></div>
+                                    </div>
+                                    <div class="price">
+                                        4500 Руб.
+                                    </div>
+                                    <a href="https://rshb.payring.ru/s-i" class="banner-button" id="payring_zakazat_si">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="ring-variants-item">
+                                <div class="ring-variants-item_text">
+                                    <div class="image sii"></div>
+                                    <h3>SATURN S-II</h3>
+                                    <div class="desc">
+                                        Керамическое кольцо с гладкой, матовой поверхностью
+                                    </div>
+                                    <div class="color">
+                                        <span>Доступные цвета</span><div class="color-select color-black"></div>
+                                    </div>
+                                    <div class="price">
+                                        4500 Руб.
+                                    </div>
+                                    <a href="https://rshb.payring.ru/s-ii" class="banner-button" id="payring_zakazat_sii">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="ring-variants-item">
+                                <div class="ring-variants-item_text">
+                                    <div id="svi" class="image svi"></div>
+                                    <h3>SATURN S-VI</h3>
+                                    <div class="desc">
+                                        Керамическое кольцо с граненой глянцевой поверхностью
+                                    </div>
+                                    <div class="color">
+                                        <span>Доступные цвета</span><div id="svib" class="color-select color-black"></div><div id="sviw" class="color-select color-white"></div>
+                                    </div>
+                                    <div class="price">
+                                        4500 Руб.
+                                    </div>
+                                    <a href="https://rshb.payring.ru/svi" class="banner-button" id="payring_zakazat_svi">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="ring-variants-item">
+                                <div class="ring-variants-item_text">
+                                    <div id="svii" class="image svii"></div>
+                                    <h3>SATURN S-VII</h3>
+                                    <div class="desc">
+                                        Керамическое кольцо с глянцевой поверхностью и огранкой по контурам
+                                    </div>
+                                    <div class="color">
+                                        <span>Доступные цвета</span><div id="sviib" class="color-select color-black"></div><div id="sviiw" class="color-select color-white"></div>
+                                    </div>
+                                    <div class="price">
+                                        4500 Руб.
+                                    </div>
+                                    <a href="https://rshb.payring.ru/saturn-s-vii" class="banner-button" id="payring_zakazat_svii">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+        </section>
+        <section class="ring-legal">
+            <div class="container">
+                Приобретая кольцо в интернет-магазине, вы получите платежный продукт MasterCard World, не привязанный к контактным данным и банковским реквизитам будущего владельца и не обладающий платежной функцией. Для активации платежной функции кольца необходимо посетить офис АО «Россельхозбанка» для открытия счета и выбора тарифного плана, либо для привязки платежного продукта к счету для действующих клиентов АО «Россельхозбанка».
+            </div>
+        </section>
+        <section class="ring-charge">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-7 col-lg-8">
+                        <h2>
+                            Как пополнить?
+                        </h2>
+                        <div class="row">
+                            <div class="col-12 col-lg-6 ring-charge-item">
+                                <h4>Перевод с карты на карту</h4>
+                                <div class="fix">Бесплатное и моментальное пополнение с карт любых российских банков</div>
+                                <a href="https://www.rshb.ru/p2p/" class="banner-button">Перевести</a>
+                            </div>
+                            <div class="col-12 col-lg-6 ring-charge-item">
+                                <h4>Через Мобильный банк РСХБ</h4>
+                                <div>Перевод между своими картами Россельхозбанка осуществляется без комиссии</div>
+                                <a href="http://bit.ly/app_digest" class="banner-button">Установить</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5 col-lg-4" style="position: relative;">
+                        <div class="ring-charge-img">
+                            <img src="/assets/img/payring/app.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+{% endblock %}

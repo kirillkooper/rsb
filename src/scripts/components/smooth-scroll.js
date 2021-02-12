@@ -6,5 +6,5 @@
 import SweetScroll from 'sweet-scroll';
 
 export default function smoothScroll() {
-  const sweetScroll = new SweetScroll({ /* some options */ });
+  const sweetScroll = new SweetScroll({ offset: 180 });
 }

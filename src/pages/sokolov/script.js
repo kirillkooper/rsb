@@ -22,7 +22,7 @@ export default function sokolov() {
     const modalCodeValue = document.getElementById('code-value');
 
     modalOpenButton.onclick = () => {modalOpen('text')}
-    codeSubmit.onclick = () => {requestCode(); return false;}
+    codeSubmit.onclick = () => {requestCode(); dataLayer.push({'event': 'promo_sokolov_get_code'});  return false;}
 
     const requestCode = () => {
         let uid = uidMask.unmaskedValue;
@@ -34,7 +34,7 @@ export default function sokolov() {
         const data = new FormData();
         data.append("uid", uidMask.unmaskedValue);
         data.append("phone", phoneMask.unmaskedValue);
-        fetch('ajax/promocodecheck/promocodecheck.php',{
+        fetch('../../ajax/promocodecheck/promocodecheck.php',{
             method: 'post',
             body: data
         }).then(res => res.text()).then(res => codeResult(res));
@@ -49,7 +49,7 @@ export default function sokolov() {
             return false;
         }
         modalOpen('code', res);
-
+        dataLayer.push({'event': 'promo_sokolov_code_success'});
     }
     window.onclick = event =>{
         if (event.target === modal || event.target === modalCloseButton) {

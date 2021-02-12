@@ -16,35 +16,37 @@ import 'Utils/_includes.polyfill.js';
  //const log = console.log.bind(console);
 
 // Modules
-import navbar from 'Modules/navbar/navbar';
+//import navbar from 'Modules/navbar/navbar';
 //import searchOverlay from 'Modules/search-overlay/search-overlay';
 //import nps from 'Modules/nps-pop/nps-pop';
 
 // Components
 //import collapse from 'Components/collapse.js';
-//import smoothScroll from 'Components/smooth-scroll';
+import smoothScroll from 'Components/smooth-scroll';
 //import toggleElement from 'Components/toggle-element';
 
 // Pages
 //import career from 'Pages/career/script';
-import sokolov from 'Pages/sokolov/script';
+//import sokolov from 'Pages/sokolov/script';
 //import mbank from 'Pages/mobile-bank/script';
+import payring from 'Pages/payring/script';
 
 document.addEventListener('DOMContentLoaded', function() {
 
   // Modules
   //carousel();
-  navbar();
+  //navbar();
   //searchOverlay();
 
   // Components
   //collapse();
-  //smoothScroll();
+  smoothScroll();
   //toggleElement();
 
   // pages
   //nps();
   //career();
   //mbank();
-    sokolov();
+  //sokolov();
+  payring();
 })
