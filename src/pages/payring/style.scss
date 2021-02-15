@@ -77,6 +77,8 @@ section {
 
 .ring{
   color: #333;
+  font-size: 16px;
+  line-height: 1.5;
   @media screen and (min-width: 1200px){
     font-size: 18px;
   }
@@ -501,4 +503,79 @@ section {
 .nowrap{
   display: inline !important;
   white-space: nowrap;
+}
+.accord{
+  &-tabs{
+    display: block;
+    overflow-x: auto;
+    ul{
+      display: inline-flex;
+      margin: 0 auto;
+      padding: 0;
+      justify-content: center;
+      border-radius: 8px;
+      margin-bottom: 24px;
+      li{
+        list-style: none;
+        display: block;
+        background: #f5f7f9;
+        padding: .5em 1.5em;
+        margin: 0;
+        text-align: center;
+        &:first-child{
+          border-radius: 4px 0 0 4px;
+        }
+        &:last-child{
+          border-radius: 0 4px 4px 0;
+        }
+        &.active{
+          background: #ffcb00;
+        }
+        &:hover{
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  input {
+    position: absolute;
+    opacity: 0 !important;
+    z-index: -1;
+    &:checked{
+      ~ .accord-item-content {
+        max-height: 100vh;
+        padding-bottom: 16px;
+      }
+      ~ .accord-item-label{
+        background-image: url("../../assets/img/payring/acc-close.svg");
+      }
+    }
+  }
+  &-item{
+    border-bottom: 1px solid #d9d9d9;
+    overflow: hidden;
+    &-label{
+      display: block;
+      font-weight: 600;
+      padding: 16px 32px 16px 0;
+      cursor: pointer;
+      background-image: url("../../assets/img/payring/acc-open.svg");
+      background-position: right center;
+      background-repeat: no-repeat;
+      &:hover{
+        text-decoration: underline;
+        -moz-text-decoration-style: dashed;
+      }
+    }
+    &-content{
+      padding-bottom: 0;
+      max-height: 0;
+    }
+  }
+}
+.tab{
+  display: none;
+  &.active{
+    display: block;
+  }
 }

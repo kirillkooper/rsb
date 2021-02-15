@@ -1,5 +1,5 @@
 import carousel from 'Modules/carousel/carousel';
-//import tabs from 'Components/tabs';
+
 
 export default function payring() {
     const carouselVariants = document.getElementById('variants');
@@ -21,5 +21,24 @@ export default function payring() {
     const sviiw = document.getElementById('sviiw');
     sviiw.onclick = () => { svii.classList.add('sviiw')}
     sviib.onclick = () => { svii.classList.remove('sviiw')}
-    //tabs(document.querySelector('.tabs'));
+
+    let tabs = document.querySelectorAll('.tab');
+    let buttons = document.querySelectorAll('.accord-tabs li');
+
+    const hideTabs = function (){
+        tabs.forEach(e => e.classList.remove('active'))
+    }
+
+    const resetButtons = function (){
+        buttons.forEach(e => e.classList.remove('active'))
+    };
+
+    buttons.forEach((e, i) => {
+        e.addEventListener('click', function(){
+            hideTabs();
+            resetButtons();
+            tabs[i].classList.add('active');
+            e.classList.add('active');
+        })
+    })
 }
