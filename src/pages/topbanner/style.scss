@@ -1,12 +1,102 @@
+@font-face {
+  font-family: 'rouble';
+  src: url('/assets/fonts/rouble-webfont.eot');
+  src:
+    url('/assets/fonts/rouble-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/rouble-webfont.woff') format('woff'),
+    url('/assets/fonts/rouble-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.rouble
+{
+  font-family: 'rouble', sans-serif;
+}
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
+h1,
+h2,
+h3,
+h4{
+  margin-top: 0;
+  font-weight: 600;
+}
+section {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  h1{
+    font-size: 24px;
+  }
+  h2{
+    font-size: 22px;
+  }
+  h3{
+    font-size: 20px;
+  }
+  h4{
+    font-size: 18px;
+  }
+  @media screen and (min-width: 768px) {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    h1{
+      font-size: 28px;
+    }
+    h2{
+      font-size: 24px;
+    }
+    h3{
+      font-size: 20px;
+    }
+    h4{
+      font-size: 18px;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    h1{
+      font-size: 32px;
+    }
+    h2{
+      font-size: 26px;
+    }
+    h3{
+      font-size: 22px;
+    }
+    h4{
+      font-size: 20px;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    h1{
+      font-size: 40px;
+    }
+    h2{
+      font-size: 28px;
+    }
+    h3{
+      font-size: 24px;
+    }
+    h4{
+      font-size: 22px;
+    }
+  }
+}
+img{
+  max-width: 100%;
+}
 .page-banner{
   display: block;
   max-width: 1600px;
   margin: 0 auto;
+  padding-top: 0;
+  padding-bottom: 0;
   background-color: #67a42d;
   color: white;
   font-family: "Proxima Nova", sans-serif;
@@ -68,6 +158,9 @@
       padding: 16px;
       right: auto;
       left: -32px;
+      &.withbar{
+        padding-bottom: 30px;
+      }
     }
     @media screen and (min-width: 992px){
       font-size: 22px;
@@ -87,6 +180,7 @@
       line-height: .9em;
       letter-spacing: -.05em;
     }
+
   }
   &-title{
     padding: 24px 0;
@@ -149,6 +243,67 @@
     a.banner-link.dash{
       text-decoration: none;
       border-bottom: 1px dashed white;
+    }
+  }
+  &-bar{
+    color: #7a7a7a;
+    &-item{
+      &:not(:last-child){
+        padding-bottom: 16px;
+      }
+    }
+    h4{
+      line-height: 24px;
+      margin-bottom: 4px;
+      font-weight: 600;
+      &.icons{
+        color: #333;
+        padding-left: 32px;
+        background-repeat: no-repeat;
+      }
+      &.rates{
+        color: #265d30;
+        .accent{
+          font-size: 2em;
+          letter-spacing: -.05em;
+          padding-right: .1em;
+          line-height: 1em;
+        }
+      }
+    }
+    @media screen and (min-width: 768px){
+      padding-top: 0;
+      padding-bottom: 0;
+      margin-top: -15px;
+      position: relative;
+      z-index: 2;
+      font-size: 15px;
+      &-item{
+        &:not(:last-child){
+          padding-bottom: 0;
+        }
+      }
+      .container{
+        padding: 15px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 2px rgba(51, 51, 51, .2);
+      }
+    }
+    @media screen and (min-width: 992px){
+      font-size: 16px;
+      h4{
+        margin-bottom: 8px;
+      }
+      .container{
+        padding: 20px;
+      }
+    }
+    @media screen and (min-width: 1200px){
+      font-size: 18px;
+      .container{
+        padding: 24px;
+      }
     }
   }
 }

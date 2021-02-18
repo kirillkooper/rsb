@@ -34,12 +34,15 @@ export default function sokolov() {
         const data = new FormData();
         data.append("uid", uidMask.unmaskedValue);
         data.append("phone", phoneMask.unmaskedValue);
+        console.log(uidMask.unmaskedValue);
+        console.log(phoneMask.unmaskedValue);
         fetch('../../ajax/promocodecheck/promocodecheck.php',{
             method: 'post',
             body: data
         }).then(res => res.text()).then(res => codeResult(res));
     }
     const codeResult = (res) => {
+        console.log(res);
         if (res === 'wrong'){
             modalOpen('error', 2);
             return false;

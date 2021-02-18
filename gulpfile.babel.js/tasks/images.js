@@ -13,7 +13,7 @@ export function imgmin() {
         .pipe(plumber({errorHandler}))
         .pipe(changed(paths.images.dest))
         .pipe(imagemin([
-            imagemin.mozjpeg({quality: 70, progressive: true}),
+            imagemin.mozjpeg({quality: 90, progressive: true}),
             imagemin.optipng({optimizationLevel: 3}),
         ]))
         .pipe(dest(paths.images.dest));
@@ -21,7 +21,7 @@ export function imgmin() {
 export function imgwebp() {
     return src(paths.images.src+'.{jpg,png}')
         .pipe(plumber({errorHandler}))
-        .pipe(webp({quality: 80}))
+        .pipe(webp({quality: 95}))
         .pipe(dest(paths.images.dest));
 }
 

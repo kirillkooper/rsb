@@ -1,7 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30e4d0d8-f9cd-40dc-89ec-88023220dab7" name="Default Changelist" comment="" />
+    <list default="true" id="30e4d0d8-f9cd-40dc-89ec-88023220dab7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/career/Group 1216.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/career/Group 1216.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/career/bank-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/career/bank-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/career/bank-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/career/bank-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/career/bank-bg.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/career/bank-bg.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/career/top-img.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/career/top-img.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/career/yong-img.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/career/yong-img.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/career/young-left.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/career/young-left.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/career/young-left.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/career/young-left.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/career/young-right.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/career/young-right.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/career/young-right.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/career/young-right.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/dohod/top-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/dohod/top-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/dohod/top-bg.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/dohod/top-bg.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/dohod/top-img.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/dohod/top-img.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/finradar/card-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/finradar/card-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/finradar/card-1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/finradar/card-1.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/finradar/card-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/finradar/card-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/finradar/card-2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/finradar/card-2.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/finradar/tabs-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/finradar/tabs-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/finradar/tabs-bg.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/finradar/tabs-bg.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/finradar/top-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/finradar/top-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/finradar/top-bg.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/finradar/top-bg.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/finradar/top-img.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/finradar/top-img.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/new-img1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/mobile-bank/new-img1.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/new-img2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/mobile-bank/new-img2.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/new-img3.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/mobile-bank/new-img3.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/new-img4.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/mobile-bank/new-img4.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/new-img5.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/mobile-bank/new-img5.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/new-img6.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/mobile-bank/new-img6.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/new-img7.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/mobile-bank/new-img7.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/svoya.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/mobile-bank/svoya.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/top-img.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/mobile-bank/top-img.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/moe-vremya/card-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/moe-vremya/card-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/moe-vremya/card-1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/moe-vremya/card-1.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/moe-vremya/card-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/moe-vremya/card-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/moe-vremya/card-2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/moe-vremya/card-2.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/moe-vremya/card-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/moe-vremya/card-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/moe-vremya/card-3.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/moe-vremya/card-3.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/moe-vremya/top-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/moe-vremya/top-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/moe-vremya/top-bg.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/moe-vremya/top-bg.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/moe-vremya/top-img.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/moe-vremya/top-img.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/app.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/payring/app.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/drop.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/payring/drop.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/ring-img-2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/payring/ring-img-2.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/ring-img.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/payring/ring-img.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/si.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/payring/si.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/sii.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/payring/sii.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/svi.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/payring/svi.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/svii.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/payring/svii.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/sviiw.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/payring/sviiw.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/sviw.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/payring/sviw.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/top-img-d.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/payring/top-img-d.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/top-img-d.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/payring/top-img-d.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/top-img-m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/payring/top-img-m.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/top-img-m.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/payring/top-img-m.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/transp.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/payring/transp.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/sokolov/top-img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/sokolov/top-img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/sokolov/top-img.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/sokolov/top-img.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/students/yong-img.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/students/yong-img.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/students/young-left.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/students/young-left.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/students/young-left.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/students/young-left.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/students/young-right.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/students/young-right.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/students/young-right.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/students/young-right.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/students/young1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/students/young1.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/students/young2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/students/young2.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/students/young3.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/students/young3.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/students/young4.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/students/young4.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/students/young5.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/students/young5.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/topbanners/grow-income.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/topbanners/grow-income.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/topbanners/grow-income.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/topbanners/grow-income.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/banner.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/banner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/payring/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/payring/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/payring/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/payring/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/topbanner/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/topbanner/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/topbanner/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/topbanner/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/app.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/vendor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/vendor.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/vendor.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.babel.js/tasks/images.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.babel.js/tasks/images.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/firadar/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/output/firadar/assets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/moe-vremya/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/output/moe-vremya/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/payring/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/payring/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/sokolov/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/sokolov/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/topbanner/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/topbanner/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/pages/banner.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/pages/banner.twig" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -145,7 +235,8 @@
       <workItem from="1612768962379" duration="3322000" />
       <workItem from="1612860829339" duration="53378000" />
       <workItem from="1613123048009" duration="11689000" />
-      <workItem from="1613375834734" duration="9930000" />
+      <workItem from="1613375834734" duration="33592000" />
+      <workItem from="1613633310549" duration="15693000" />
     </task>
     <servers />
   </component>
@@ -157,45 +248,53 @@
       <screen x="0" y="25" width="1920" height="1120" />
     </state>
     <state x="666" y="478" key="#Stylelint/0.25.1920.1120@0.25.1920.1120" timestamp="1609048015739" />
-    <state x="586" y="391" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610613605710">
-      <screen x="0" y="25" width="1920" height="1120" />
+    <state x="1172" y="705" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613482754528">
+      <screen x="0" y="25" width="3840" height="2080" />
     </state>
-    <state x="1172" y="705" key="#com.intellij.fileTypes.FileTypeChooser/0.25.3840.2080@0.25.3840.2080" timestamp="1608885148474" />
+    <state x="1172" y="705" key="#com.intellij.fileTypes.FileTypeChooser/0.25.3840.2080@0.25.3840.2080" timestamp="1613482754528" />
     <state x="586" y="391" key="#com.intellij.fileTypes.FileTypeChooser/1920.25.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1610613605710" />
     <state x="648" y="325" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1611310461466">
       <screen x="0" y="25" width="1920" height="1120" />
     </state>
     <state x="648" y="325" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1920.25.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1611310461466" />
-    <state width="1878" height="176" key="GridCell.Tab.0.bottom" timestamp="1613280199200">
+    <state width="1878" height="196" key="GridCell.Tab.0.bottom" timestamp="1613653924791">
       <screen x="0" y="25" width="1920" height="1120" />
     </state>
+    <state width="1878" height="176" key="GridCell.Tab.0.bottom/-2560.-69.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1613629034955" />
     <state width="1878" height="388" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1612779155148" />
     <state width="1878" height="176" key="GridCell.Tab.0.bottom/0.25.1920.1120@0.25.1920.1120" timestamp="1613280199200" />
-    <state width="1398" height="176" key="GridCell.Tab.0.bottom/0.25.3840.2080@0.25.3840.2080" timestamp="1613137766523" />
+    <state width="1878" height="176" key="GridCell.Tab.0.bottom/0.25.3840.2080@0.25.3840.2080" timestamp="1613482914633" />
+    <state width="1878" height="196" key="GridCell.Tab.0.bottom/1920.-109.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1613653924791" />
     <state width="1878" height="388" key="GridCell.Tab.0.bottom/1920.25.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1612534455330" />
     <state width="1878" height="438" key="GridCell.Tab.0.bottom/1920.25.2560.1415/0.25.1920.1120@1920.25.2560.1415" timestamp="1611130942472" />
-    <state width="1878" height="176" key="GridCell.Tab.0.center" timestamp="1613280199200">
+    <state width="1878" height="196" key="GridCell.Tab.0.center" timestamp="1613653924790">
       <screen x="0" y="25" width="1920" height="1120" />
     </state>
+    <state width="1878" height="176" key="GridCell.Tab.0.center/-2560.-69.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1613629034954" />
     <state width="1878" height="388" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1612779155146" />
     <state width="1878" height="176" key="GridCell.Tab.0.center/0.25.1920.1120@0.25.1920.1120" timestamp="1613280199200" />
-    <state width="1398" height="176" key="GridCell.Tab.0.center/0.25.3840.2080@0.25.3840.2080" timestamp="1613137766522" />
+    <state width="1878" height="176" key="GridCell.Tab.0.center/0.25.3840.2080@0.25.3840.2080" timestamp="1613482914632" />
+    <state width="1878" height="196" key="GridCell.Tab.0.center/1920.-109.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1613653924790" />
     <state width="1878" height="388" key="GridCell.Tab.0.center/1920.25.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1612534455328" />
     <state width="1878" height="438" key="GridCell.Tab.0.center/1920.25.2560.1415/0.25.1920.1120@1920.25.2560.1415" timestamp="1611130942470" />
-    <state width="1878" height="176" key="GridCell.Tab.0.left" timestamp="1613280199199">
+    <state width="1878" height="196" key="GridCell.Tab.0.left" timestamp="1613653924789">
       <screen x="0" y="25" width="1920" height="1120" />
     </state>
+    <state width="1878" height="176" key="GridCell.Tab.0.left/-2560.-69.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1613629034953" />
     <state width="1878" height="388" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1612779155143" />
     <state width="1878" height="176" key="GridCell.Tab.0.left/0.25.1920.1120@0.25.1920.1120" timestamp="1613280199199" />
-    <state width="1398" height="176" key="GridCell.Tab.0.left/0.25.3840.2080@0.25.3840.2080" timestamp="1613137766522" />
+    <state width="1878" height="176" key="GridCell.Tab.0.left/0.25.3840.2080@0.25.3840.2080" timestamp="1613482914632" />
+    <state width="1878" height="196" key="GridCell.Tab.0.left/1920.-109.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1613653924789" />
     <state width="1878" height="388" key="GridCell.Tab.0.left/1920.25.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1612534455327" />
     <state width="1878" height="438" key="GridCell.Tab.0.left/1920.25.2560.1415/0.25.1920.1120@1920.25.2560.1415" timestamp="1611130942469" />
-    <state width="1878" height="176" key="GridCell.Tab.0.right" timestamp="1613280199200">
+    <state width="1878" height="196" key="GridCell.Tab.0.right" timestamp="1613653924790">
       <screen x="0" y="25" width="1920" height="1120" />
     </state>
+    <state width="1878" height="176" key="GridCell.Tab.0.right/-2560.-69.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1613629034954" />
     <state width="1878" height="388" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1612779155146" />
     <state width="1878" height="176" key="GridCell.Tab.0.right/0.25.1920.1120@0.25.1920.1120" timestamp="1613280199200" />
-    <state width="1398" height="176" key="GridCell.Tab.0.right/0.25.3840.2080@0.25.3840.2080" timestamp="1613137766523" />
+    <state width="1878" height="176" key="GridCell.Tab.0.right/0.25.3840.2080@0.25.3840.2080" timestamp="1613482914633" />
+    <state width="1878" height="196" key="GridCell.Tab.0.right/1920.-109.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1613653924790" />
     <state width="1878" height="388" key="GridCell.Tab.0.right/1920.25.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1612534455329" />
     <state width="1878" height="438" key="GridCell.Tab.0.right/1920.25.2560.1415/0.25.1920.1120@1920.25.2560.1415" timestamp="1611130942471" />
     <state x="325" y="220" key="SettingsEditor" timestamp="1609047728766">

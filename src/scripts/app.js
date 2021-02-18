@@ -29,7 +29,8 @@ import smoothScroll from 'Components/smooth-scroll';
 //import career from 'Pages/career/script';
 //import sokolov from 'Pages/sokolov/script';
 //import mbank from 'Pages/mobile-bank/script';
-import payring from 'Pages/payring/script';
+//import payring from 'Pages/payring/script';
+import inkas from 'Pages/inkasation/script';
 
 document.addEventListener('DOMContentLoaded', function() {
 
@@ -48,5 +49,6 @@ document.addEventListener('DOMContentLoaded', function() {
   //career();
   //mbank();
   //sokolov();
-  payring();
+  //payring();
+  inkas();
 })
