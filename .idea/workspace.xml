@@ -3,223 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="30e4d0d8-f9cd-40dc-89ec-88023220dab7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/career/Group 1216.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/career/bank-bg.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/career/top-img.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/career/yong-img.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/career/young-left.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/career/young-right.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/dohod/top-bg.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/dohod/top-img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/dohod/top-img.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/finradar/arr-gray.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/finradar/arr-green.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/finradar/arr-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/finradar/card-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/finradar/card-1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/finradar/card-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/finradar/card-2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/finradar/icon-1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/finradar/icon-2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/finradar/icon-3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/finradar/icon-4.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/finradar/link-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/finradar/qr.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/finradar/tabs-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/finradar/tabs-bg.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/finradar/top-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/finradar/top-bg.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/finradar/top-img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/finradar/top-img.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/inkasation/bullet.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/inkasation/icon1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/inkasation/icon2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/inkasation/icon3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/inkasation/icon4.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/inkasation/logos.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/inkasation/logos.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/inkasation/mn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/inkasation/mn.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/inkasation/top-img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/inkasation/top-img.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/inkasation/wmn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/inkasation/wmn.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/apple.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/b-3-1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/b-3-2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/b-3-3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/google.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/ht-1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/ht-2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/ht-3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/icon1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/icon2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/icon3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/icon4.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/icon5.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/icon6.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/new-img1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/new-img1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/new-img2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/new-img2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/new-img3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/new-img3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/new-img4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/new-img4.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/new-img5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/new-img5.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/new-img6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/new-img6.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/new-img7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/new-img7.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/pdf.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/pdf.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/qr.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/svoya.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/svoya.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/tarif1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/tarif2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/tarif3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/tarif4.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/tarif5.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/tarif6.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/top-app.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/top-img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/mobile-bank/top-img.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/moe-vremya/arr-gray.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/moe-vremya/arr-green.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/moe-vremya/arr-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/moe-vremya/b-3-1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/moe-vremya/b-3-2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/moe-vremya/b-3-3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/moe-vremya/card-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/moe-vremya/card-1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/moe-vremya/card-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/moe-vremya/card-2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/moe-vremya/card-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/moe-vremya/card-3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/moe-vremya/ht-1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/moe-vremya/ht-2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/moe-vremya/link-gray.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/moe-vremya/link-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/moe-vremya/top-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/moe-vremya/top-bg.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/moe-vremya/top-img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/moe-vremya/top-img.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/nps/close.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/nps/star.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/acc-close.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/acc-open.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/app.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/app.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/drop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/drop.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/drop.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/nfc.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/ring-img-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/ring-img-2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/ring-img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/ring-img.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/security.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/si.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/si.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/sii.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/sii.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/svi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/svi.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/svii.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/svii.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/sviiw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/sviiw.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/sviw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/sviw.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/top-img-d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/top-img-d.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/top-img-m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/top-img-m.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/transp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/payring/transp.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/sokolov/close.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/sokolov/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/sokolov/logo_rshb_gray.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/sokolov/social-icon_facebook.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/sokolov/social-icon_instagram.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/sokolov/social-icon_ok.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/sokolov/social-icon_twitter.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/sokolov/social-icon_vk.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/sokolov/top-img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/sokolov/top-img.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/students/arrow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/students/yong-img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/students/yong-img.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/students/young-left.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/students/young-left.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/students/young-right.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/students/young-right.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/students/young1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/students/young1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/students/young2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/students/young2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/students/young3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/students/young3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/students/young4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/students/young4.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/students/young5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/students/young5.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/topbanners/grow-income.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/topbanners/grow-income.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/banner.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/banner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blank.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/blank.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/career.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/career.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chat.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/chat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/career/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/career/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/chat/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/chat/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/dohod/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/dohod/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/finradar/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/finradar/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/inkasation/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/inkasation/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/main.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/mobile-bank/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/mobile-bank/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/moe-vremya/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/moe-vremya/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/nps/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/nps/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/payring/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/payring/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/sokolov/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/sokolov/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/students/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/students/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/topbanner/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/topbanner/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dohod.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/dohod.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/finradar.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/finradar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/inkasation.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/inkasation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/app.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/vendor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/vendor.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/vendor.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/mobile-bank.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/mobile-bank.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/moe-vremya.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/moe-vremya.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/nps.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/nps.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/payring.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/payring.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sokolov.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/sokolov.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/students.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/students.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/sokolov/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/sokolov/logo-r.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/navbar/navbar-land.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/navbar/navbar-land.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/career/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/career/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/inkasation/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/inkasation/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/layouts/default.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/layouts/default.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/pages/career.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/pages/career.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/anticor/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/anticor/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/career/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/career/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/chat/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/chat/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/dohod/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/dohod/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/farmer/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/farmer/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/finradar/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/finradar/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/inkasation/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/inkasation/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/mobile-bank/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/mobile-bank/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/moe-vremya/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/moe-vremya/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/nps/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/nps/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/payring/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/payring/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/sokolov/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/sokolov/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/students/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/students/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/topbanner/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/topbanner/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/anticor/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/anticor/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -368,7 +166,7 @@
       <workItem from="1613633310549" duration="18278000" />
       <workItem from="1613721931742" duration="15751000" />
       <workItem from="1613812144494" duration="768000" />
-      <workItem from="1613817074834" duration="41364000" />
+      <workItem from="1613817074834" duration="42114000" />
     </task>
     <servers />
   </component>
@@ -389,44 +187,44 @@
       <screen x="0" y="25" width="1920" height="1120" />
     </state>
     <state x="648" y="325" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1920.25.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1611310461466" />
-    <state width="1878" height="191" key="GridCell.Tab.0.bottom" timestamp="1614244821941">
+    <state width="1878" height="191" key="GridCell.Tab.0.bottom" timestamp="1614244877624">
       <screen x="0" y="25" width="1920" height="1120" />
     </state>
     <state width="1878" height="176" key="GridCell.Tab.0.bottom/-2560.-69.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1613629034955" />
     <state width="1878" height="388" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1612779155148" />
     <state width="1878" height="191" key="GridCell.Tab.0.bottom/0.25.1920.1120@0.25.1920.1120" timestamp="1614060463164" />
     <state width="1878" height="176" key="GridCell.Tab.0.bottom/0.25.3840.2080@0.25.3840.2080" timestamp="1613482914633" />
-    <state width="1878" height="191" key="GridCell.Tab.0.bottom/1920.-109.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1614244821941" />
+    <state width="1878" height="191" key="GridCell.Tab.0.bottom/1920.-109.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1614244877624" />
     <state width="1878" height="388" key="GridCell.Tab.0.bottom/1920.25.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1612534455330" />
     <state width="1878" height="438" key="GridCell.Tab.0.bottom/1920.25.2560.1415/0.25.1920.1120@1920.25.2560.1415" timestamp="1611130942472" />
-    <state width="1878" height="191" key="GridCell.Tab.0.center" timestamp="1614244821940">
+    <state width="1878" height="191" key="GridCell.Tab.0.center" timestamp="1614244877623">
       <screen x="0" y="25" width="1920" height="1120" />
     </state>
     <state width="1878" height="176" key="GridCell.Tab.0.center/-2560.-69.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1613629034954" />
     <state width="1878" height="388" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1612779155146" />
     <state width="1878" height="191" key="GridCell.Tab.0.center/0.25.1920.1120@0.25.1920.1120" timestamp="1614060463163" />
     <state width="1878" height="176" key="GridCell.Tab.0.center/0.25.3840.2080@0.25.3840.2080" timestamp="1613482914632" />
-    <state width="1878" height="191" key="GridCell.Tab.0.center/1920.-109.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1614244821940" />
+    <state width="1878" height="191" key="GridCell.Tab.0.center/1920.-109.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1614244877623" />
     <state width="1878" height="388" key="GridCell.Tab.0.center/1920.25.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1612534455328" />
     <state width="1878" height="438" key="GridCell.Tab.0.center/1920.25.2560.1415/0.25.1920.1120@1920.25.2560.1415" timestamp="1611130942470" />
-    <state width="1878" height="191" key="GridCell.Tab.0.left" timestamp="1614244821939">
+    <state width="1878" height="191" key="GridCell.Tab.0.left" timestamp="1614244877623">
       <screen x="0" y="25" width="1920" height="1120" />
     </state>
     <state width="1878" height="176" key="GridCell.Tab.0.left/-2560.-69.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1613629034953" />
     <state width="1878" height="388" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1612779155143" />
     <state width="1878" height="191" key="GridCell.Tab.0.left/0.25.1920.1120@0.25.1920.1120" timestamp="1614060463161" />
     <state width="1878" height="176" key="GridCell.Tab.0.left/0.25.3840.2080@0.25.3840.2080" timestamp="1613482914632" />
-    <state width="1878" height="191" key="GridCell.Tab.0.left/1920.-109.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1614244821939" />
+    <state width="1878" height="191" key="GridCell.Tab.0.left/1920.-109.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1614244877623" />
     <state width="1878" height="388" key="GridCell.Tab.0.left/1920.25.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1612534455327" />
     <state width="1878" height="438" key="GridCell.Tab.0.left/1920.25.2560.1415/0.25.1920.1120@1920.25.2560.1415" timestamp="1611130942469" />
-    <state width="1878" height="191" key="GridCell.Tab.0.right" timestamp="1614244821941">
+    <state width="1878" height="191" key="GridCell.Tab.0.right" timestamp="1614244877624">
       <screen x="0" y="25" width="1920" height="1120" />
     </state>
     <state width="1878" height="176" key="GridCell.Tab.0.right/-2560.-69.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1613629034954" />
     <state width="1878" height="388" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1612779155146" />
     <state width="1878" height="191" key="GridCell.Tab.0.right/0.25.1920.1120@0.25.1920.1120" timestamp="1614060463164" />
     <state width="1878" height="176" key="GridCell.Tab.0.right/0.25.3840.2080@0.25.3840.2080" timestamp="1613482914633" />
-    <state width="1878" height="191" key="GridCell.Tab.0.right/1920.-109.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1614244821941" />
+    <state width="1878" height="191" key="GridCell.Tab.0.right/1920.-109.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1614244877624" />
     <state width="1878" height="388" key="GridCell.Tab.0.right/1920.25.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1612534455329" />
     <state width="1878" height="438" key="GridCell.Tab.0.right/1920.25.2560.1415/0.25.1920.1120@1920.25.2560.1415" timestamp="1611130942471" />
     <state x="325" y="220" key="SettingsEditor" timestamp="1609047728766">
