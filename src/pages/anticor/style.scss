@@ -1,0 +1,366 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5{
+  margin-top: 0;
+  font-weight: 600;
+  margin-bottom: .5em;
+}
+a{
+  color: #333;
+  text-decoration: underline;
+  &:hover{
+    color: black;
+  }
+}
+section {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  h1{
+    font-size: 24px;
+  }
+  h2{
+    font-size: 22px;
+  }
+  h3{
+    font-size: 20px;
+  }
+  h4{
+    font-size: 18px;
+  }
+  h5{
+    font-size: 16px;
+  }
+  @media screen and (min-width: 768px) {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    h1{
+      font-size: 28px;
+    }
+    h2{
+      font-size: 24px;
+    }
+    h3{
+      font-size: 20px;
+    }
+    h4{
+      font-size: 18px;
+    }
+    h5{
+      font-size: 16px;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    h1{
+      font-size: 32px;
+    }
+    h2{
+      font-size: 26px;
+    }
+    h3{
+      font-size: 22px;
+    }
+    h4{
+      font-size: 20px;
+    }
+    h5{
+      font-size: 18px;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    h1{
+      font-size: 40px;
+    }
+    h2{
+      font-size: 28px;
+    }
+    h3{
+      font-size: 24px;
+    }
+    h4{
+      font-size: 22px;
+    }
+    h5{
+      font-size: 20px;
+    }
+  }
+  @media screen and (min-width: 1600px) {
+    .container{
+      max-width: 1440px;
+      padding-right: 24px;
+      padding-left: 24px;
+    }
+  }
+}
+img{
+  max-width: 100%;
+}
+.y-button{
+  display: inline-block;
+  background: #ffcb00;
+  color: #333;
+  padding: .5em 1.5em;
+  margin-right: 16px;
+  border-radius: 4px;
+  text-decoration: none !important;
+  font-weight: 600;
+  margin-top: 1em;
+  border: 0;
+  line-height: 1.5;
+  outline: 0;
+  &:hover{
+    background: darken(#ffcb00, 3%);
+    color: black;
+  }
+}
+.anticor{
+  @media screen and (min-width: 1600px){
+    font-size: 18px;
+  }
+  &-top{
+    background-color: #67a32c;
+    max-width: 1600px;
+    margin: 0 auto;
+    position: relative;
+    h1{
+      margin-bottom: 0;
+      color: white;
+    }
+    &:before{
+      content: '';
+      display: block;
+      position: absolute;
+      background: #ffcb00;
+      width: 1%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+    &:after{
+      content: '';
+      display: block;
+      position: absolute;
+      width: 10%;
+      height: 100%;
+      right: 0;
+      top: 0;
+      background: linear-gradient(90deg, #a6ce39 40%, #257c39 40%);
+    }
+  }
+  &-transp{
+    &_text{
+      margin-bottom: 24px;
+    }
+    &_listov{
+      padding: 15px;
+      background-color: #f5f7f9;
+      .cut{
+        font-size: 14px;
+        position: relative;
+        &:after{
+          content: '';
+          background: linear-gradient(0deg, rgba(245, 247, 249, 1) 0%, rgba(245, 247, 249, 0) 100%);
+          display: block;
+          position: absolute;
+          width: 60%;
+          height: 32px;
+          bottom: 0;
+        }
+        .transp{
+          float: right;
+          margin: 0 0 1em 1em;
+          position: relative;
+          bottom: 0;
+          width: 120px;
+          height: 120px;
+        }
+      }
+    }
+    @media screen and (max-width: 359px) {
+      &_listov {
+        .cut {
+          .transp {
+            width: 0;
+          }
+        }
+      }
+    }
+    @media screen and (min-width: 360px){
+      &_listov{
+        background-image: url("/assets/img/anticor/listov.png");
+        background-position: bottom right;
+        background-repeat: no-repeat;
+      }
+    }
+    @media screen and (min-width: 414px){
+      &_listov{
+        .cut {
+          padding-right: 110px;
+          .transp {
+            width: 0;
+          }
+        }
+      }
+    }
+    @media screen and (min-width: 576px){
+      &_listov{
+        border-radius: 8px;
+      }
+    }
+    @media screen and (min-width: 768px){
+      .col-12{
+        padding: 20px;
+      }
+    }
+    @media screen and (min-width: 1024px){
+      &_listov{
+        .cut {
+          padding-right: 0;
+          .transp {
+            width: 110px;
+          }
+        }
+      }
+    }
+    @media screen and (min-width: 1200px){
+      &_listov{
+        .cut {
+          padding-right: 110px;
+          .transp {
+            width: 0;
+          }
+        }
+      }
+    }
+  }
+  &-commitet{
+    background-color: #f5f7f9;
+    h5{
+      margin-bottom: .2em;
+      letter-spacing: -.05em;
+    }
+    .y-button{
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+    &_text{
+      padding-bottom: 24px;
+    }
+    .pdf{
+      display: block;
+      padding-left: 40px;
+      background-image: url("/assets/img/anticor/pdf.svg");
+      background-repeat: no-repeat;
+      margin-top: 24px;
+    }
+    @media screen and (min-width: 768px){
+      .col-12{
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+    @media screen and (min-width: 1200px){
+      &_text{
+        padding-bottom: 0;
+      }
+      .pdf{
+        margin-top: 32px;
+        padding-right: 32px;
+      }
+    }
+  }
+  &-docs{
+    @media screen and (min-width: 768px){
+      .col-12{
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+  }
+}
+.doc{
+  padding-left: 32px;
+  display: block;
+  background-image: url("/assets/img/anticor/doc.svg");
+  background-repeat: no-repeat;
+  margin-top: 10px;
+}
+.accord{
+  &-tabs{
+    display: block;
+    overflow-x: auto;
+    ul{
+      display: inline-flex;
+      margin: 0 auto;
+      padding: 0;
+      justify-content: center;
+      border-radius: 8px;
+      margin-bottom: 24px;
+      li{
+        list-style: none;
+        display: block;
+        background: #f5f7f9;
+        padding: .5em 1.5em;
+        margin: 0;
+        text-align: center;
+        &:first-child{
+          border-radius: 4px 0 0 4px;
+        }
+        &:last-child{
+          border-radius: 0 4px 4px 0;
+        }
+        &.active{
+          background: #ffcb00;
+        }
+        &:hover{
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  input {
+    position: absolute;
+    opacity: 0 !important;
+    z-index: -1;
+    &:checked{
+      ~ .accord-item-content {
+        max-height: 100vh;
+        padding-bottom: 16px;
+      }
+      ~ .accord-item-label{
+        background-image: url("/assets/img/anticor/acc-close.svg");
+      }
+    }
+  }
+  &-item{
+    border-bottom: 1px solid #d9d9d9;
+    overflow: hidden;
+    &-label{
+      display: block;
+      font-weight: 600;
+      padding: 16px 32px 16px 0;
+      cursor: pointer;
+      background-image: url("/assets/img/anticor/acc-open.svg");
+      background-position: right center;
+      background-repeat: no-repeat;
+    }
+    &-content{
+      padding-bottom: 0;
+      max-height: 0;
+    }
+  }
+}
+.nowrap{
+  display: inline !important;
+  white-space: nowrap;
+}

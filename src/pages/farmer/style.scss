@@ -1,0 +1,575 @@
+.navbar{
+  .container{
+    max-width: 100% !important;
+    @media screen and (min-width: 414px) {
+      padding: 0 20px;
+    }
+  }
+  @media screen and (min-width: 640px) {
+    padding-left: 16px;
+    padding-right: 16px;
+    .container{
+      padding: 0 5%;
+    }
+  }
+  @media screen and (min-width: 1600px) {
+    .container{
+      padding: 0 10%;
+    }
+  }
+}
+.farmer{
+  max-width: 2400px;
+  margin: 0 auto;
+  h2{
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .05em;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 17px;
+  }
+  @media screen and (min-width: 1024px) {
+    font-size: 18px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 20px;
+  }
+  @media screen and (min-width: 1600px) {
+    font-size: 22px;
+    section{
+      padding-top: 56px;
+      padding-bottom: 56px;
+    }
+  }
+  @media screen and (min-width: 1900px) {
+    font-size: 24px;
+  }
+  .nowrap{
+    white-space: nowrap;
+    display: inline;
+  }
+  .y-button{
+    display: inline-block;
+    background: #ffcb00 !important;
+    color: #333 !important;
+    padding: .5em 1.5em;
+    margin-right: 10px;
+    border-radius: 4px;
+    text-decoration: none !important;
+    font-weight: 600;
+    margin-top: 1.2em;
+    border: 0;
+    line-height: 1.5;
+    outline: 0;
+    &:hover{
+      background: darken(#ffcb00, 3%);
+    }
+  }
+  &-top{
+    display: flex;
+    flex-direction: column;
+    background: #c4c4c4;
+    min-height: 360px;
+    position: relative;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    overflow: hidden;
+    &-text{
+      padding: 24px 16px;
+      background-color: rgba(249, 249, 249, .7);
+      h1{
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 52px;
+        letter-spacing: .05em;
+        span{
+          display: inline-block;
+          padding: 0 .2em;
+          margin-bottom: .1em;
+          vertical-align: middle;
+          &.green2{
+            background-color: #1f7e35;
+          }
+          &.green1{
+            background-color: #6ba230;
+          }
+        }
+      }
+      p{
+        max-width: 760px;
+      }
+      .logo{
+        height: 40px;
+        img{
+          height: 100%;
+        }
+      }
+    }
+    &-banner{
+      background-image: url("/assets/img/farmer/top-bg.svg");
+      background-size: cover;
+      flex-grow: 1;
+      padding: 16px;
+      position: relative;
+      cursor: pointer;
+      &_frame{
+        max-width: 350px;
+        background: #ffcb00;
+        padding: 16px;
+        padding-right: 10%;
+        .date{
+          font-weight: bold;
+          font-size: 2em;
+        }
+        .text{
+          width: 200px;
+        }
+      }
+      &_man{
+        position: absolute;
+        width: 200px;
+        bottom: 0;
+        right: -100px;
+        @media screen and (min-width: 360px) {
+          width: 240px;
+        }
+        @media screen and (min-width: 375px) {
+          width: 250px;
+        }
+      }
+    }
+    @media screen and (min-width: 414px) {
+      &-text{
+        padding: 32px 20px;
+      }
+      &-banner{
+        padding: 20px;
+      }
+    }
+    @media screen and (min-width: 640px) {
+      flex-direction: row;
+      padding-left: 16px;
+      &-text{
+        max-width: 60%;
+        padding: 10% 5%;
+        .logo{
+          height: 48px;
+          margin-top: 24px;
+        }
+      }
+      &-banner{
+        margin-left: auto;
+        max-width: 20%;
+        &_frame{
+          max-width: none;
+          position: absolute;
+          padding: 20px;
+          right: 15%;
+          bottom: 5%;
+          width: 170%;
+          z-index: 10;
+        }
+        &_man{
+          width: 380px;
+        }
+      }
+    }
+    @media screen and (min-width: 768px) {
+      &-text{
+        padding: 10% 5%;
+        h1{
+          font-size: 64px;
+        }
+        .logo{
+          height: 56px;
+          margin-top: 32px;
+        }
+      }
+      &-banner{
+        &_man{
+          width: 440px;
+        }
+      }
+    }
+    @media screen and (min-width: 920px) {
+      &-banner{
+        &_man{
+          width: 480px;
+        }
+      }
+    }
+    @media screen and (min-width: 1024px) {
+      &-text{
+        p{
+          max-width: 500px;
+        }
+      }
+      &-banner{
+        &_man{
+          width: 520px;
+          right: 0;
+        }
+      }
+    }
+    @media screen and (min-width: 1200px) {
+      &-text{
+        padding: 12% 10% 12% 5%;
+        h1{
+          font-size: 72px;
+        }
+        p{
+          max-width: 580px;
+        }
+        .logo{
+          height: 64px;
+          margin-top: 40px;
+        }
+      }
+      &-banner{
+        &_frame{
+          padding: 24px;
+          .text{
+            width: 356px;
+          }
+        }
+        &_man{
+          width: 640px;
+          right: -10%;
+        }
+      }
+    }
+    @media screen and (min-width: 1400px) {
+      &-banner{
+        &_man{
+          width: 680px;
+        }
+      }
+    }
+    @media screen and (min-width: 1600px) {
+      &-text{
+        padding: 10% 10%;
+        h1{
+          font-size: 96px;
+        }
+        p{
+          max-width: 760px;
+        }
+      }
+      &-banner{
+        &_frame{
+          padding: 32px;
+          width: 150%;
+          right: 20%;
+          bottom: 5%;
+        }
+        &_man{
+          width: 700px;
+          right: 5%;
+        }
+      }
+    }
+    @media screen and (min-width: 1900px) {
+      &-text{
+        h1{
+          font-size: 120px;
+        }
+      }
+      &-banner{
+        &_frame{
+          padding: 40px;
+          width: 140%;
+          right: 30%;
+          bottom: 5%;
+        }
+        &_man{
+          width: 200%;
+          right: 5%;
+        }
+      }
+    }
+  }
+  &-project{
+    &-text{
+      padding: 16px 16px;
+    }
+    &-image{
+      padding-top: 24px;
+      margin-bottom: -24px;
+      &_img{
+        background-image: url("/assets/img/farmer/hands.jpg");
+        background-position: bottom left;
+        background-size: cover;
+        padding-top: 60%;
+      }
+    }
+    @media screen and (min-width: 414px) {
+      &-text{
+        padding: 16px 20px;
+      }
+    }
+    @media screen and (min-width: 640px) {
+      padding-left: 16px;
+      &-text{
+        padding: 16px 5%;
+      }
+      &-image{
+        padding-left: 40%;
+        margin-bottom: 0;
+        &_img{
+          padding-top: 55%;
+        }
+      }
+    }
+    @media screen and (min-width: 1024px) {
+      display: flex;
+      &-text{
+        width: 60%;
+      }
+      &-image{
+        padding-left: 0;
+        width: 40%;
+        &_img{
+          width: 100%;
+          padding-top: 140%;
+        }
+      }
+    }
+    @media screen and (min-width: 1200px) {
+      &-image{
+        padding-top: 0;
+        &_img{
+          padding-top: 0;
+          height: 100%;
+        }
+      }
+    }
+    @media screen and (min-width: 1600px) {
+      &-text{
+        padding: 24px 5% 24px 10%;
+      }
+    }
+  }
+  &-geo{
+    background: #f9f9f9;
+    &-text{
+      padding: 16px 16px;
+    }
+    &-image{
+      padding: 16px;
+      .map{
+        margin-top: -60px;
+      }
+    }
+    @media screen and (min-width: 414px) {
+      &-text{
+        padding: 16px 20px;
+      }
+    }
+    @media screen and (min-width: 640px) {
+      padding-left: 16px;
+      &-text{
+        padding: 16px 5%;
+      }
+      &-image{
+        .map{
+          margin-top: -90px;
+          padding-left: 40%;
+        }
+      }
+    }
+    @media screen and (min-width: 1024px) {
+      display: flex;
+      flex-direction: row-reverse;
+      padding: 0 !important;
+      &-text{
+        width: 40%;
+        padding: 5% 5% 5% 0;
+        align-self: center;
+      }
+      &-image{
+        width: 60%;
+        padding: 5%;
+        background-image: url("/assets/img/farmer/map-bg.svg");
+        background-size: cover;
+        .map{
+          margin-top: 0;
+          padding-left: 0;
+        }
+      }
+    }
+    @media screen and (min-width: 1024px) {
+      &-text{
+        padding: 5% 10% 5% 0;
+      }
+    }
+  }
+  &-dir{
+    .wrap{
+      padding: 16px;
+    }
+    h2{
+      margin-bottom: 1em;
+    }
+    &-item{
+      position: relative;
+      &_pic{
+        padding-top: 75%;
+        background-size: cover;
+        position: relative;
+        &:before{
+          content: '';
+          display: block;
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          background: linear-gradient(0deg, rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, 0) 50%);
+          top: 0;
+          z-index: 1;
+        }
+      }
+      &_text{
+        color: white;
+        position: absolute;
+        bottom: 16px;
+        padding: 16px;
+        width: 100%;
+        z-index: 1;
+        font-weight: 600;
+        font-size: 1.2em;
+      }
+    }
+    @media screen and (min-width: 414px) {
+      .wrap{
+        padding: 16px 20px;
+      }
+    }
+    @media screen and (min-width: 640px) {
+      padding-left: 16px;
+      padding-right: 16px;
+      .wrap{
+        padding: 20px 5%;
+      }
+    }
+    @media screen and (min-width: 1600px) {
+      .wrap{
+        padding: 20px 10%;
+      }
+    }
+  }
+  &-event{
+    background: #f9f9f9;
+    .wrap{
+      padding: 16px;
+    }
+    &-text{
+      padding-bottom: 24px;
+    }
+    @media screen and (min-width: 414px) {
+      .wrap{
+        padding: 16px 20px;
+      }
+    }
+    @media screen and (min-width: 640px) {
+      padding-left: 16px;
+      padding-right: 16px;
+      .wrap{
+        padding: 20px 5%;
+      }
+    }
+    @media screen and (min-width: 1200px) {
+      &-text{
+        padding-right: 20%;
+      }
+    }
+    @media screen and (min-width: 1600px) {
+      .wrap{
+        padding: 20px 10%;
+      }
+    }
+  }
+}
+.footer{
+  background-color: #f2f1f5;
+  color: #7a7a7a;
+  .wrap{
+    padding: 0 16px;
+  }
+  .col-12{
+    padding-bottom: 20px;
+  }
+  a{
+    padding-right: 10px;
+    &:last-child{
+      padding-right: 0;
+    }
+    img{
+      width: 48px;
+    }
+  }
+  @media screen and (min-width: 414px) {
+    .wrap{
+      padding: 0 20px;
+    }
+  }
+  @media screen and (min-width: 640px) {
+    padding-left: 16px;
+    padding-right: 16px;
+    .wrap{
+      padding: 0 5%;
+    }
+  }
+  @media screen and (min-width: 1600px) {
+    .wrap{
+      padding: 0 10%;
+    }
+  }
+}
+
+.carousel {
+  &.is-hidden {
+    display: none;
+  }
+  &.flickity-enabled {
+    opacity: 1;
+  }
+  .carousel-cell {
+    width: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+    @media screen and (min-width: 768px) {
+      width: 50%;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 33.3333%;
+    }
+  }
+  .flickity-prev-next-button.previous{
+    left: -12px;
+  }
+  .flickity-prev-next-button.next{
+    right: -12px;
+  }
+  .flickity-page-dots{
+    bottom: -32px;
+    .is-selected{
+      background-color: #257c39;
+    }
+  }
+}
+.facebook-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.facebook-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}

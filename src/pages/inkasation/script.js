@@ -51,7 +51,7 @@ export default function inkas() {
                 const data = new FormData();
                 data.append("form_id", 74);
                 data.append("form_code", 'collection');
-                data.append("name]", form.name.value);
+                data.append("name", form.name.value);
                 data.append("region", form.region.value);
                 data.append("objects", form.objects.value);
                 data.append("phone", form.phone.value);

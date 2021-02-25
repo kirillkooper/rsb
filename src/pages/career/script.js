@@ -182,9 +182,8 @@ export default function career() {
             if(data.phone){
                 this.panel.email.innerHTML += `звоните по телефону: ${data.phone}`;
             }
-
             this.togglePanel();
-
+            dataLayer.push({'event': 'job_showVacancy', 'vacancy': data.slug, 'city': 'data.city.name'});
         },
         togglePanel: function(){
             this.panel.window.classList.toggle('hidden');
