@@ -1,0 +1,294 @@
+{% extends '../layouts/default.twig' %}
+{% set head_title = 'Облигации АО «Россельхозбанк»' %}
+{% set body_class = '' %}
+{% set menu_active = 'blank-page' %}
+{% set page = 'obl' %}
+{% set src = '/assets/img/obl/' %}
+
+{% block page %}
+<main class="obl">
+    <section class="obl-top">
+        <div class="container">
+            <h1>Облигации <span class="nowrap">АО «РоссельхозБанк»</span></h1>
+        </div>
+    </section>
+    <section class="obl-table">
+        <div class="container">
+            <h2>Облигации серии БО-09-002P</h2>
+            <div class="row borded">
+                <div class="col col-12 col-sm-6 obl-table-item item1">
+                    <div class="obl-table-title">Срок приобретения</div>
+                    <h4 class="obl-table-big">С 16.02 по 18.03.2021 г.</h4>
+                    <div class="obl-table-sub">Включительно или до даты размещения всего объёма выпуска</div>
+                </div>
+                <div class="col col-12 col-sm-6 obl-table-item item2">
+                    <div class="obl-table-title">Номинальная стоимость</div>
+                    <h4 class="obl-table-big">1000 Рублей</h4>
+                    <div class="obl-table-sub"></div>
+                </div>
+                <div class="col col-12 col-sm-6 obl-table-item item3">
+                    <div class="obl-table-title">Купонный доход</div>
+                    <h4 class="obl-table-big">5% Годовых</h4>
+                    <div class="obl-table-sub">Купонный период 364 дня</div>
+                </div>
+                <div class="col col-12 col-sm-6 obl-table-item item4">
+                    <div class="obl-table-title">Срок обращения</div>
+                    <h4 class="obl-table-big">1 год</h4>
+                    <div class="obl-table-sub">364 дня</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <a href="https://www.rshb.ru/download-file/445869/" class="obl-table-link">Параметры размещения</a>
+                    <a target="_blank" href="https://e-disclosure.ru/portal/event.aspx?EventId=TwGePPadzk6xLuoYHH3VwQ-B-B&attempt=1" class="obl-table-link">Раскрытие информации на сайте Интерфакс</a>
+                    <a target="_blank" href="https://www.moex.com/ru/issue.aspx?board=TQCB&code=RU000A102RL1" class="obl-table-link">Текущая рыночная стоимость</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h2>Как купить облигации?</h2>
+                    <div class="accord">
+                        <div class="accord-item">
+                            <input type="checkbox" id="chck1">
+                            <label class="accord-item-label" for="chck1"><span>1</span>Заключить договор на брокерское обслуживание</label>
+                            <div class="accord-item-content">
+                                <div class="accord-item-content_wrap">
+                                    <div class="accord-item-content_cell">
+                                        <h5 class="icon icon-bank">В отделении банка</h5>
+                                        При себе необходимо иметь паспорт.
+                                        <a href="https://www.rshb.ru/offices/">Посмотреть адреса офисов</a>
+                                    </div>
+                                    <div class="accord-item-content_cell">
+                                        <h5 class="icon icon-ebank">В интернет-банке</h5>
+                                        Доступно для действующих клиентов Банка.
+                                        <a href="https://www.rshb.ru/download-file/407576/">Посмотреть инструкцию</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accord-item">
+                            <input type="checkbox" id="chck2">
+                            <label class="accord-item-label" for="chck2"><span>2</span>Перевести денежные средства на брокерский счет для покупки облигаций</label>
+                            <div class="accord-item-content">
+                                <div class="accord-item-content_wrap">
+                                    <div class="accord-item-content_cell">
+                                        <h5 class="icon icon-bank">В отделении банка</h5>
+                                        <a href="https://www.rshb.ru/offices/">Посмотреть адреса офисов</a>
+                                    </div>
+                                    <div class="accord-item-content_cell">
+                                        <h5 class="icon icon-ebank">В интернет-банке</h5>
+                                        <a href="https://www.rshb.ru/download-file/407575/">Посмотреть инструкцию</a>
+                                    </div>
+                                    <div class="accord-item-content_cell">
+                                        <h5 class="icon icon-mbank">В мобильном банке</h5>
+                                        <a href="https://www.rshb.ru/download-file/407575/">Посмотреть инструкцию</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accord-item">
+                            <input type="checkbox" id="chck3">
+                            <label class="accord-item-label" for="chck3"><span>3</span>Подать заявку на покупку облигаций</label>
+                            <div class="accord-item-content">
+                                <div class="accord-item-content_wrap">
+                                    <div class="accord-item-content_cell">
+                                        <h5 class="icon icon-bank">В отделении банка</h5>
+                                        <a href="https://www.rshb.ru/offices/">Посмотреть адреса офисов</a>
+                                    </div>
+                                    <div class="accord-item-content_cell">
+                                        <h5 class="icon icon-mbank">РСХБ-брокер</h5>
+                                        <a href="https://www.rshb.ru/download-file/398712/">Посмотреть инструкцию</a>
+                                    </div>
+                                    <div class="accord-item-content_cell">
+                                        <h5 class="icon icon-call">По телефону </h5>
+                                        <span style="font-weight: 600">8-800-100-40-60 </span>(необходимо кодовое слово)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="obl-what">
+        <div class="container">
+            <h2>Что такое облигация?</h2>
+            <div class="row">
+                <div class="col col-12 col-lg-6 obl-what-text p-0">
+                    Облигация – долговая ценная бумага.
+                    Покупая облигацию, инвестор одалживает средства государству или компании и получает доход. Чаще всего доход выплачивается в виде купона, размер которого и периодичность выплат известны заранее. Большинство облигаций имеют определённую дату погашения, при наступлении которой государство или компания вернёт инвестору долг – номинал облигации.
+
+                </div>
+                <div class="col col-12 col-lg-6 p-0">
+                    <ul>
+                        <li>Можно инвестировать небольшими суммами.
+                            Номинал большинства облигаций составляет 1000 руб.</li>
+                        <li>
+                            Облигацию можно продать в любой момент без потери купонного дохода, накопленного к дате продажи.
+                        </li>
+                        <li>
+                            Облигации с регулярной выплатой купона позволяют инвестору планировать свой денежный поток
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-12 col-lg-4 obl-what-item p-0">
+                    <div class="obl-what-card">
+                        <div class="obl-what-card_title">
+                            <h4>Купонный доход</h4>
+                            <span>Рассчитывается от номинальной цены облигации (не рыночной!)</span>
+                        </div>
+                        <div class="obl-what-card_text">
+                            <span>Пример:</span> Ставка купона — 6,0%, номинал облигации — 1000 руб., выплата — раз в квартал.  Значит, каждые три месяца независимо от цены облигации владельцу будет выплачиваться купон в размере:
+                            1000 рублей * 6% / 4 = 15 руб. (без учёта НДФЛ)
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-12 col-lg-4 obl-what-item p-0">
+                    <div class="obl-what-card">
+                        <div class="obl-what-card_title">
+                            <h4>Погашение облигации
+                                всегда составляет 100%
+                                от номинальной стоимости</h4>
+                        </div>
+                        <div class="obl-what-card_text">
+                            <span>Пример:</span> Номинальная стоимость облигации, по которой вы её купили, 1000 рублей.  В течении всего срока обращения цена облигации может меняться - быть выше или ниже номинала, но в дату погашения вам выплатят 1000 рублей.
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-12 col-lg-4 obl-what-item p-0">
+                    <div class="obl-what-card">
+                        <div class="obl-what-card_title">
+                            <h4>Облигации на первичном размещении</h4>
+                            <span>Облигации можно купить на первичном размещении, на бирже или на внебиржевом рынке</span>
+                        </div>
+                        <div class="obl-what-card_text" style="line-height: 1.2em">
+                            <span>Пример:</span> Россельхозбанк регулярно проводит размещение облигаций. Для приобретения облигаций открывается брокерский счёт. На первичном размещении можно купить облигации по номинальной стоимости*.
+                            После первичного размещения облигации покупают и продают на бирже. Для доступа на биржу также нужен брокерский счёт.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="note"> Купонный доход – размер периодической выплаты по облигациям. Ставка купона указывается в процентах годовых.  Купонный доход начисляется каждый день и выплачивается в соответствии с условиями выпуска облигации – раз в год раз в полгода, каждый квартал или каждый месяц. При продаже облигации до погашения покупатель выплачивает продавцу накопленный купонный доход.  Существуют облигации с плавающей ставкой, дисконтные облигации (без купона), а также  облигации с амортизацией. Но большинство облигаций на российском рынке имеют фиксированный купон с регулярной выплатой. Именно поэтому облигации часто рассматривают  как альтернативу банковскому вкладу.
+                <span style="font-weight: 600">Обращаем ваше внимание, что с 1 января 2021 года купонный доход по облигациям облагается НДФЛ по ставке 13%. Купонный доход приходит  на текущий банковский счёт уже за вычетом 13%.</span>
+            </div>
+        </div>
+    </section>
+    <section class="obl-risk">
+        <div class="container">
+            <h2>Какие могут быть риски инвестирования в облигации?</h2>
+            <div class="row">
+                <div class="col col-12 col-lg-6 p-0">
+                    <span class="semibold">Риск дефолта эмитента</span> - когда государство или компания не в состоянии рассчитаться по собственным обязательствам, в том числе облигациям. Для снижения рисков разумно рассматривать для инвестирования облигации высоконадёжных эмитентов с кредитным рейтингом, сравнимым с суверенным - кредитным рейтингом Российской Федерации.
+                </div>
+                <div class="col col-12 col-lg-6 p-0">
+                    <span class="semibold">Риск снижения стоимости облигаций</span> - в период после первичного размещения до погашения цена облигации может быть как выше, так и ниже номинала, в зависимости от рыночной конъюктуры. Риск отсутствует при удержании облигации до погашения.
+                </div>
+                <div class="col col-12 col-lg-6 p-0">
+                    <span class="semibold">Риск низкой ликвидности</span> - облигацию может быть невозможно продать в сжатые сроки. Риск минимизируется при покупке облигаций эмитентов, имеющих высокий рейтинг надежности и существенный объем выпуска.
+                </div>
+                <div class="col col-12 col-lg-6 p-0">
+                    <span class="semibold"> Инвестиции в облигации</span> (в том числе инвестиции в субординированные облигации банков) <span class="semibold">не застрахованы в соответствии с Федеральным законом</span> «О страховании вкладов в банках Российской Федерации» от 23.12.2003 № 177-ФЗ.
+                </div>
+            </div>
+            <div class="note">
+                * В Декларации о рисках, которая является неотъемлемой частью Регламента оказания брокерских услуг АО «Россельхозбанк» №15-Р, приводится список видов рисков, который не является исчерпывающим, но позволяет клиенту иметь общее представление об основных рисках, с которыми он может столкнуться при инвестировании средств в финансовые инструменты.
+            </div>
+        </div>
+    </section>
+    <section class="obl-about">
+        <div class="container">
+            <h2>Информация об эмитенте АО «Россельхозбанк»</h2>
+            <div class="row">
+                <div class="col col-12 col-lg-6 p-0">
+                    <p>Акционерное общество «Российский Сельскохозяйственный банк» — один из крупнейших банков в России, созданный в 2000 году. Сегодня это универсальный коммерческий банк, предоставляющий все виды банковских услуг и занимающий лидирующие позиции в финансировании агропромышленного комплекса России. 100% голосующих акций Банка принадлежат Российской Федерации в лице Федерального агентства по управлению государственным имуществом.</p>
+                    <a href="#" class="y-button">Купить облигации</a>
+                </div>
+                <div class="col col-12 col-lg-6 p-0">
+                    <div class="rate col">
+                        <h5>Ведущие агентства присвоили Банку высокие кредитные рейтинги:</h5>
+                        <div class="obl-about-rates">
+                            <div class="obl-about-rates_item">
+                                <h2>BBB-</h2>
+                                <a href="https://www.rshb.ru/about/fitch-ratings/" target="_blank">Fitch</a>
+                            </div>
+                            <div class="obl-about-rates_item">
+                                <h2>Ba1</h2>
+                                <a href="https://www.rshb.ru/about/moody-ratings/" target="_blank">Moody’s</a>
+                            </div>
+                            <div class="obl-about-rates_item">
+                                <h2>AA (RU)</h2>
+                                <a href="https://www.rshb.ru/about/akra-ratings/" target="_blank">АКРА</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="obl-info">
+        <div class="container">
+            <h2>Основные параметры, котировки и доходность облигаций АО «Россельхозбанк»</h2>
+            <div class="row">
+                <div class="col col-6 col-sm-4 col-lg-3 col-xl-2 p-0">
+                    <a target="_blank" href="http://www.moex.com/ru/issue.aspx?board=EQOB&code=RU000A0JXUC1">Серия БО-02Р</a>
+                </div>
+                <div class="col col-6 col-sm-4 col-lg-3 col-xl-2 p-0">
+                    <a target="_blank" href="http://www.moex.com/ru/issue.aspx?board=EQOB&code=RU000A0ZYBT9">Серия БО-03Р</a>
+                </div>
+                <div class="col col-6 col-sm-4 col-lg-3 col-xl-2 p-0">
+                    <a target="_blank" href="http://www.moex.com/ru/issue.aspx?board=EQOB&code=RU000A0ZYXJ4">Серия БО-05Р</a>
+                </div>
+                <div class="col col-6 col-sm-4 col-lg-3 col-xl-2 p-0">
+                    <a target="_blank" href="https://www.moex.com/ru/issue.aspx?board=EQOB&code=RU000A0ZZPZ3">Серия БО-06Р</a>
+                </div>
+                <div class="col col-6 col-sm-4 col-lg-3 col-xl-2 p-0">
+                    <a target="_blank" href="https://www.moex.com/ru/issue.aspx?board=EQOB&code=RU000A100GM6">Серия БО-09Р</a>
+                </div>
+                <div class="col col-6 col-sm-4 col-lg-3 col-xl-2 p-0">
+                    <a target="_blank" href="http://www.moex.com/ru/issue.aspx?board=EQOB&code=RU000A0ZZ4T1">Серия 01Т1</a>
+                </div>
+                <div class="col col-6 col-sm-4 col-lg-3 col-xl-2 p-0">
+                    <a target="_blank" href="http://www.moex.com/ru/issue.aspx?board=EQOB&code=RU000A0JWV63">Серия 08Т1</a>
+                </div>
+                <div class="col col-6 col-sm-4 col-lg-3 col-xl-2 p-0">
+                    <a target="_blank" href="http://www.moex.com/ru/issue.aspx?board=EQOB&code=RU000A0ZZ505">Серия 09Т1</a>
+                </div>
+                <div class="col col-6 col-sm-4 col-lg-3 col-xl-2 p-0">
+                    <a target="_blank" href="https://www.moex.com/ru/issue.aspx?board=EQOB&code=RU000A101129">Серия БО-01R-Р</a>
+                </div>
+                <div class="col col-6 col-sm-4 col-lg-3 col-xl-2 p-0">
+                    <a target="_blank" href="https://www.moex.com/ru/issue.aspx?board=EQOB&code=RU000A101DD0">Серия БО-02R-Р</a>
+                </div>
+                <div class="col col-6 col-sm-4 col-lg-3 col-xl-2 p-0">
+                    <a target="_blank" href="https://www.moex.com/ru/issue.aspx?board=EQOB&code=RU000A101DD0">Серия БО-03R-Р</a>
+                </div>
+                <div class="col col-6 col-sm-4 col-lg-3 col-xl-2 p-0">
+                    <a target="_blank" href="https://www.moex.com/ru/issue.aspx?board=TQCB&code=RU000A102713">Серия БО-04R-Р</a>
+                </div>
+                <div class="col col-6 col-sm-4 col-lg-3 col-xl-2 p-0">
+                    <a target="_blank" href="https://www.moex.com/ru/issue.aspx?board=EQQI&code=RU000A101616">Серия C01E-01*</a>
+                </div>
+                <div class="col col-6 col-sm-4 col-lg-3 col-xl-2 p-0">
+                    <a target="_blank" href="https://www.moex.com/ru/issue.aspx?board=EQQI&code=RU000A0ZZY59">Серия 11B1*</a>
+                </div>
+                <div class="col col-12 p-0">
+                    <a target="_blank" href="https://www.rshb.ru/download-file/437679/">График купонных выплат и погашений облигаций АО «Россельхозбанк», выпущенных после 01.01.2017 г. (2020-2023 гг.)</a>
+                </div>
+                <div class="col col-12 p-0">
+                    <a target="_blank" href="https://www.rshb.ru/investors/obligatio/">Информация о состоявшихся выпусках облигаций АО «Россельхозбанк»</a>
+                </div>
+                <div class="col col-12 p-0">
+                    <a target="_blank" href="https://www.e-disclosure.ru/portal/files.aspx?id=3207&type=7">Раскрытие информации по облигациям АО «Россельхозбанк»</a>
+                </div>
+            </div>
+            <div class="note">
+                * Облигации серии C01E-01 и 11B1 предназначены для квалифицированных инвесторов
+            </div>
+        </div>
+    </section>
+</main>
+{% endblock %}
