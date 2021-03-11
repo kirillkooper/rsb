@@ -1,0 +1,368 @@
+{% extends '../layouts/default.twig' %}
+{% set head_title = 'Контактный центр' %}
+{% set body_class = '' %}
+{% set menu_active = 'blank-page' %}
+{% set page = 'contact' %}
+{% set src = '/assets/img/contact/' %}
+
+{% block page %}
+    <main class="contact" id="main">
+        <section class="contact-top">
+            <div class="container">
+                <div class="row flex-md-row-reverse">
+                    <div class="col-md-5 contact-top-city">
+                        <div class="lights"></div>
+                        <div class="gradient"></div>
+                    </div>
+                    <div class="col-md-7 contact-top-title pad">
+                        <div class="contact-top-title-city" id="top-city">Петрозаводск</div>
+                        <h1>Контактный центр РоссельхозБанк</h1>
+                        <p>Более 3000 просмотров наших вакансий</p>
+                        <a class="y-button" href="#vacancy-bottom" data-scroll>Смотреть вакансии</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-reason">
+            <div class="container">
+                <div class="contact-reason-logo">
+                    <img src="/assets/img/contact/biglogo.svg" />
+                </div>
+                <div class="row">
+                    <div class="col-12 pad-x">
+                        <h2>Причины работать у нас</h2>
+                    </div>
+                    <div class="col-12 col-lg-6 pad-y contact-reason-item" style="background-image: url('/assets/img/contact/icon1.svg')">
+                        <h4>Гибкий график работы</h4>
+                        Мы поможем подобрать график, подходящий под твой ритм жизни
+                    </div>
+                    <div class="col-12 col-lg-6 pad-y contact-reason-item" style="background-image: url('/assets/img/contact/icon2.svg')">
+                        <h4>
+                            Опыт не главное
+                        </h4>
+                        Адаптационное, базовое обучение по развитию необходимых умений и навыков, наставничество
+                    </div>
+                    <div class="col-12 col-lg-6 pad-y contact-reason-item" style="background-image: url('/assets/img/contact/icon3.svg')">
+                        <h4>
+                            Профессиональное развитие
+                        </h4>
+                        Повышение квалификации, корпоративная библиотека, развитие профессиональных компетенций
+                    </div>
+                    <div class="col-12 col-lg-6 pad-y contact-reason-item" style="background-image: url('/assets/img/contact/icon4.svg')">
+                        <h4>
+                            Социальный пакет
+                        </h4>
+                        ДМС, специальные цены на полисы ДМС для родственников, корпоративные скидки
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-video">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6">
+                        <h2>Не просто работа!</h2>
+                    </div>
+                    <div class="col-12 order-sm-last">
+                        <div class="contact-video-bg">
+                            <div class="contact-video-play js-pop" data-pop="video-pop"></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 contact-video-button" >
+                        <a href="#" class="y-button js-pop" data-pop="benefits-pop">Условия работы</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-story">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Истории успеха наших сотрудников</h2>
+                        <div class="carousel is-hidden" id="story">
+                            <div class="carousel-cell carousel-story">
+                                <div class="contact-story-item">
+                                    <div class="contact-story-empl" style="background-image: url('/assets/img/contact/story1.png')">
+                                        <h4>Екатерина</h4>
+                                        <div>Старший специалист отдела дистанционного взыскания</div>
+                                    </div>
+                                    <div class="contact-story-text">
+                                    В Контакт-центр Россельхозбанка я попала случайно, узнала о вакансии от подруги. Отдел взыскания выбрала потому, что ранее работала менеджером по продажам, но работать с задолженностью получалось лучше. Очень быстро я подружилась с коллективом, полюбила наш отдел. Испытательный срок пролетел незаметно, по итогам этих трех месяцев мои показатели по сумме взыскания были одними из лучших в отделе. Спустя некоторое время мои старания и высокие показатели были замечены, я получила повышение, став старшим специалистом. Сейчас я являюсь не только наставником для наших сотрудников, но и осваиваю работу на других линиях. В Контакт-центре мне нравится в первую очередь сплоченность в нашем коллективе. Коллеги всегда готовы прийти на помощь. Мы же одна команда. После прохождения «Школы наставников» меня стали чаще привлекать к обучению новых сотрудников. Мне нравится передавать свой опыт и знания новичкам, в дальнейшем наблюдая за ростом их показателей
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-cell carousel-story">
+                                <div class="contact-story-item">
+                                    <div class="contact-story-empl" style="background-image: url('/assets/img/contact/story2.png')">
+                                        <h4>Евгений</h4>
+                                        <div>Ведущий специалист отдела телемаркетинга</div>
+                                    </div>
+                                    <div class="contact-story-text" style="line-height: 1.3em;">
+                                        Я курирую входящего направления продаж. И я горжусь тем, что работаю в Контакт-центре! Началась же моя жизнь в Контакт-Центре в апреле 2015. И да, я не ошибся. Не работа в Контакт-Центре, а именно жизнь. Ведь здесь мы не только работаем: мы заводим новых друзей, участвуем в соревнованиях, играем в игры, организуем фотосессии и многое-многое другое! За 4 года в Контакт-Центре я прошел путь от оператора до супервизора направления, четыре раза принимал участие в «Болотных играх», организовывал флэш-моб «Очковый вторник», пробежал 10 км на полумарафоне «Karjala», участвовал в разработке корпоративной игры «Фальшивомонетчик» и многое-многое другое! Хочешь научиться красиво разговаривать с людьми, хорошо продавать, хочешь получить управленческие навыки и стать руководителем? Тогда тебе к нам! Все в твоих руках! У меня получилось, получится и у тебя! Ставь перед собой цель, стремись к ней, и у тебя обязательно получится! И не забывай: Контакт-Центр - это не просто работа. Здесь ты можешь найти занятие по душе, раскрыть свои возможности и показать талант! Перед тобой открыты все пути! Дерзай!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-cell carousel-story">
+                                <div class="contact-story-item">
+                                   <div class="contact-story-empl" style="background-image: url('/assets/img/contact/story3.png')">
+                                        <h4>Ольга</h4>
+                                        <div>Старший специалист отдела телемаркетинга</div>
+                                    </div>
+                                    <div class="contact-story-text">
+                                        До момента прихода в Контакт-Центр я работала преподавателем в техникуме: за это время накопился большой опыт работы с разными людьми. Узнав об открытии Контакт-Центра «Россельхозбанка», я решила прийти на собеседование. Работа казалась мне не сложной: нужно всего лишь разговаривать по телефону. На практике оказалось, что работа оператора – это большой труд, быстро меняющаяся информация по продуктам Банка, разные Клиенты, к которым нужен индивидуальный подход. Сейчас я – наставник отдела телемаркетинга: помогаю новым сотрудникам нашего отдела. Также ко мне обращаются и опытные сотрудники, мы постоянно обмениваемся опытом и помогаем друг другу предоставлять нашим Клиентам качественный сервис!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-noteasy">
+            <div class="container">
+                <h2>Не просто работодатель</h2>
+                <div class="row">
+                    <div class="col-12 col-md-6 contact-noteasy-item" style="background-image: url('/assets/img/contact/easy1.jpg')">
+                        <img src="/assets/img/contact/num1.svg" />
+                        <div class="contact-noteasy-text">Объем привелечнных банком средств клиентов составил 2 608,9 млрд. рублей</div>
+                    </div>
+                    <div class="col-12 col-md-6 contact-noteasy-item" style="background-image: url('/assets/img/contact/easy2.jpg')">
+                        <img src="/assets/img/contact/num2.svg" />
+                        <div class="contact-noteasy-text">В 2019 году на финасирование сезонных работ банком предоставлено 381,2 млрд. рублей</div>
+                    </div>
+                    <div class="col-12 col-md-6 contact-noteasy-item" style="background-image: url('/assets/img/contact/easy3.jpg')">
+                        <img src="/assets/img/contact/num3.svg" />
+                        <div class="contact-noteasy-text">Выдано кредитов АПК</div>
+                    </div>
+                    <div class="col-12 col-md-6 contact-noteasy-item" style="background-image: url('/assets/img/contact/easy4.jpg')">
+                        <img src="/assets/img/contact/num4.svg" />
+                        <div class="contact-noteasy-text">Кредитный портфель в АПК составил 1 372,7 млрд. рублей</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-team">
+            <div class="container">
+            <h2>Наша команда</h2>
+                <div class="row">
+                    <div class="contact-team-wrap">
+                        <div class="contact-team-item">
+                            <div class="contact-team-card">
+                                <img src="/assets/img/contact/team1.jpg" />
+                                <div class="contact-team-card-text">
+                                    <h5>Специалист КЦ</h5>
+                                    <div class="more">
+                                        Основа нашей команды,
+                                        помогает клиентам разобраться с любым вопросом из банковского дела или выполняет исходящие кампании.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-team-item">
+                            <div class="contact-team-card">
+                                <img src="/assets/img/contact/team2.jpg" />
+                                <div class="contact-team-card-text">
+                                    <h5>Руководитель группы</h5>
+                                    <div class="more">
+                                        Наставник для специалистов КЦ,
+                                        отвечает за результаты работы группы специалистов, дает обратную связь, корректирует работу группы.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-team-item">
+                            <div class="contact-team-card">
+                                <img src="/assets/img/contact/team3.jpg" />
+                                <div class="contact-team-card-text">
+                                    <h5>Супервизор</h5>
+                                    <div class="more">
+                                        Отвечает за результаты работы направления, показатели эффективности
+                                        формирует предложения по автоматизации и оптимизации работы.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-team-item">
+                            <div class="contact-team-card">
+                                <img src="/assets/img/contact/team4.jpg" />
+                                <div class="contact-team-card-text">
+                                    <h5>Начальник отдела</h5>
+                                    <div class="more">
+                                        Организует работу отдела (управление, постановка задач, контроль)
+                                        формирует команду
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-photos">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="carousel is-hidden" id="photos">
+                            <div class="carousel-cell carousel-story">
+                                <div class="row">
+                                    <div class="col-5 col-md-4 col-xl-3 contact-photos-item" style="background-image: url('/assets/img/contact/wall1.jpg')"></div>
+                                    <div class="col-7 col-md-4 col-xl-2 contact-photos-item" style="background-image: url('/assets/img/contact/wall2.jpg')"></div>
+                                    <div class="col-8 col-md-4 col-xl-4 contact-photos-item" style="background-image: url('/assets/img/contact/wall3.jpg')"></div>
+                                    <div class="col-4 col-md-5 col-xl-3 contact-photos-item" style="background-image: url('/assets/img/contact/wall4.jpg')"></div>
+                                    <div class="col-5 col-md-7 col-xl-4 contact-photos-item" style="background-image: url('/assets/img/contact/wall5.jpg')"></div>
+                                    <div class="col-7 col-md-4 col-xl-3 contact-photos-item" style="background-image: url('/assets/img/contact/wall6.jpg')"></div>
+                                    <div class="col-8 col-md-4 col-xl-2 contact-photos-item" style="background-image: url('/assets/img/contact/wall7.jpg')"></div>
+                                    <div class="col-4 col-md-4 col-xl-3 contact-photos-item" style="background-image: url('/assets/img/contact/wall8.jpg')"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-steps">
+            <div class="container">
+                <h2>Четыре шага, чтобы работать в нашей команде</h2>
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-xl-3 contact-steps-item" style="background-image: url('/assets/img/contact/ic1.svg')">
+                        <h5>Откликнись на вакансию</h5>
+                    </div>
+                    <div class="col-12 col-sm-6 col-xl-3 contact-steps-item" style="background-image: url('/assets/img/contact/ic2.svg')">
+                        <h5>Поговори с HR</h5>
+                    </div>
+                    <div class="col-12 col-sm-6 col-xl-3 contact-steps-item" style="background-image: url('/assets/img/contact/ic3.svg')">
+                        <h5>Пройди собеседование</h5>
+                    </div>
+                    <div class="col-12 col-sm-6 col-xl-3 contact-steps-item" style="background-image: url('/assets/img/contact/ic4.svg')">
+                        <h5>Начни обучение</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-vacancy" id="vacancy-bottom">
+            <div class="container">
+                <h2>Вакансии в <span id="vacancy-city">Петрозаводске</span></h2>
+                <p>Выберите вакансию, чтобы узнать условия и отправить резюме</p>
+                <div class="row">
+                     <div class="col-12">
+                         <div id="vacancy-list">
+                             <div class="contact-vacancy-item">
+                                 <div class="contact-vacancy-item_text">
+                                     <h4>Оператор кол-центра</h4>
+
+                                     <div class="contact-vacancy-item_options">
+                                         <div class="option">Отдел продаж</div>
+                                         <div class="option">Опыт работы: Не требуется</div>
+                                         <div class="option">График работы: гибкий</div>
+                                     </div>
+                                 </div>
+                                 <div class="contact-vacancy-item_price">
+                                     <div class="total">от 35 000 руб.</div>
+                                     <div><a class="y-button">Смотреть вакансию</a> </div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-contacts">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <h4>Хочешь работать с друзьми?</h4>
+                        <p>Поделись ссылкой</p>
+                        <div class="contact-contacts-share">
+                            <a href="https://vk.com/share.php?url=https://www.rshb.ru/promo/job" target="_blank"><img src="/assets/img/contact/vk.svg"></a>
+                            <a target="_blank" href="https://www.facebook.com/sharer.php?u=https://www.rshb.ru/promo/job"><img src="/assets/img/contact/fb.svg"></a>
+                            <!--<a href="http://instagram.com/rshb_official?ref=badge" target="_blank"><img src="/assets/img/contact/in.svg"></a>-->
+                            <a target="_blank" href="https://www.ok.ru/dk?st.cmd=addShare&amp;st.s=1&amp;st._surl=https://www.rshb.ru/promo/job&amp;st.comments=РаботаРоссельхозбанк"><img src="/assets/img/contact/ok.svg"></a>
+                            <a href="https://twitter.com/intent/tweet?text=РаботаРоссельхозбанк&amp;url=https://www.rshb.ru/promo/job&amp;via=TWITTER-HANDLE" target="_blank"><img src="/assets/img/contact/tw.svg"></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <h4>Наш адрес</h4>
+                        <div id="petrozavodsk-cont" style="display: none">
+                            <p>г. Петрозаводск,  ул. Зайцева, д.67А, ДЦ “Альянс”</p>
+                            <p>Телефон:  +7 (8142) 719-000</p>
+                            <p>Email: <a href="mailto:Career_CC@rshb.ru">Career_CC@rshb.ru</a> </p>
+                        </div>
+                        <div id="voronezh-cont" style="display: none">
+                            <p>г. Воронеж,  ул. 9 Января, д. 68Б, БЦ “Этажи”</p>
+                            <p>Телефон:  +7 (473) 202-12-49</p>
+                            <p>Email: <a href="mailto:KC-Voroneg@rshb.ru">KC-Voroneg@rshb.ru</a> </p>
+                        </div>
+                        <div id="chrlyabinsk-cont" style="display: none">
+                            <p>г. Челябинск,  ул. Худякова, д.12, ТК “Калибр”</p>
+                            <p>Телефон: +7 (351) 217-25-82</p>
+                            <p>Email: <a href="mailto:KC-Voroneg@rshb.ru">KC-Chelyabinsk@rshb.ru</a> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <template id="video-pop">
+        <div class="modal-close"></div>
+        <div class="modal-video container">
+            <div class="modal-video-wraper">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/yRM6ZDooX4M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </template>
+    <template id="benefits-pop">
+        <div class="modal-close"></div>
+        <div class="modal-sidebar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 scroll">
+                        <h2>Условия работы</h2>
+                        <h3>Развитие и обучение</h3>
+                        В совершенствовании навыков и умений наших сотрудников ключевую роль играют разнообразные образовательные программы:
+                        <ul>
+                            <li>первичное/базовое продуктовое обучение</li>
+                            <li>навыковые тренинги</li>
+                            <li>стажировка</li>
+                            <li>посттренинговое сопровождение</li>
+                            <li>наставничетво</li>
+                        </ul>
+
+
+                        <p>Для повышения результативности применяются различные форматы и методы обучения, от классических лекций, семинаров и воркшопов до дистанционных видиокурсов, диалоговых тренажеров и мобильных тренингов.</p>
+                        Развитие профессиональных компетенций:
+                        <ul>
+                            <li>школа наставников</li>
+                            <li>академия руководителей</li>
+                            <li>корпоративный университет</li>
+                            <li>бизнес-библиотека</li>
+                        </ul>
+                         <h3>Социальный пакет</h3>
+                        <ul>
+                            <li>ДМС</li>
+                            <li>Корпоративные цены на приобретение полисов ДМС для родственников</li>
+                            <li>Система корпоративных скидок в фитнес, кафе, рестораны и т.д.</li>
+                            <li>Специальные условия на услуги Банка</li>
+                        </ul>
+                        <h3>Оплата труда</h3>
+                        <ul>
+                            <li>Cтабильная зарплата 2 раза в месяц на карту Банка с бесплатным обслуживанием</li>
+                            <li>Вознаграждение, учитывающее индивидуальную эффективность и общий результат</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+    <template id="vacancy-pop">
+        <div class="modal-close"></div>
+        <div class="modal-sidebar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 scroll" id="vacancy-text">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+{% endblock %}

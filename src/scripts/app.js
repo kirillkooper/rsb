@@ -6,7 +6,7 @@
 // Polyfills
 import 'Utils/_closest.polyfill.js';
 import 'Utils/_matches.polyfill.js';
-//import 'Utils/_foreach.polyfill.js';
+import 'Utils/_foreach.polyfill.js';
 import 'Utils/_fetch.polyfill.js';
 import 'Utils/_promise.polyfill.js';
 import 'Utils/_includes.polyfill.js';
@@ -22,8 +22,9 @@ import navbar from 'Modules/navbar/navbar';
 
 // Components
 //import collapse from 'Components/collapse.js';
-//import smoothScroll from 'Components/smooth-scroll';
+import smoothScroll from 'Components/smooth-scroll';
 //import toggleElement from 'Components/toggle-element';
+import pop from 'Components/pop';
 
 // Pages
 //import career from 'Pages/career/script';
@@ -31,26 +32,29 @@ import navbar from 'Modules/navbar/navbar';
 //import mbank from 'Pages/mobile-bank/script';
 //import payring from 'Pages/payring/script';
 //import inkas from 'Pages/inkasation/script';
-import farmer from 'Pages/farmer/script';
+//import farmer from 'Pages/farmer/script';
+import contact from 'Pages/contact/script';
 
 document.addEventListener('DOMContentLoaded', function() {
 
   // Modules
   //carousel();
-  navbar();
+  //navbar();
   //searchOverlay();
 
   // Components
   //collapse();
-  //smoothScroll();
+  smoothScroll();
   //toggleElement();
+  pop();
 
-  // pages
+  // Pages
   //nps();
   //career();
   //mbank();
   //sokolov();
   //payring();
   //inkas();
-  farmer();
+  //farmer();
+  contact();
 })

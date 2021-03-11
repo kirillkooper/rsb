@@ -7,8 +7,7 @@ if (window.NodeList && !NodeList.prototype.forEach) {
     };
 }
 
-
-if (!Object.prototype.forEach) {
+/*if (!Object.prototype.forEach) {
     Object.defineProperty(Object.prototype, 'forEach', {
         value: function (callback, thisArg) {
             if (this == null) {
@@ -22,8 +21,7 @@ if (!Object.prototype.forEach) {
             }
         }
     });
-}
-
+}*/
 // Production steps of ECMA-262, Edition 5, 15.4.4.18
 // Reference: http://es5.github.io/#x15.4.4.18
 
