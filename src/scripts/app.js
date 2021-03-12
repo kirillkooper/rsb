@@ -16,7 +16,7 @@ import 'Utils/_includes.polyfill.js';
  //const log = console.log.bind(console);
 
 // Modules
-import navbar from 'Modules/navbar/navbar';
+//import navbar from 'Modules/navbar/navbar';
 //import searchOverlay from 'Modules/search-overlay/search-overlay';
 //import nps from 'Modules/nps-pop/nps-pop';
 

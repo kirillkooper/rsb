@@ -67,7 +67,6 @@ export default function contact() {
             this.mountCity(city);
         },
         getData: function (city) {
-            console.log(city);
             return fetch('https://api.bearscience.net/api/collections/get/ccvacncy', {
                 method: 'post',
                 headers: { 'Content-Type': 'application/json' },
@@ -185,9 +184,10 @@ export default function contact() {
                     }};
 
                     const data = new FormData();
-                    //data.append("form_id", 74);
-                    //data.append("form_code", 'collection');
-                    data.append("vacancy", `${title}, ${city}`);
+                    data.append("form_id", 76);
+                    data.append("form_code", 'jobpromo');
+                    data.append("city", `${city}`);
+                    data.append("vacancy", `${title}`);
                     data.append("name", form.name.value);
                     data.append("phone", form.phone.value);
                     data.append("email", form.email.value);
