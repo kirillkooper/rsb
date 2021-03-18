@@ -638,28 +638,11 @@ img{
   &-photos{
     background: #f3f5f8;
     padding-top: 0;
-    .carousel-cell{
-      border-radius: 10px;
-      overflow: hidden;
-    }
     &-item{
-      padding-top: 120px;
-      background-size: cover;
-      background-position: center;
-    }
-    @media screen and (min-width: 576px) {
-      &-item{
-        padding-top: 140px;
-      }
-    }
-    @media screen and (min-width: 992px) {
-      &-item{
-        padding-top: 160px;
-      }
-    }
-    @media screen and (min-width: 1200px) {
-      &-item{
-        padding-top: 180px;
+      width: 100% !important;
+      img{
+        border-radius: 10px;
+        overflow: hidden;
       }
     }
   }
