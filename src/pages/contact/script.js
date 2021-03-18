@@ -85,13 +85,10 @@ export default function contact() {
                                      <h4>${item.title}</h4>
 
                                      <div class="contact-vacancy-item_options">
-                                         <div class="option">${item.dept}</div>
-                                         <div class="option">Опыт работы: ${item.stage}</div>
-                                         <div class="option">График работы: ${item.worktime}</div>
+                                         <div class="total">${item.salary} руб.</div>
                                      </div>
                                  </div>
                                  <div class="contact-vacancy-item_price">
-                                     <div class="total">от ${item.salary} руб.</div>
                                      <div><a class="y-button"  onclick="window.cc.showVacancy(${index})">Смотреть вакансию</a> </div>
                                  </div>
                              </div>`;

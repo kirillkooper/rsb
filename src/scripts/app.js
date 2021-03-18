@@ -12,6 +12,8 @@ import 'Utils/_promise.polyfill.js';
 import 'Utils/_includes.polyfill.js';
 import 'Utils/_array.from.polyfill.js';
 import 'Utils/_object.assign.js';
+import 'Utils/_urlparams.polyfill.js';
+import 'Utils/_template.polyfill.js';
 
 
 // Misc
@@ -37,50 +39,8 @@ import pop from 'Components/pop';
 //import inkas from 'Pages/inkasation/script';
 //import farmer from 'Pages/farmer/script';
 import contact from 'Pages/contact/script';
-/* POLYFILL */
-(function templatePolyfill(d) {
-  if('content' in d.createElement('template')) {
-    return false;
-  }
 
-  var qPlates = d.getElementsByTagName('template'),
-      plateLen = qPlates.length,
-      elPlate,
-      qContent,
-      // eslint-disable-next-line no-unused-vars
-      contentLen,
-      docContent;
 
-  for(var x=0; x<plateLen; ++x) {
-    elPlate = qPlates[x];
-    qContent = elPlate.childNodes;
-    contentLen = qContent.length;
-    docContent = d.createDocumentFragment();
-
-    while(qContent[0]) {
-      docContent.appendChild(qContent[0]);
-    }
-
-    elPlate.content = docContent;
-  }
-})(document);
-(function (w) {
-
-  w.URLSearchParams = w.URLSearchParams || function (searchString) {
-    var self = this;
-    self.searchString = searchString;
-    self.get = function (name) {
-      var results = new RegExp('[?&]' + name + '=([^&#]*)').exec(self.searchString);
-      if (results == null) {
-        return null;
-      }
-      else {
-        return decodeURI(results[1]) || 0;
-      }
-    };
-  }
-
-})(window)
 document.addEventListener('DOMContentLoaded', function() {
 
   // Modules
