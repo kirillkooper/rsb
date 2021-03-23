@@ -42,6 +42,13 @@ $displays: none, inline, inline-block, block, table, table-row, table-cell, flex
 @import "bootstrap/scss/utilities/display";
 @import "bootstrap/scss/utilities/flex";
 
+html,
+body{
+  line-height: 1.5em;
+}
+strong{
+  font-weight: 600;
+}
 *,
 *::before,
 *::after {
@@ -519,10 +526,13 @@ $displays: none, inline, inline-block, block, table, table-row, table-cell, flex
       li{
         list-style: none;
         display: block;
+        align-items: center;
         background: white;
-        padding: .8em 0;
+        padding: .8em .5em;
         margin: 0;
-        width: 140px;
+        @media (min-width: 576px){
+          padding: .8em 1em;
+        }
         &:first-child{
           border-radius: 8px 0 0 8px;
         }
@@ -696,6 +706,72 @@ $displays: none, inline, inline-block, block, table, table-row, table-cell, flex
         max-width: 60%;
         padding-left: 64px;
       }
+    }
+  }
+}
+.accord{
+  &-tabs{
+    display: block;
+    overflow-x: auto;
+    ul{
+      display: inline-flex;
+      margin: 0 auto;
+      padding: 0;
+      justify-content: center;
+      border-radius: 8px;
+      margin-bottom: 24px;
+      li{
+        list-style: none;
+        display: block;
+        background: #f5f7f9;
+        padding: .5em 1.5em;
+        margin: 0;
+        text-align: center;
+        &:first-child{
+          border-radius: 4px 0 0 4px;
+        }
+        &:last-child{
+          border-radius: 0 4px 4px 0;
+        }
+        &.active{
+          background: #ffcb00;
+        }
+        &:hover{
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  input {
+    position: absolute;
+    opacity: 0 !important;
+    z-index: -1;
+    &:checked{
+      ~ .accord-item-content {
+        max-height: 100000px;
+        padding-bottom: 16px;
+      }
+      ~ .accord-item-label{
+        background-image: url("/assets/img/anticor/acc-close.svg");
+      }
+    }
+  }
+  &-item{
+    border-bottom: 1px solid #d9d9d9;
+    overflow: hidden;
+    &-label{
+      display: block;
+      font-weight: 600;
+      padding: 16px 32px 16px 0;
+      cursor: pointer;
+      background-image: url("/assets/img/anticor/acc-open.svg");
+      background-position: right center;
+      background-repeat: no-repeat;
+    }
+    &-content{
+      padding-bottom: 0;
+      max-height: 0;
+      overflow: hidden;
     }
   }
 }

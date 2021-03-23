@@ -19,6 +19,7 @@ export default function contact() {
 
     const carouselStory = document.getElementById('story');
     const carouselPhoto = document.getElementById('photos');
+    window.dataLayer = window.dataLayer || [];
     window.onload = function() {
         carousel(carouselStory,{
             // options
@@ -31,7 +32,7 @@ export default function contact() {
             // options
             cellAlign: 'left',
             wrapAround: true,
-            //autoPlay: 6000,
+            autoPlay: 6000,
             adaptiveHeight: true
         });
     }
@@ -66,6 +67,21 @@ export default function contact() {
             });
             this.mountCity(city);
         },
+        currentVacancy: {},
+        sendPush: function (id, city, action){
+            const whatType = (id, action) => {
+                if(['604f23e6373933bc2200007f', '604f250b39393940330002ff', '604f252831396418b60000a2'].includes(id)){
+                    return (action === 'show') ? 'job_contact_telemarketing' : 'job_contact_telemarketing_response';
+                }
+                if(['604f23853933390c2d00008d', '604f2396626364ef680003e5'].includes(id)){
+                    return (action === 'show') ? 'job_contact_support' : 'job_contact_support_response';
+                }
+                return (action === 'show') ? 'job_contact_new' : 'job_contact_new_response';
+            };
+
+            dataLayer.push({'event': whatType(id, action), 'vacancy_city': city});
+
+        },
         getData: function (city) {
             return fetch('https://api.bearscience.net/api/collections/get/ccvacncy', {
                 method: 'post',
@@ -97,6 +113,12 @@ export default function contact() {
         showVacancy: function(id) {
             vacancyPop.show();
             const vacancyText = document.getElementById('vacancy-text');
+            this.currentVacancy = {
+                'id' : this.data[id]._id,
+                'city' : this.data[id].city
+            }
+            this.sendPush(this.currentVacancy.id, this.currentVacancy.city, 'show');
+
             vacancyText.innerHTML = `<h2>${this.data[id].title}</h2>
             <div>
              ${this.data[id].text}
@@ -176,6 +198,7 @@ export default function contact() {
                 if(valid){
                     const success = (res) => {if(res.status === 'ok'){
                         alert('Заявка принята');
+                        this.sendPush(this.currentVacancy.id, this.currentVacancy.city, 'submit');
                     }else{
                         alert('Ошибка, попробуйте еще раз');
                     }};
