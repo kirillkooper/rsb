@@ -1,24 +1,27 @@
-import carousel from 'Modules/carousel/carousel';
+//import carousel from 'Modules/carousel/carousel';
 import tabs from 'Components/tabs';
 import SweetScroll from 'sweet-scroll';
+import Flickity from 'flickity';
+import 'flickity/css/flickity.css';
 
 export default function mbank() {
+    const carouselNewin = new Flickity( document.getElementById('newin'), {
+        // options
+        cellAlign: 'left',
+        wrapAround: true,
+        autoPlay: 6000,
+    } ).resize();
+    const carouselControl = new Flickity( document.getElementById('control'), {
+        cellAlign: 'left',
+        pageDots: false,
+        autoPlay: 6000,
+        wrapAround: true
+    } ).resize();
 
-    const carouselNewin = document.getElementById('newin');
-    const carouselControl = document.getElementById('control');
+
     window.onload = function() {
-        carousel(carouselNewin,{
-            // options
-            cellAlign: 'left',
-            wrapAround: true,
-            autoPlay: 6000,
-        });
-        carousel(carouselControl,{
-            cellAlign: 'left',
-            pageDots: false,
-            autoPlay: 6000,
-            wrapAround: true
-        });
+        carouselNewin.resize();
+        carouselControl.resize();
         if(window.location.hash == '#faq') {
             const sweetScroll = new SweetScroll({ offset: -180 });
             sweetScroll.to('#faq');
