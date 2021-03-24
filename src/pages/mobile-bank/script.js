@@ -5,19 +5,18 @@ import Flickity from 'flickity';
 import 'flickity/css/flickity.css';
 
 export default function mbank() {
-    const carouselNewin = new Flickity( document.getElementById('newin'), {
+    let carouselNewin = new Flickity( document.getElementById('newin'), {
         // options
         cellAlign: 'left',
         wrapAround: true,
         autoPlay: 6000,
-    } ).resize();
-    const carouselControl = new Flickity( document.getElementById('control'), {
+    } );
+    let carouselControl = new Flickity( document.getElementById('control'), {
         cellAlign: 'left',
         pageDots: false,
         autoPlay: 6000,
         wrapAround: true
-    } ).resize();
-
+    } );
 
     window.onload = function() {
         carouselNewin.resize();
