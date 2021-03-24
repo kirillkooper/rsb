@@ -20,13 +20,15 @@ export default function mbank() {
             wrapAround: true
         });
         if(window.location.hash == '#faq') {
-            document.querySelector('.tab1').classList.remove('active');
-            document.querySelector('.tab3').classList.add('active');
-            document.querySelector('li[data-tab="tab1"]').classList.remove('active');
-            document.querySelector('li[data-tab="tab3"]').classList.add('active');
             const sweetScroll = new SweetScroll({ offset: -180 });
             sweetScroll.to('#faq');
         }
     }
     tabs(document.querySelector('.tabs'));
+    if(window.location.hash == '#faq') {
+        document.querySelector('.tab1').classList.remove('active');
+        document.querySelector('.tab3').classList.add('active');
+        document.querySelector('li[data-tab="tab1"]').classList.remove('active');
+        document.querySelector('li[data-tab="tab3"]').classList.add('active');
+    }
 }
