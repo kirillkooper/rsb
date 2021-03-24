@@ -279,6 +279,9 @@ strong{
           color: #333;
         }
       }
+      .flickity-page-dots{
+        bottom: -8px;
+      }
     }
   }
   &-control{
@@ -342,7 +345,6 @@ strong{
     right: -12px;
   }
   .flickity-page-dots{
-    bottom: -8px;
     .is-selected{
       background-color: $color-green1;
     }

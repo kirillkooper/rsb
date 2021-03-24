@@ -13,7 +13,6 @@ export default function mbank() {
         });
         carousel(carouselControl,{
             cellAlign: 'left',
-            prevNextButtons: false,
             pageDots: false,
             autoPlay: 6000,
             wrapAround: true
