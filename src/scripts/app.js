@@ -27,7 +27,7 @@ import 'Utils/_template.polyfill.js';
 
 // Components
 //import collapse from 'Components/collapse.js';
-import smoothScroll from 'Components/smooth-scroll';
+//import smoothScroll from 'Components/smooth-scroll';
 //import toggleElement from 'Components/toggle-element';
 //import pop from 'Components/pop';
 
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Components
   //collapse();
-  smoothScroll();
+  //smoothScroll();
   //toggleElement();
   //pop();
 

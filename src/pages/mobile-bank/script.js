@@ -1,7 +1,9 @@
 import carousel from 'Modules/carousel/carousel';
 import tabs from 'Components/tabs';
+import SweetScroll from 'sweet-scroll';
 
 export default function mbank() {
+
     const carouselNewin = document.getElementById('newin');
     const carouselControl = document.getElementById('control');
     window.onload = function() {
@@ -17,6 +19,14 @@ export default function mbank() {
             autoPlay: 6000,
             wrapAround: true
         });
+        if(window.location.hash == '#faq') {
+            document.querySelector('.tab1').classList.remove('active');
+            document.querySelector('.tab3').classList.add('active');
+            document.querySelector('li[data-tab="tab1"]').classList.remove('active');
+            document.querySelector('li[data-tab="tab3"]').classList.add('active');
+            const sweetScroll = new SweetScroll({ offset: -180 });
+            sweetScroll.to('#faq');
+        }
     }
     tabs(document.querySelector('.tabs'));
 }
