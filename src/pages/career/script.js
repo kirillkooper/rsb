@@ -2,8 +2,10 @@ import uniq from 'lodash/uniq';
 import filter from 'lodash/filter';
 import map from 'lodash/map';
 import flattenDeep from 'lodash/flattenDeep';
+import sortBy from 'lodash/sortBy';
 
 export default function career() {
+    //window.dataLayer = [];
     const log = console.log.bind(console);
     window.career = window.career || {
         city:{},
@@ -26,6 +28,7 @@ export default function career() {
                 .then(res => res.filterData(this.filter));
             this.filter.addEventListener('change',function (){
                 this.filterData(this.filter);
+                dataLayer.push({'event': 'job_usefilter'});
             }.bind(this));
         },
 
@@ -33,30 +36,24 @@ export default function career() {
             let self = this;
             const citySelect = document.getElementById("filter-city");
             const buildSelect = function(list){
-                self.data = list;
-                //log(list);
-                citySelect.innerHTML = '';
+                self.data = sortBy(list.entries,[function(o) { return o.city.name; }]);
+
+                citySelect.innerHTML = '<option selected value="all">Все города</option>';
                 const cityArr = [];
-                list.entries.forEach(function(entry){
+                self.data.forEach(function(entry){
                     let city = entry.city.name;
                     if(!cityArr.includes(city)){
                         cityArr.push(city);
-                        if(city === "Москва"){
-                            citySelect.innerHTML += `<option selected value="${city}">${city}</option>`;
-                        }
-                        else{
-                            citySelect.innerHTML += `<option value="${city}">${city}</option>`;
-                        }
-
+                        citySelect.innerHTML += `<option value="${city}">${city}</option>`;
                     }
                 });
                 return self;
             };
-            return fetch('https://api.bearscience.net/api/collections/get/vacancy?token=640af83da3555c34b4f9846eaa21f1', {
+            return fetch('https://api.bearscience.net/api/collections/get/vacancy', {
                 method: 'post',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
-                    sort: {city:1},
+                    sort: {"city":1},
                     populate: 1,
                 })
             })
@@ -89,7 +86,8 @@ export default function career() {
             }
 
             // фильтрация по городу
-            this.showData = filter(this.data.entries, filters.city);
+            console.log(filters.city);
+            this.showData = (form.city.value === 'all') ? this.data : filter(this.data, filters.city);
 
             // установка фильтров по городу
             this.expSelect(this.showData, form.exp.value);
@@ -148,10 +146,11 @@ export default function career() {
                     vacancyList.innerHTML = `<div class="noresult">Вакансии не найдены, попробуйте изменить условия поиска</div>`;
                 }else{
                     list.forEach(function (entry, index){
-                        vacancyList.innerHTML += `<div class="career-job-item" onclick="window.career.showVacancy(${index})">
+                        let display = (entry.department.name) ? 'block' : 'none';
+                        vacancyList.innerHTML += `<div class="career-job-item" onclick="window.career.showVacancy(${index} , ${list.length})">
                         <h3>${entry.title}</h3>
                         <div class="career-job-item_options" >
-                            <div class="option">${entry.department.name}</div>
+                            <div class="option" style="display: ${display}">${entry.department.name}</div>
                             <div class="option">${entry.city.name}</div>
                             <div class="option">${entry.exp}</div>
                         </div>
@@ -160,7 +159,7 @@ export default function career() {
                 }
             }, 1000);
         },
-        showVacancy: function (id){
+        showVacancy: function (id, count){
             const data = this.showData[id];
             //log(data);
             this.panel.title.innerHTML = data.title;
@@ -183,7 +182,7 @@ export default function career() {
                 this.panel.email.innerHTML += `звоните по телефону: ${data.phone}`;
             }
             this.togglePanel();
-            dataLayer.push({'event': 'job_showVacancy', 'vacancy': data.slug, 'city': 'data.city.name'});
+            dataLayer.push({'event': 'job_showVacancy', 'vacancy': data.slug, 'position': (id+1)+"_"+count, 'city': data.city.name});
         },
         togglePanel: function(){
             this.panel.window.classList.toggle('hidden');

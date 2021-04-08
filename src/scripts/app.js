@@ -27,14 +27,14 @@ import 'Utils/_template.polyfill.js';
 
 // Components
 //import collapse from 'Components/collapse.js';
-//import smoothScroll from 'Components/smooth-scroll';
+import smoothScroll from 'Components/smooth-scroll';
 //import toggleElement from 'Components/toggle-element';
 //import pop from 'Components/pop';
 
 // Pages
-//import career from 'Pages/career/script';
+import career from 'Pages/career/script';
 //import sokolov from 'Pages/sokolov/script';
-import mbank from 'Pages/mobile-bank/script';
+//import mbank from 'Pages/mobile-bank/script';
 //import payring from 'Pages/payring/script';
 //import inkas from 'Pages/inkasation/script';
 //import farmer from 'Pages/farmer/script';
@@ -50,14 +50,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Components
   //collapse();
-  //smoothScroll();
+  smoothScroll();
   //toggleElement();
   //pop();
 
   // Pages
   //nps();
-  //career();
-  mbank();
+  career();
+  //mbank();
   //sokolov();
   //payring();
   //inkas();
