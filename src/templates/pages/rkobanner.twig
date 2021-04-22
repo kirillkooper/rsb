@@ -1,0 +1,75 @@
+{% extends '../layouts/default.twig' %}
+{% set head_title = 'Контактный центр' %}
+{% set body_class = '' %}
+{% set menu_active = 'blank-page' %}
+{% set page = 'rkobanner' %}
+{% set src = '/assets/img/rko/' %}
+
+{% block page %}
+<div class="rko-banner">
+    <div class="rko-banner-img">
+        <img src="/assets/img/rko/topimg-mob.jpg">
+    </div>
+    <div class="rko-banner-text">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <h1>Расчетно-Кассовое Обслуживание</h1>
+                    <a class="y-button">Открыть счет</a>
+                    <a class="y-button">Получить реквизиты по СМС</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <style>
+        .rko-banner{
+            background: #67a42d;
+            position: relative;
+        }
+        .rko-banner h1{
+            color: white;
+            font-weight: 600;
+            margin-top: 0;
+        }
+        .rko-banner img{
+            max-width: 100%;
+        }
+        .rko-banner-text{
+            padding-top: 24px;
+            padding-bottom: 32px;
+        }
+        .y-button{
+            display: inline-block;
+            background: #ffcb00;
+            color: #333;
+            padding: .5em 1.5em;
+            border-radius: 4px;
+            text-decoration: none !important;
+            font-weight: 600;
+            border: 0;
+            line-height: 1.5;
+            outline: 0;
+            margin-bottom: 8px;
+        }
+        .y-button:hover{
+            background: #f0bf00;
+        }
+        @media(min-width: 768px){
+            .rko-banner{
+                display: flex;
+                flex-direction: row-reverse;
+            }
+            .rko-banner-img{
+                max-width: 50%;
+            }
+            .rko-banner-text{
+                position: absolute;
+                width: 100%;
+                top: 50%;
+                transform: translateY(-50%);
+                left: 0;
+            }
+        }
+    </style>
+{% endblock %}
