@@ -6,50 +6,80 @@
   <component name="ChangeListManager">
     <list default="true" id="30e4d0d8-f9cd-40dc-89ec-88023220dab7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/anticor/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/anticor/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/broker/av1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/broker/av1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/broker/av2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/broker/av2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/broker/av3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/broker/av3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/broker/av4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/broker/av4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/broker/av5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/broker/av5.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/broker/av6.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/broker/av6.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/broker/screen1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/broker/screen2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/broker/screen2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/broker/top-img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/broker/top-img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/broker/top-img.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/broker/up1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/broker/up1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/broker/up2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/broker/up2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/broker/up3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/broker/up3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/broker/up4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/broker/up4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/farmer/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/purchase/bg9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/purchase/bg9.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/broker-acc.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/broker-acc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/anticor/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/anticor/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/broker/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/broker/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/broker/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/broker/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/career/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/career/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/career/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/career/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/chat/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/chat/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/chat/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/chat/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/contact/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/contact/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/contact/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/contact/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/dohod/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/dohod/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/dohod/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/dohod/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/farmer/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/farmer/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/farmer/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/farmer/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/finradar/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/finradar/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/finradar/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/finradar/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/inkasation/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/inkasation/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/inkasation/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/inkasation/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/main.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/mobile-bank/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/mobile-bank/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/mobile-bank/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/mobile-bank/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/moe-vremya/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/moe-vremya/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/moe-vremya/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/moe-vremya/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/nps/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/nps/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/nps/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/nps/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/obl/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/obl/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/obl/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/obl/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/payring/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/payring/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/payring/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/payring/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/purchase/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/purchase/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/purchase/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/purchase/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/sokolov/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/sokolov/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/sokolov/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/sokolov/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/students/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/students/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/students/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/students/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/svoe/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/svoe/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/svoe/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/svoe/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/topbanner/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/topbanner/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/topbanner/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/topbanner/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/vendor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/vendor.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/rkobanner.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/rkobanner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/broker/av1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/broker/av1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/broker/av2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/broker/av2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/broker/av3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/broker/av3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/broker/av4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/broker/av4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/broker/av5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/broker/av5.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/broker/av6.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/broker/av6.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/broker/top-img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/broker/top-img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/broker/up1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/broker/up1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/broker/up2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/broker/up2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/broker/up3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/broker/up3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/broker/up4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/broker/up4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/broker/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/broker/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/pages/broker-acc.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/pages/broker-acc.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/pages/rkobanner.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/pages/rkobanner.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +253,7 @@
       <workItem from="1618384402996" duration="4942000" />
       <workItem from="1618562329995" duration="5602000" />
       <workItem from="1618814811721" duration="31659000" />
-      <workItem from="1619079901063" duration="3717000" />
+      <workItem from="1619079901063" duration="11087000" />
     </task>
     <task id="LOCAL-00001" summary="обновление карусели контакт">
       <created>1616061625966</created>
@@ -265,7 +295,7 @@
       <screen x="1920" y="-109" width="2560" height="1415" />
     </state>
     <state x="2503" y="283" key="EditFileWatcherDialog/1920.-109.2560.1415/0.25.1920.1120@1920.-109.2560.1415" timestamp="1618562540019" />
-    <state width="2233" height="285" key="GridCell.Tab.0.bottom" timestamp="1619084859032">
+    <state width="2233" height="285" key="GridCell.Tab.0.bottom" timestamp="1619177880109">
       <screen x="1920" y="-109" width="2560" height="1360" />
     </state>
     <state width="1878" height="176" key="GridCell.Tab.0.bottom/-2560.-69.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1613629034955" />
@@ -273,12 +303,12 @@
     <state width="1878" height="170" key="GridCell.Tab.0.bottom/0.25.1920.1120@0.25.1920.1120" timestamp="1618067952331" />
     <state width="1878" height="622" key="GridCell.Tab.0.bottom/0.25.3840.2080@0.25.3840.2080" timestamp="1615621942476" />
     <state width="1878" height="419" key="GridCell.Tab.0.bottom/1920.-109.2560.1360/0.25.1920.1120@0.25.1920.1120" timestamp="1615796479437" />
-    <state width="2233" height="285" key="GridCell.Tab.0.bottom/1920.-109.2560.1360/0.25.1920.1175@1920.-109.2560.1360" timestamp="1619084859032" />
+    <state width="2233" height="285" key="GridCell.Tab.0.bottom/1920.-109.2560.1360/0.25.1920.1175@1920.-109.2560.1360" timestamp="1619177880109" />
     <state width="1878" height="170" key="GridCell.Tab.0.bottom/1920.-109.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1617880873277" />
     <state width="2245" height="226" key="GridCell.Tab.0.bottom/1920.-109.2560.1415/0.25.1920.1120@1920.-109.2560.1415" timestamp="1619012057540" />
     <state width="1878" height="388" key="GridCell.Tab.0.bottom/1920.25.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1612534455330" />
     <state width="1878" height="438" key="GridCell.Tab.0.bottom/1920.25.2560.1415/0.25.1920.1120@1920.25.2560.1415" timestamp="1611130942472" />
-    <state width="2233" height="285" key="GridCell.Tab.0.center" timestamp="1619084859030">
+    <state width="2233" height="285" key="GridCell.Tab.0.center" timestamp="1619177880108">
       <screen x="1920" y="-109" width="2560" height="1360" />
     </state>
     <state width="1878" height="176" key="GridCell.Tab.0.center/-2560.-69.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1613629034954" />
@@ -286,12 +316,12 @@
     <state width="1878" height="170" key="GridCell.Tab.0.center/0.25.1920.1120@0.25.1920.1120" timestamp="1618067952284" />
     <state width="1878" height="622" key="GridCell.Tab.0.center/0.25.3840.2080@0.25.3840.2080" timestamp="1615621942475" />
     <state width="1878" height="419" key="GridCell.Tab.0.center/1920.-109.2560.1360/0.25.1920.1120@0.25.1920.1120" timestamp="1615796479436" />
-    <state width="2233" height="285" key="GridCell.Tab.0.center/1920.-109.2560.1360/0.25.1920.1175@1920.-109.2560.1360" timestamp="1619084859030" />
+    <state width="2233" height="285" key="GridCell.Tab.0.center/1920.-109.2560.1360/0.25.1920.1175@1920.-109.2560.1360" timestamp="1619177880108" />
     <state width="1878" height="170" key="GridCell.Tab.0.center/1920.-109.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1617880873271" />
     <state width="2245" height="226" key="GridCell.Tab.0.center/1920.-109.2560.1415/0.25.1920.1120@1920.-109.2560.1415" timestamp="1619012057539" />
     <state width="1878" height="388" key="GridCell.Tab.0.center/1920.25.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1612534455328" />
     <state width="1878" height="438" key="GridCell.Tab.0.center/1920.25.2560.1415/0.25.1920.1120@1920.25.2560.1415" timestamp="1611130942470" />
-    <state width="2233" height="285" key="GridCell.Tab.0.left" timestamp="1619084859029">
+    <state width="2233" height="285" key="GridCell.Tab.0.left" timestamp="1619177880106">
       <screen x="1920" y="-109" width="2560" height="1360" />
     </state>
     <state width="1878" height="176" key="GridCell.Tab.0.left/-2560.-69.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1613629034953" />
@@ -299,12 +329,12 @@
     <state width="1878" height="170" key="GridCell.Tab.0.left/0.25.1920.1120@0.25.1920.1120" timestamp="1618067952261" />
     <state width="1878" height="622" key="GridCell.Tab.0.left/0.25.3840.2080@0.25.3840.2080" timestamp="1615621942474" />
     <state width="1878" height="419" key="GridCell.Tab.0.left/1920.-109.2560.1360/0.25.1920.1120@0.25.1920.1120" timestamp="1615796479435" />
-    <state width="2233" height="285" key="GridCell.Tab.0.left/1920.-109.2560.1360/0.25.1920.1175@1920.-109.2560.1360" timestamp="1619084859029" />
+    <state width="2233" height="285" key="GridCell.Tab.0.left/1920.-109.2560.1360/0.25.1920.1175@1920.-109.2560.1360" timestamp="1619177880106" />
     <state width="1878" height="170" key="GridCell.Tab.0.left/1920.-109.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1617880873265" />
     <state width="2245" height="226" key="GridCell.Tab.0.left/1920.-109.2560.1415/0.25.1920.1120@1920.-109.2560.1415" timestamp="1619012057538" />
     <state width="1878" height="388" key="GridCell.Tab.0.left/1920.25.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1612534455327" />
     <state width="1878" height="438" key="GridCell.Tab.0.left/1920.25.2560.1415/0.25.1920.1120@1920.25.2560.1415" timestamp="1611130942469" />
-    <state width="2233" height="285" key="GridCell.Tab.0.right" timestamp="1619084859031">
+    <state width="2233" height="285" key="GridCell.Tab.0.right" timestamp="1619177880108">
       <screen x="1920" y="-109" width="2560" height="1360" />
     </state>
     <state width="1878" height="176" key="GridCell.Tab.0.right/-2560.-69.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1613629034954" />
@@ -312,7 +342,7 @@
     <state width="1878" height="170" key="GridCell.Tab.0.right/0.25.1920.1120@0.25.1920.1120" timestamp="1618067952316" />
     <state width="1878" height="622" key="GridCell.Tab.0.right/0.25.3840.2080@0.25.3840.2080" timestamp="1615621942475" />
     <state width="1878" height="419" key="GridCell.Tab.0.right/1920.-109.2560.1360/0.25.1920.1120@0.25.1920.1120" timestamp="1615796479436" />
-    <state width="2233" height="285" key="GridCell.Tab.0.right/1920.-109.2560.1360/0.25.1920.1175@1920.-109.2560.1360" timestamp="1619084859031" />
+    <state width="2233" height="285" key="GridCell.Tab.0.right/1920.-109.2560.1360/0.25.1920.1175@1920.-109.2560.1360" timestamp="1619177880108" />
     <state width="1878" height="170" key="GridCell.Tab.0.right/1920.-109.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1617880873273" />
     <state width="2245" height="226" key="GridCell.Tab.0.right/1920.-109.2560.1415/0.25.1920.1120@1920.-109.2560.1415" timestamp="1619012057539" />
     <state width="1878" height="388" key="GridCell.Tab.0.right/1920.25.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1612534455329" />
