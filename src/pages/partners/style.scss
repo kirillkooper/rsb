@@ -222,6 +222,48 @@ img{
     text-align: center;
   }
 }
+.bpartner{
+  &-top{
+    padding-top: 0;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #f5f7f9;
+    &-text{
+      margin-top: 24px;
+    }
+    &-image{
+      position: relative;
+    }
+    &-rate{
+      position: absolute;
+      bottom: 0;
+      width: 150px;
+      left: 5%;
+    }
+    h1{
+      margin-bottom: 0;
+    }
+    @media screen and (min-width: 768px){
+      padding-bottom: 0;
+      display: flex;
+      flex-direction: row-reverse;
+      &-text{
+        margin-top: 0;
+        align-self: center;
+        min-width: 50%;
+      }
+      &-rate{
+        left: -5%;
+        width: 40%;
+      }
+    }
+    @media screen and (min-width: 992px){
+      &-text{
+        padding-left: 5%;
+      }
+    }
+  }
+}
 
 .bpartners{
   &-back{
@@ -263,7 +305,6 @@ img{
       padding: 20px;
       height: 316px;
     }
-
   }
   &-logo{
     img{
