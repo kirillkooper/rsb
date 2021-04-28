@@ -1,0 +1,289 @@
+html,
+body{
+  font-size: 16px;
+  line-height: 1.5em;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5{
+  margin-top: 0;
+  font-weight: 600;
+  margin-bottom: .75em;
+  line-height: 1.2em;
+}
+h1{
+  font-size: 24px;
+}
+h2{
+  font-size: 22px;
+}
+h3{
+  font-size: 20px;
+}
+h4{
+  font-size: 18px;
+}
+h5{
+  font-size: 16px;
+  margin-bottom: .4em;
+}
+@media screen and (min-width: 768px){
+  h1{
+    font-size: 28px;
+  }
+  h2{
+    font-size: 24px;
+  }
+  h3{
+    font-size: 20px;
+  }
+  h4{
+    font-size: 18px;
+  }
+  h5{
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 992px){
+  h1{
+    font-size: 32px;
+  }
+  h2{
+    font-size: 26px;
+  }
+  h3{
+    font-size: 22px;
+  }
+  h4{
+    font-size: 20px;
+  }
+  h5{
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1200px){
+  h1{
+    font-size: 36px;
+  }
+  h2{
+    font-size: 28px;
+  }
+  h3{
+    font-size: 24px;
+  }
+  h4{
+    font-size: 22px;
+  }
+  h5{
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1600px){
+  h1{
+    font-size: 40px;
+  }
+  h2{
+    font-size: 32px;
+  }
+  h3{
+    font-size: 28px;
+  }
+  h4{
+    font-size: 24px;
+  }
+  h5{
+    font-size: 22px;
+  }
+  html,
+  body{
+    font-size: 18px;
+  }
+}
+
+a{
+  color: #333;
+  text-decoration: underline;
+  &:hover{
+    color: black;
+  }
+}
+section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  .pad-y{
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .pad-x{
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .pad{
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  @media (max-width: 991px){
+    .container{
+      max-width: 100%;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    padding-top: 42px;
+    padding-bottom: 42px;
+    .pad-y{
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .pad-x{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .pad{
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .row{
+      margin-left: -20px;
+      margin-right: -20px;
+    }
+    .container{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+  @media screen and (min-width: 1600px) {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    .container{
+      max-width: 1440px;
+      padding-right: 24px;
+      padding-left: 24px;
+    }
+    .pad-y{
+      padding-top: 24px;
+      padding-bottom: 24px;
+    }
+    .pad-x{
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+    .pad {
+      padding-left: 24px;
+      padding-right: 24px;
+      padding-top: 24px;
+      padding-bottom: 24px;
+    }
+    .row{
+      margin-left: -24px;
+      margin-right: -24px;
+    }
+  }
+}
+img{
+  max-width: 100%;
+}
+.y-button{
+  display: inline-block;
+  background: #ffcb00;
+  color: #333;
+  padding: .5em 1.5em;
+  border-radius: 4px;
+  text-decoration: none !important;
+  font-weight: 600;
+  border: 0;
+  line-height: 1.5;
+  outline: 0;
+  &:hover{
+    background: darken(#ffcb00, 3%);
+    color: black;
+  }
+  @media screen and (max-width: 428px){
+    display: block;
+    margin-right: 0;
+    text-align: center;
+  }
+}
+
+.bpartners{
+  &-back{
+    display: none;
+    padding-top: 16px;
+    p{
+      font-size: .8em;
+      line-height: 1.35em;
+      min-height: 132px;
+    }
+  }
+  &-card{
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    padding: 16px;
+    cursor: pointer;
+    height: 285px;
+    @media (max-width: 1024px){
+      height: 320px;
+    }
+    @media (min-width: 1025px){
+      &:hover{
+        background: #f5f7f9;
+        .bpartners-face{
+          display: none;
+        }
+        .bpartners-back{
+          display: block;
+        }
+      }
+      .bpartners-mobbutton{
+        display: none;
+      }
+    }
+    @media (min-width: 1200px){
+      height: 300px;
+    }
+    @media (min-width: 1600px){
+      padding: 20px;
+      height: 316px;
+    }
+
+  }
+  &-logo{
+    img{
+      height: 40px;
+    }
+  }
+  &-title{
+    margin-top: 16px;
+  }
+  &-shorttxt{
+    height: 120px;
+    overflow: hidden;
+    @media (min-width: 1200px){
+      height: 124px;
+    }
+  }
+  &-benefit{
+    color: #257c39;
+  }
+  &-mobbutton{
+    margin-top: 8px;
+  }
+}

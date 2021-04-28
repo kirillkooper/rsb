@@ -1,0 +1,47 @@
+{% extends '../layouts/default.twig' %}
+{% set head_title = 'Партнеры' %}
+{% set body_class = '' %}
+{% set menu_active = 'blank-page' %}
+{% set page = 'partners' %}
+{% set src = '/assets/img/partners/' %}
+
+{% block page %}
+    <section class="bpartners">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 style="text-align: center">Бонусы от партнеров Банка</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="bpartners-card">
+                        <div class="bpartners-logo">
+                            <img src="/assets/img/partners/md-logo.svg" />
+                        </div>
+                        <div class="bpartners-face">
+                            <h4 class="bpartners-title">
+                                Интернет-бухгалтерия «Моё дело»
+                            </h4>
+                            <div class="bpartners-shorttxt">
+                                Самостоятельное ведение бухгалтерского и налогового учета без специализированных знаний
+                            </div>
+                            <div class="bpartners-benefit">
+                                3 месяца бесплатно
+                            </div>
+                        </div>
+                        <div class="bpartners-back">
+                            <p>
+                                Интернет-бухгалтерия «Моё дело» предлагает клиентам Россельхозбанка специальные условия использования онлайн-сервиса для самостоятельного ведения бухгалтерского и налогового учета без специализированных знаний - к выбранному тарифному плану дополнительно 3 месяца бесплатного использования (для клиентов, впервые подключивших сервис интернет-бухгалтерии «Моё дело»).
+                            </p>
+                            <a href="#" class="y-button">Узнать больше</a>
+                        </div>
+                        <div class="bpartners-mobbutton">
+                            <a href="#" class="y-button">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
