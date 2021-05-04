@@ -232,9 +232,6 @@ img{
         position: absolute;
         top: 0;
         left: 0;
-        background-image: url("/assets/img/contact/lights.svg");
-        background-size: cover;
-        background-repeat: no-repeat;
       }
       .gradient{
         background-image: url("/assets/img/contact/bottom-bg.svg");
@@ -316,6 +313,11 @@ img{
       &-city{
         padding-top: 420px;
       }
+    }
+  }
+  &.all{
+    .contact-top-city{
+      background-image: url("/assets/img/contact/all.jpg");
     }
   }
   &.petrozavodsk{
@@ -713,6 +715,11 @@ img{
       border-radius: 10px;
       cursor: pointer;
       margin-bottom: 16px;
+      &_text{
+        h4{
+          margin-bottom: .75em;
+        }
+      }
       &_options{
         display: flex;
         flex-wrap: wrap;
@@ -725,7 +732,7 @@ img{
         display: flex;
         flex-direction: column;
         .y-button{
-          margin-top: 8px;
+          margin-top: 0;
           margin-right: 0;
         }
         .total{
@@ -736,8 +743,17 @@ img{
     @media screen and (min-width: 567px){
       &-item{
         display: flex;
+        align-items: center;
         &_text{
           flex-grow: 1;
+          h4{
+            margin-bottom: 0;
+          }
+          &.withcity{
+            h4{
+              margin-bottom: .3em;
+            }
+          }
         }
         &_price{
           margin-top: 0;
@@ -763,7 +779,11 @@ img{
   &-contacts{
     background: #e8e8e8;
     p{
-      margin-bottom: 8px;
+      margin-bottom: 6px;
+    }
+    &_item{
+      margin-bottom: 16px;
+      padding-right: 20px;
     }
     &-share{
       a{
@@ -776,6 +796,9 @@ img{
       margin-bottom: 32px;
     }
     @media screen and (min-width: 1200px){
+      &_wrap{
+        display: flex;
+      }
       &-share{
         margin-bottom: 0;
       }

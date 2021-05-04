@@ -2,7 +2,10 @@ import carousel from 'Modules/carousel/carousel';
 import map from 'lodash/map';
 import * as basicLightbox from "basiclightbox";
 import * as Pristine from 'Modules/validator/validator';
+
 export default function contact() {
+
+
     const bodyPreventScroll = (bool) => {
         document.body.style.overflow = (bool) ? 'hidden' : 'auto';
     }
@@ -83,6 +86,7 @@ export default function contact() {
 
         },
         getData: function (city) {
+            console.log(city);
             return fetch('https://api.bearscience.net/api/collections/get/ccvacncy', {
                 method: 'post',
                 headers: { 'Content-Type': 'application/json' },
@@ -92,22 +96,30 @@ export default function contact() {
                 })
             }).then(res => res.json());
         },
-        buildList: function (){
+        buildList: function (city){
             const list = document.getElementById('vacancy-list');
             list.innerHTML='';
             map(this.data, (item, index) => {
-                list.innerHTML += `<div class="contact-vacancy-item">
+                if (city) {
+                    list.innerHTML += `<div class="contact-vacancy-item">
                                  <div class="contact-vacancy-item_text">
                                      <h4>${item.title}</h4>
-
-                                     <div class="contact-vacancy-item_options">
-                                         <div class="total">${item.salary} руб.</div>
-                                     </div>
                                  </div>
                                  <div class="contact-vacancy-item_price">
                                      <div><a class="y-button"  onclick="window.cc.showVacancy(${index})">Смотреть вакансию</a> </div>
                                  </div>
                              </div>`;
+                } else {
+                    list.innerHTML += `<div class="contact-vacancy-item">
+                                 <div class="contact-vacancy-item_text withcity">
+                                     <h4>${item.title}</h4>
+                                     <div class="">${item.city}</div>
+                                 </div>
+                                 <div class="contact-vacancy-item_price">
+                                     <div><a class="y-button"  onclick="window.cc.showVacancy(${index})">Смотреть вакансию</a> </div>
+                                 </div>
+                             </div>`;
+                }
             });
         },
         showVacancy: function(id) {
@@ -221,33 +233,47 @@ export default function contact() {
         mountCity: function (city){
             const main = document.getElementById('main');
             const topMain = document.getElementById('top-city');
+            const adresses = document.getElementById('adresses');
+            const shares = document.getElementById('shares');
             const vacCity = document.getElementById('vacancy-city');
+            const conttile = document.getElementById('conttile');
             const contPetrozavodsk = document.getElementById('petrozavodsk-cont');
             const contVoronezh = document.getElementById('voronezh-cont');
             const contChelyabinsk = document.getElementById('chelyabinsk-cont');
+            conttile
 
             main.classList.add(city);
+            if(city === 'all'){
+                topMain.innerText = '';
+                vacCity.innerText = 'Контактного центра';
+                contPetrozavodsk.style.display = 'block';
+                contVoronezh.style.display = 'block';
+                contChelyabinsk.style.display = 'block';
+                adresses.classList.add('col-lg-7', 'col-xl-9');
+                shares.classList.add('col-lg-5', 'col-xl-3');
+                conttile.innerText ="Адреса контакных центров";
+            }
 
             if(city === 'petrozavodsk'){
                 topMain.innerText = 'Петрозаводск';
-                vacCity.innerText = 'Петрозаводске';
+                vacCity.innerText = 'в Петрозаводске';
                 contPetrozavodsk.style.display = 'block';
             }
             if(city === 'voronezh'){
                 topMain.innerText = 'Воронеж';
-                vacCity.innerText = 'Воронеже';
+                vacCity.innerText = 'в Воронеже';
                 contVoronezh.style.display = 'block';
             }
             if(city === 'chelyabinsk'){
                 topMain.innerText = 'Челябинск';
-                vacCity.innerText = 'Челябинске';
+                vacCity.innerText = 'в Челябинске';
                 contChelyabinsk.style.display = 'block';
             }
         }
     }
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
-    const city = urlParams.get('city') || 'petrozavodsk';
+    const city = urlParams.get('city') || 'all';
     window.cc.init(city);
 
 }

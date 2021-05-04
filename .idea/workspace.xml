@@ -6,29 +6,59 @@
   <component name="ChangeListManager">
     <list default="true" id="30e4d0d8-f9cd-40dc-89ec-88023220dab7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/contact/lights.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/contact/lights.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/anticor/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/anticor/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/anticor/style.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/broker/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/broker/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/broker/style.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/career/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/career/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/career/style.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/chat/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/chat/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/chat/style.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/contact/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/contact/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/contact/style.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/dohod/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/dohod/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/dohod/style.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/farmer/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/farmer/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/farmer/style.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/finradar/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/finradar/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/finradar/style.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/inkasation/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/inkasation/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/inkasation/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/main.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/mobile-bank/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/mobile-bank/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/mobile-bank/style.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/moe-vremya/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/moe-vremya/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/moe-vremya/style.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/nps/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/nps/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/nps/style.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/obl/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/obl/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/obl/style.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/partners/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/partners/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/partners/style.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/payring/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/payring/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/payring/style.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/purchase/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/purchase/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/purchase/style.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/sokolov/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/sokolov/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/sokolov/style.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/students/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/students/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/students/style.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/svoe/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/svoe/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/svoe/style.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/topbanner/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/topbanner/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/partners.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/partners.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/partners/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/partners/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/pages/partners.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/pages/partners.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/topbanner/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/vendor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/vendor.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/contact/lights.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/contact/lights.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contact/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contact/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/pages/contact.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/pages/contact.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,6 +235,8 @@
       <workItem from="1619079901063" duration="17743000" />
       <workItem from="1619613172342" duration="2227000" />
       <workItem from="1619617057937" duration="5092000" />
+      <workItem from="1619704965028" duration="1227000" />
+      <workItem from="1619791173326" duration="11731000" />
     </task>
     <task id="LOCAL-00001" summary="обновление карусели контакт">
       <created>1616061625966</created>

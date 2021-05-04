@@ -38,8 +38,8 @@ import pop from 'Components/pop';
 //import payring from 'Pages/payring/script';
 //import inkas from 'Pages/inkasation/script';
 //import farmer from 'Pages/farmer/script';
-//import contact from 'Pages/contact/script';
-import broker from 'Pages/broker/script';
+import contact from 'Pages/contact/script';
+//import broker from 'Pages/broker/script';
 
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -63,6 +63,6 @@ document.addEventListener('DOMContentLoaded', function() {
   //payring();
   //inkas();
   //farmer();
-  //contact();
-  broker();
+  contact();
+  //broker();
 })

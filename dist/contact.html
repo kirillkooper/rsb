@@ -21,7 +21,174 @@
       <div class="container">
         <div class="row flex-md-row-reverse">
           <div class="col-md-5 contact-top-city">
-            <div class="lights"></div>
+            <div class="lights">
+              <svg viewBox="0 0 720 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="light1">
+                  <circle cx="325.394" cy="241.364" r="24" fill="#FFCB05" fill-opacity="0.25" />
+                  <circle cx="325.394" cy="241.364" r="6" fill="#FFCB05" />
+                </g>
+                <g id="light2">
+                  <circle cx="523.394" cy="130.364" r="24" fill="#FFCB05" fill-opacity="0.25" />
+                  <circle cx="523.394" cy="130.364" r="6" fill="#FFCB05" />
+                </g>
+                <g id="light3">
+                  <circle cx="397.394" cy="438.364" r="24" fill="#FFCB05" fill-opacity="0.25" />
+                  <circle cx="397.394" cy="438.364" r="6" fill="#FFCB05" />
+                </g>
+                <g id="light4">
+                  <circle cx="536.394" cy="313.364" r="24" fill="#FFCB05" fill-opacity="0.25" />
+                  <circle cx="536.394" cy="313.364" r="6" fill="#FFCB05" />
+                </g>
+                <g id="light5">
+                  <circle cx="199.902" cy="289.364" r="24" fill="#FFCB05" fill-opacity="0.25" />
+                  <circle cx="199.902" cy="289.364" r="6" fill="#FFCB05" />
+                </g>
+                <g id="light6">
+                  <circle cx="247.902" cy="72.1211" r="24" fill="#FFCB05" fill-opacity="0.25" />
+                  <circle cx="247.902" cy="72.1211" r="6" fill="#FFCB05" />
+                </g>
+                <defs>
+                  <style>
+                    @keyframes lights1 {
+                      0% {
+                        opacity: 0;
+                        transform: translate(325.394px, 241.364px) scale(0);
+                      }
+
+                      30% {
+                        opacity: 1;
+                        transform: translate(0px, 0px) scale(1);
+                      }
+
+                      100% {
+                        opacity: 0;
+                        transform: translate(325.394px, 241.364px) scale(0);
+                      }
+                    }
+
+                    @keyframes lights2 {
+                      0% {
+                        opacity: 0;
+                        transform: translate(523.394px, 130.364px) scale(0);
+                      }
+
+                      30% {
+                        opacity: 1;
+                        transform: translate(0px, 0px) scale(1);
+                      }
+
+                      100% {
+                        opacity: 0;
+                        transform: translate(523.394px, 130.364px) scale(0);
+                      }
+                    }
+
+                    @keyframes lights3 {
+                      0% {
+                        opacity: 0;
+                        transform: translate(397.394px, 438.364px) scale(0);
+                      }
+
+                      30% {
+                        opacity: 1;
+                        transform: translate(0px, 0px) scale(1);
+                      }
+
+                      100% {
+                        opacity: 0;
+                        transform: translate(360px, 438.364px) scale(0);
+                      }
+                    }
+
+                    @keyframes lights4 {
+                      0% {
+                        opacity: 0;
+                        transform: translate(536.394px, 313.364px) scale(0);
+                      }
+
+                      30% {
+                        opacity: 1;
+                        transform: translate(0px, 0px) scale(1);
+                      }
+
+                      100% {
+                        opacity: 0;
+                        transform: translate(536.394px, 313.364px) scale(0);
+                      }
+                    }
+
+                    @keyframes lights5 {
+                      0% {
+                        opacity: 0;
+                        transform: translate(199.902px, 289.364px) scale(0);
+                      }
+
+                      30% {
+                        opacity: 1;
+                        transform: translate(0px, 0px) scale(1);
+                      }
+
+                      100% {
+                        opacity: 0;
+                        transform: translate(199.902px, 289.364px) scale(0);
+                      }
+                    }
+
+                    @keyframes lights6 {
+                      0% {
+                        opacity: 0;
+                        transform: translate(247.902px, 72.1211px) scale(0);
+                      }
+
+                      30% {
+                        opacity: 1;
+                        transform: translate(0px, 0px) scale(1);
+                      }
+
+                      100% {
+                        opacity: 0;
+                        transform: translate(247.902px, 72.1211px) scale(0);
+                      }
+                    }
+
+                    #light1 {
+                      opacity: 0;
+                      animation: lights1 3s ease-out infinite;
+                    }
+
+                    #light2 {
+                      opacity: 0;
+                      animation: lights2 3s ease-out infinite;
+                      animation-delay: 1s;
+                    }
+
+                    #light3 {
+                      opacity: 0;
+                      animation: lights3 3s ease-out infinite;
+                      animation-delay: 1.5s;
+                    }
+
+                    #light4 {
+                      opacity: 0;
+                      animation: lights4 3s ease-out infinite;
+                      animation-delay: 2s;
+                    }
+
+                    #light5 {
+                      opacity: 0;
+                      animation: lights5 3s ease-out infinite;
+                      animation-delay: 2.5s;
+                    }
+
+                    #light6 {
+                      opacity: 0;
+                      animation: lights6 3s ease-out infinite;
+                      animation-delay: 3s;
+                    }
+                  </style>
+                </defs>
+              </svg>
+            </div>
             <div class="gradient"></div>
           </div>
           <div class="col-md-7 contact-top-title pad">
@@ -297,26 +464,11 @@
     </section>
     <section class="contact-vacancy" id="vacancy-bottom">
       <div class="container">
-        <h2>Вакансии в <span id="vacancy-city">Петрозаводске</span></h2>
+        <h2>Вакансии <span id="vacancy-city">Контактного центра</span></h2>
         <p>Выберите вакансию, чтобы узнать условия и отправить резюме</p>
         <div class="row">
           <div class="col-12">
             <div id="vacancy-list">
-              <div class="contact-vacancy-item">
-                <div class="contact-vacancy-item_text">
-                  <h4>Оператор кол-центра</h4>
-
-                  <div class="contact-vacancy-item_options">
-                    <div class="option">Отдел продаж</div>
-                    <div class="option">Опыт работы: Не требуется</div>
-                    <div class="option">График работы: гибкий</div>
-                  </div>
-                </div>
-                <div class="contact-vacancy-item_price">
-                  <div class="total">от 35 000 руб.</div>
-                  <div><a class="y-button">Смотреть вакансию</a> </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -325,7 +477,7 @@
     <section class="contact-contacts">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-md-6" id="shares">
             <h4>Хочешь работать с друзьми?</h4>
             <p>Поделись ссылкой</p>
             <div class="contact-contacts-share">
@@ -352,22 +504,24 @@
               </a>
             </div>
           </div>
-          <div class="col-12 col-md-6">
-            <h4>Наш адрес</h4>
-            <div id="petrozavodsk-cont" style="display: none">
-              <p>г. Петрозаводск, ул. Зайцева, д.67А, ДЦ “Альянс”</p>
-              <p>Телефон: +7 (8142) 719-000</p>
-              <p>Email: <a href="mailto:Career_CC@rshb.ru">Career_CC@rshb.ru</a> </p>
-            </div>
-            <div id="voronezh-cont" style="display: none">
-              <p>г. Воронеж, ул. 9 Января, д. 68Б, БЦ “Этажи”</p>
-              <p>Телефон: +7 (473) 202-12-49</p>
-              <p>Email: <a href="mailto:KC-Voroneg@rshb.ru">KC-Voroneg@rshb.ru</a> </p>
-            </div>
-            <div id="chelyabinsk-cont" style="display: none">
-              <p>г. Челябинск, ул. Худякова, д.12, ТК “Калибр”</p>
-              <p>Телефон: +7 (351) 217-25-82</p>
-              <p>Email: <a href="mailto:KC-Voroneg@rshb.ru">KC-Chelyabinsk@rshb.ru</a> </p>
+          <div class="col-12 col-md-6" id="adresses">
+            <h4 id="conttile">Наш адрес</h4>
+            <div class="contact-contacts_wrap">
+              <div id="petrozavodsk-cont" class="contact-contacts_item" style="display: none">
+                <p>г. Петрозаводск, ул. Зайцева, д.67А, ДЦ “Альянс”</p>
+                <p>Телефон: +7 (8142) 719-000</p>
+                <p>Email: <a href="mailto:Career_CC@rshb.ru">Career_CC@rshb.ru</a> </p>
+              </div>
+              <div id="voronezh-cont" class="contact-contacts_item" style="display: none">
+                <p>г. Воронеж, ул. 9 Января, д. 68Б, БЦ “Этажи”</p>
+                <p>Телефон: +7 (473) 202-12-49</p>
+                <p>Email: <a href="mailto:KC-Voroneg@rshb.ru">KC-Voroneg@rshb.ru</a> </p>
+              </div>
+              <div id="chelyabinsk-cont" class="contact-contacts_item" style="display: none">
+                <p>г. Челябинск, ул. Худякова, д.12, ТК “Калибр”</p>
+                <p>Телефон: +7 (351) 217-25-82</p>
+                <p>Email: <a href="mailto:KC-Voroneg@rshb.ru">KC-Chelyabinsk@rshb.ru</a> </p>
+              </div>
             </div>
           </div>
         </div>
