@@ -708,6 +708,39 @@ img{
     .row{
       margin: 0;
     }
+    &-tabs{
+      display: block;
+      overflow-x: auto;
+      ul{
+        display: inline-flex;
+        margin: 0 auto;
+        padding: 0;
+        justify-content: center;
+        border-radius: 8px;
+        margin-bottom: 24px;
+        li{
+          list-style: none;
+          display: block;
+          background: #fff;
+          padding: .5em .75em;
+          margin: 0;
+          text-align: center;
+          font-size: .85em;
+          &:first-child{
+            border-radius: 4px 0 0 4px;
+          }
+          &:last-child{
+            border-radius: 0 4px 4px 0;
+          }
+          &.active{
+            background: #ffcb00;
+          }
+          &:hover{
+            cursor: pointer;
+          }
+        }
+      }
+    }
     &-item{
       background-color: white;
       margin: 0 -16px;
@@ -741,6 +774,13 @@ img{
       }
     }
     @media screen and (min-width: 567px){
+      &-tabs{
+        ul{
+          li{
+            font-size: 1em;
+          }
+        }
+      }
       &-item{
         display: flex;
         align-items: center;
@@ -767,6 +807,9 @@ img{
     @media screen and (min-width: 1200px){
       h2,
       p{
+        text-align: center;
+      }
+      &-tabs{
         text-align: center;
       }
       &-item{
@@ -798,6 +841,11 @@ img{
     @media screen and (min-width: 1200px){
       &_wrap{
         display: flex;
+      }
+      &_item{
+        span{
+          display: block;
+        }
       }
       &-share{
         margin-bottom: 0;

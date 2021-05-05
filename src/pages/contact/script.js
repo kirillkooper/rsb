@@ -1,5 +1,6 @@
 import carousel from 'Modules/carousel/carousel';
 import map from 'lodash/map';
+import sortBy from 'lodash/sortBy';
 import * as basicLightbox from "basiclightbox";
 import * as Pristine from 'Modules/validator/validator';
 
@@ -64,8 +65,8 @@ export default function contact() {
             chelyabinsk: 'Челябинск'
         },
         init: function(city){
-            this.getData(this.cities[city]).then(res => {
-                this.data = res.entries;
+            this.getData().then(res => {
+                this.data = sortBy(res.entries,[function(o) { return o.city; }]);
                 this.buildList(this.cities[city]);
             });
             this.mountCity(city);
@@ -85,13 +86,11 @@ export default function contact() {
             dataLayer.push({'event': whatType(id, action), 'vacancy_city': city});
 
         },
-        getData: function (city) {
-            console.log(city);
+        getData: function () {
             return fetch('https://api.bearscience.net/api/collections/get/ccvacncy', {
                 method: 'post',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
-                    filter: {"city":city},
                     populate: 1,
                 })
             }).then(res => res.json());
@@ -99,28 +98,34 @@ export default function contact() {
         buildList: function (city){
             const list = document.getElementById('vacancy-list');
             list.innerHTML='';
-            map(this.data, (item, index) => {
-                if (city) {
-                    list.innerHTML += `<div class="contact-vacancy-item">
-                                 <div class="contact-vacancy-item_text">
-                                     <h4>${item.title}</h4>
-                                 </div>
-                                 <div class="contact-vacancy-item_price">
-                                     <div><a class="y-button"  onclick="window.cc.showVacancy(${index})">Смотреть вакансию</a> </div>
-                                 </div>
-                             </div>`;
-                } else {
-                    list.innerHTML += `<div class="contact-vacancy-item">
+            if (city) {
+                map(this.data, (item, index) => {
+                    if(city == item.city){
+                        list.innerHTML += `<div class="contact-vacancy-item">
                                  <div class="contact-vacancy-item_text withcity">
                                      <h4>${item.title}</h4>
-                                     <div class="">${item.city}</div>
+                                     <div>${item.salary}</div>
                                  </div>
                                  <div class="contact-vacancy-item_price">
                                      <div><a class="y-button"  onclick="window.cc.showVacancy(${index})">Смотреть вакансию</a> </div>
                                  </div>
                              </div>`;
-                }
-            });
+                    }
+                });
+            } else {
+                map(this.data, (item, index) => {
+                    list.innerHTML += `<div class="contact-vacancy-item">
+                                 <div class="contact-vacancy-item_text withcity">
+                                    <div style="font-size: .85em; color: #666;">${item.city}</div>
+                                     <h4>${item.title}</h4>
+                                     <div class="">${item.salary}</div>
+                                 </div>
+                                 <div class="contact-vacancy-item_price">
+                                     <div><a class="y-button"  onclick="window.cc.showVacancy(${index})">Смотреть вакансию</a> </div>
+                                 </div>
+                             </div>`;
+                });
+            }
         },
         showVacancy: function(id) {
             vacancyPop.show();
@@ -138,10 +143,10 @@ export default function contact() {
             <div class="form-wrap">
                 <div class="form">
                     <form id="vacancy-form">
-                    <h2 style="margin-top: 2em;">Откликунуться на вакансию</h2>
+                    <h2 style="margin-top: 2em;">Откликнуться на вакансию</h2>
                         <div class="form-row">
                             <label>Вас зовут</label>
-                            <input type="text" name="name" required placeholder="Иван">
+                            <input type="text" name="name" required placeholder="Имя">
                             <div class="error"></div>
                         </div>
                         <div class="form-row">
@@ -230,6 +235,19 @@ export default function contact() {
                 }
             });
         },
+        mountTabs: function(){
+            let tabs = document.querySelectorAll('.contact-vacancy-tabs ul li');
+            const resetTabs = ( ) => {
+                map(tabs, (item) => { item.classList.remove('active')});
+            };
+            map(tabs, (item) => { item.addEventListener('click', function (){
+                resetTabs();
+                this.classList.add('active');
+                window.cc.buildList(this.dataset.tab);
+                //console.log(this.dataset.tab);
+            })})
+            console.log(tabs);
+        },
         mountCity: function (city){
             const main = document.getElementById('main');
             const topMain = document.getElementById('top-city');
@@ -240,7 +258,7 @@ export default function contact() {
             const contPetrozavodsk = document.getElementById('petrozavodsk-cont');
             const contVoronezh = document.getElementById('voronezh-cont');
             const contChelyabinsk = document.getElementById('chelyabinsk-cont');
-            conttile
+            const vacancyTab = document.getElementById('vacancyTab');
 
             main.classList.add(city);
             if(city === 'all'){
@@ -252,22 +270,27 @@ export default function contact() {
                 adresses.classList.add('col-lg-7', 'col-xl-9');
                 shares.classList.add('col-lg-5', 'col-xl-3');
                 conttile.innerText ="Адреса контакных центров";
+                vacancyTab.style.display = 'block';
+                this.mountTabs();
             }
 
             if(city === 'petrozavodsk'){
                 topMain.innerText = 'Петрозаводск';
                 vacCity.innerText = 'в Петрозаводске';
                 contPetrozavodsk.style.display = 'block';
+                vacancyTab.style.display = 'none';
             }
             if(city === 'voronezh'){
                 topMain.innerText = 'Воронеж';
                 vacCity.innerText = 'в Воронеже';
                 contVoronezh.style.display = 'block';
+                vacancyTab.style.display = 'none';
             }
             if(city === 'chelyabinsk'){
                 topMain.innerText = 'Челябинск';
                 vacCity.innerText = 'в Челябинске';
                 contChelyabinsk.style.display = 'block';
+                vacancyTab.style.display = 'none';
             }
         }
     }
