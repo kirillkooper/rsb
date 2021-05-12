@@ -263,7 +263,7 @@ export default function contact() {
             main.classList.add(city);
             if(city === 'all'){
                 topMain.innerText = '';
-                vacCity.innerText = 'Контактного центра';
+                vacCity.innerText = 'контактного центра';
                 contPetrozavodsk.style.display = 'block';
                 contVoronezh.style.display = 'block';
                 contChelyabinsk.style.display = 'block';

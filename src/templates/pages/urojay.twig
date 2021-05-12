@@ -1,0 +1,353 @@
+{% extends '../layouts/default.twig' %}
+{% set head_title = 'Программа лояльности Урожай' %}
+{% set body_class = '' %}
+{% set menu_active = 'blank-page' %}
+{% set page = 'urojay' %}
+{% set src = '/assets/img/urojay/' %}
+
+{% block page %}
+<main class="urojay" id="main">
+    <section class="urojay-top">
+        <div class="urojay-top-image">
+            <img src="/assets/img/urojay/top-img.jpg">
+            <div class="urojay-top-rate">
+                <img src="/assets/img/broker/top-rate.svg"/>
+            </div>
+        </div>
+        <div class="urojay-top-text">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>Программа лояльности «Урожай»</h1>
+                        <p>Получайте подарки за покупки по карте</p>
+                        <a class="y-button">Бонусная витрина</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="urojay-about">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-8 urojay-about-text">
+                    <h2>
+                        Программа лояльности от РоссельхозБанк
+                    </h2>
+                    <p>Вы оплачиваете нашей картой, мы - возвращаем определенный процент от покупок на Ваш бонусный счет.</p>
+                    <p>На витрине «Урожай» представлено множество товаров и услуг, которые Вы можете приобрести за накопленные баллы.</p>
+                    <p>Если баллов не хватает – можно доплатить рублями</p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="urojay-about-img">
+                        <img src="assets/img/urojay/img1.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="urojay-tabs">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 tabs">
+                    <h2>Подробнее о программе</h2>
+                    <div class="tabs-wrap">
+                        <ul class="tabs-toggle">
+                            <li class="active" data-tab="tab1">Как копить баллы</li>
+                            <li data-tab="tab2">Как потратить</li>
+                            <li data-tab="tab3">Возможности витрины</li>
+                        </ul>
+                    </div>
+                    <div class="tab tab1 active">
+                        <div class="row">
+                            <div class="col-12">
+                                <h5>Баллы начисляются при оплате товаров и услуг банковской картой РоссельхозБанка, при условии подключенной программы лояльности «Урожай»</h5>
+                                <ul class="ul-list">
+                                    <li>Закажите карту в любом отделении или на сайте банка.
+                                        <div class="subline">Рекомендуем оформить карту «СВОЯ» – по ней самый выгодный процент начисления баллов.</div></li>
+                                    <li>Подключите программу лояльности «Урожай» к вашей карте.
+                                        <div  class="subline">По карте «СВОЯ» программа лояльности подключена автоматически.</div></li>
+                                    <li>Скачайте и установите мобильное приложение «Урожай» в App Store или Google Play на свой смартфон.</li>
+                                    <li>Оплачивайте покупки картой Банка и получайте баллы на своей бонусный счет.</li>
+                                </ul>
+                                <h5>Количество бонусных баллов вы можете увидеть:</h5>
+                                <ul class="ul-list">
+                                    <li>в Интернет-банке или Мобильном банке</li>
+                                    <li>в выписке</li>
+                                    <li>в мобильном приложении или web-витрине «Урожай»</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab tab2">
+                        <div class="row">
+                            <div class="col-12">
+                                <h5>На витрине «Урожай» представлено множество товаров  и услуг, которые Вы можете приобрести за накопленные баллы.</h5>
+                                <p>Если баллов не хватает – можно доплатить рублями</p>
+
+                                <h5>Доступ на витрину:</h5>
+                                <ul class="ul-list">
+                                    <li>Мобильное приложение «Урожай»</li>
+                                    <li>Скачать приложение в App Store и Google Play.
+                                        <div class="subline">Установить приложение на ваш смартфон. Авторизоваться в приложении используя ваш ID и пароль, полученные при регистрации программы лояльности «Урожай».</div>
+                                    </li>
+                                    <li>
+                                        ДБО (Банк онлайн)
+                                        <div class="subline">
+                                            Авторизоваться в Банк онлайн, войти в раздел «Урожай». Нажать на кнопку «Личный кабинет», система без дополнительной авторизации перенаправит  Вас в мобильное приложение «Урожай»
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="https://urozhai.rshb.ru/login/" target="_blank">Web-витрина в сети интернет</a>, авторизоваться используя ваш ID и пароль.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab tab3">
+                        <div class="row">
+                            <div class="col-12 col-md-8 col-xl-9">
+                                <ul class="ul-list">
+                                    <li>Навигатор по категориям товаров и сервисов</li>
+                                    <li>Возможность следить за состоянием своего бонусного счета</li>
+                                    <li>История операций с баллами (детализация начислений за последний период)</li>
+                                    <li>Баннерная карусель, в которой представлены лучшие предложения поставщиков витрины</li>
+                                    <li>Баннерная карусель, в которой представлены лучшие предложения поставщиков витрины</li>
+                                    <li>Оплачивайте покупки баллами на витрине программы «Урожай» - радуйте себя и близких хорошими, нужными покупками!</li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-md-4 col-xl-3">
+                                <img src="/assets/img/urojay/img3.png" />
+                            </div>
+                            <div class="col-12"><h5>Удобный каталог с большим ассортиментом  товаров и сервисов, которые Вы можете оплатить бонусными баллами.</h5></div>
+                             <div class="col-12 col-md-6">
+                                 <ul class="ul-list">
+                                     <li>Каталог товаров: 5000 + позиций</li>
+                                     <li>Каталог путешествий: 750 авиакомпаний, 1,2 млн. отелей; билеты по направлениям РЖД</li>
+                                     <li>Аренда автомобилей</li>
+                                     <li>Каталог развлечений: 1000+ мероприятий</li>
+                                 </ul>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <ul class="ul-list">
+                                    <li>Платежные гаджеты Pay Ring</li>
+                                    <li>Доставка цветов</li>
+                                    <li>Цифровые сервисы</li>
+                                    <li>Фермерские продукты</li>
+                                    <li>Страхование</li>
+                                </ul>
+                            </div>
+                            <div class="col-12 subline" style="padding-top: 24px;">
+                                Баллы начисляются при оплате товаров и услуг банковской картой Россельхозбанка, при условии подключенной программы лояльности «Урожай», а так же вы можете получить дополнительные бонусные баллы при покупке товаров и услуг на витрине у Партнеров, участвуя в акциях, проводимых Банком.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="urojay-connect">
+        <div class="container">
+            <h2>Как подключить программу лояльности</h2>
+            <div class="scroll-cards broker-features-cards">
+                <div class="scroll-cards-wrap">
+                    <div class="scroll-cards-item gray">
+                        <div class="scroll-cards-card" >
+
+                            <div class="scroll-cards-text">
+                                <p><img src="https://www.rshb.ru/natural/cards/loyalty/i/internet-icon.svg"></p>
+                                <p><strong>Самостоятельно через Интернет:</strong></p>
+                                <ul>
+                                    <li>Авторизуйтесь в Мобильном банке или Интернет-банке.</li>
+                                    <li>Найдите в меню пункт «Программа лояльности «Урожай»</li>
+                                    <li>Следуйте подсказкам системы, дожидаемся ID в SMS</li>
+                                    <li>Активируйте личный кабинет на сайте <a href="https://urozhai.rshb.ru">urozhai.rshb.ru</a></li>
+                                    <li>Измените временный пароль из SMS на постоянный.</li>
+                                </ul>
+                                <a role="button" id="wayone">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="scroll-cards-item gray">
+                        <div class="scroll-cards-card">
+                            <div class="scroll-cards-text">
+                                <p><img src="https://www.rshb.ru/natural/cards/loyalty/i/atm-icon.svg"/></p>
+                                <p><strong>При помощи банкомата Россельхозбанк:</strong></p>
+                                <ul>
+                                    <li>Поместите карту в картоприемник.</li>
+                                    <li>Найдите в меню пункт «Лояльность»</li>
+                                    <li>Следуйте инструкциям системы, дождитесь распечатки чека</li>
+                                    <li>Получите SMS с ID-номером</li>
+                                    <li>Активируйте личный кабинет на сайте <a href="https://urozhai.rshb.ru">urozhai.rshb.ru</a></li>
+                                    <li>Измените временный пароль из SMS на постоянный.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="scroll-cards-item gray">
+                        <div class="scroll-cards-card">
+                            <div class="scroll-cards-text">
+                                <p><img src="https://www.rshb.ru/natural/cards/loyalty/i/bank-icon.svg"/></p>
+                                <p><strong>При посещении офиса:</strong></p>
+                                <ul>
+                                    <li>Напишите заявление по форме банка</li>
+                                    <li>Получите SMS с ID-номером</li>
+                                    <li>Активируйте личный кабинет на сайте <a href="https://urozhai.rshb.ru">urozhai.rshb.ru</a></li>
+                                    <li>Измените временный пароль из SMS на постоянный.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="scroll-cards-item gray">
+                        <div class="scroll-cards-card" >
+                            <div class="scroll-cards-text">
+                                <p><img src="https://www.rshb.ru/natural/cards/loyalty/i/callcenter-icon.svg"/></p>
+                                <p><strong>При звонке в call-центр:</strong></p>
+                                <ul>
+                                    <li>Позвоните нем по телефону 8 800 100–0–100, короткий номер 7787</li>
+                                    <li>Пройдите процедуру идентификации (называем паспортные данные и кодовое слово).</li>
+                                    <li>Получите SMS с ID-номером</li>
+                                    <li>Активируйте личный кабинет на сайте <a href="https://urozhai.rshb.ru">urozhai.rshb.ru</a></li>
+                                    <li>Измените временный пароль из SMS на постоянный.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="urojay-app">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="urojay-app-img">
+                        <img src="/assets/img/urojay/img2.png" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-8 urojay-app-text">
+                    <h2>
+                        Обновленное мобильное приложение «Урожай»
+                    </h2>
+                    <p>Мобильное приложение «Урожай» - больше возможностей, больше удобств!</p>
+                    <ul class="ul-list">
+                        <li>Покупайте товары и услуги</li>
+                        <li>Копите бонусные баллы</li>
+                        <li>Оплачивайте товары и услуги бонусными баллами</li>
+                        <li>Следите за бонусным счетом онлайн</li>
+                    </ul>
+                    <p>Скачайте и установите мобильное приложение «Урожай» на свой смартфон прямо сейчас!
+                    </p>
+                    <div class="urojay-app-links">
+                        <img src="/assets/img/urojay/qr.svg" class="mob-hide">
+                        <a id="playStore" style="padding-right: 8px" href="https://play.google.com/store/apps/details?id=ru.rshb.dbo"><img src="{{ src }}google.svg" /></a>
+                        <a id="appStore" href="https://apps.apple.com/us/app/mobil-nyj-bank-rossel-hozbank/id1117817509?l=ru#?platform=iphone"><img src="{{ src }}apple.svg" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="urojay-cards">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-8 urojay-cards-text">
+                    <h2>Платите картой и получайте баллы</h2>
+                    <p>До 15% от суммы покупок по вашим картам зачисляются на бонусный счет в виде баллов. Участвовать в программе лояльности могут держатели действующих платежных карт следующих <a role="button" id="plans">тарифных планов</a></p>
+                    <p>Вы можете подключить программу лояльности «Урожай» в банкоматах, терминалах, в дополнительных офисах Россельхозбанка или с помощью сотрудника Контакт-центра по номеру 8-800-100-0-100, короткий номер 7787, а также в Интернет-банке и  приложении «Мобильный банк</p>
+                    <p>Вы еще не являетесь держателем карт Россельхозбанка?</p>
+                    <a class="y-button" href="https://www.rshb.ru/natural/application-for-debitcards/?type=svoya">Оформить карту</a>
+
+
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/assets/img/urojay/owncard-16.png" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="urojay-contacts">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p>Если у вас возникли вопросы по сотрудничеству в рамках программы лояльности «Урожай», Вы можете их направить на почту urozhai@rshb.ru<br/>
+                        Если у вас возникли вопросы по оформлению или доставке заказов на бонусной витрине, Вы можете их задать в форме обратной связи в Личном кабинете программе лояльности «Урожай» или по телефону 8 800-302-14-86.</p>
+                    <a href="https://www.rshb.ru/download-file/245749/" class="link-pdf" target="_blank">Условия Программы лояльности «Урожай» для Клиентов, являющихся держателями платежных карт АО «Россельхозбанк»</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+    <template id="tarif-pop">
+        <div class="modal-close"></div>
+        <div class="modal-sidebar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 scroll">
+                        <h2>Список тарифных планов, которые вы можете подключить к программе лояльности «Урожай»</h2>
+                        <h5>Дебетовые карты</h5>
+                        <p>
+                        Тарифный план «СВОЯ карта»<br/>
+                        Тарифный план «Персональный»<br/>
+                        Тарифный план «Зарплатный»<br/>
+                        Тарифный план «Зарплатный РСХБ»<br/>
+                        Тарифный план «Капитал»<br/>
+                        Тарифный план «Пенсионный»<br/>
+                        Тарифный план «Сервисный»<br/>
+                        Тарифный план «Зарплатный 5+»<br/>
+                        Тарифный план «Путевая карта»<br/>
+                        Тарифный план «Амурский тигр Премиум»<br/>
+                        Тарифный план «Премиальный»<br/>
+                        Тарифный план «СЛУЖУ ОТЕЧЕСТВУ!»<br/>
+                        Тарифный план «МИР Премиум»<br/>
+                        Тарифный план «Зарплатный Максимум»<br/>
+                        Тарифный план «ГВАРДЕЙСКИЙ»<br/>
+                        Тарифный план «ЗАРПЛАТНЫЙ МИР»<br/>
+                        Тарифный план «ЗАРПЛАТНЫЙ МИР 5+»<br/>
+                        Тарифный план «Индивидуальный»<br/>
+                        Тарифный план «Зарплатный Статус»<br/>
+                        Тарифный план «Карта Премиум»<br/>
+                        Тарифный план «Карта «МИР-Ультра»<br/>
+                        Тарифный план «Россельхозбанк-ВОРДИ»<br/>
+                        Тарифный план «Профсоюзный»<br/>
+                        Тарифный план «ДЕБЕТОВАЯ КАРТА ХОЗЯИНА»</p>
+                        <h5>Кредитные карты</h5>
+                        <p>Тарифный план «СВОЯ кредитная карта»<br/>
+                        Тарифный план «Кредитная карта с льготным периодом кредитования»<br/>
+                        Тарифный план «Карта Хозяина»<br/>
+                        Тарифный план «Путевая карта – кредитная карта с льготным периодом кредитования»<br/>
+                        Тарифный план «Премиальная кредитная карта с льготным периодом кредитования»<br/>
+                        Тарифный план «Кредитная карта «Премиум»<br/></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+    <template id="way1-pop">
+        <div class="modal-close"></div>
+        <div class="modal-sidebar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 scroll">
+                        <h2>Подключение к программе лояльности «Урожай»</h2>
+                        Авторизуемся в мобильном приложении «Банк онлайн»
+                        <div class="way-image">
+                            <img src="/assets/img/urojay/way1-1.png" />
+                        </div>
+                        На открывшемся экране выбираем
+                        и нажимаем на нужную карту из списка
+                        <div class="way-image">
+                            <img src="/assets/img/urojay/way1-2.png" />
+                        </div>
+                        В правом верхнем углу карты нажимаем на символ «i»
+                        <div class="way-image">
+                            <img src="/assets/img/urojay/way1-3.png" />
+                        </div>
+                        В открывшемся экране необходимо нажать на кнопку «Подключить»
+                        <div class="way-image">
+                            <img src="/assets/img/urojay/way1-4.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+{% endblock %}
