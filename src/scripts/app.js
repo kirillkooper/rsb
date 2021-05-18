@@ -27,7 +27,7 @@ import 'Utils/_template.polyfill.js';
 
 // Components
 //import collapse from 'Components/collapse.js';
-//import smoothScroll from 'Components/smooth-scroll';
+import smoothScroll from 'Components/smooth-scroll';
 //import toggleElement from 'Components/toggle-element';
 //import pop from 'Components/pop';
 
@@ -38,8 +38,8 @@ import 'Utils/_template.polyfill.js';
 //import payring from 'Pages/payring/script';
 //import inkas from 'Pages/inkasation/script';
 //import farmer from 'Pages/farmer/script';
-//import contact from 'Pages/contact/script';
-import urojay from 'Pages/urojay/script';
+import contact from 'Pages/contact/script';
+//import urojay from 'Pages/urojay/script';
 //import broker from 'Pages/broker/script';
 
 
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Components
   //collapse();
-  //smoothScroll();
+  smoothScroll();
   //toggleElement();
   //pop();
 
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
   //payring();
   //inkas();
   //farmer();
-  //contact();
+  contact();
   //broker();
-  urojay();
+  //urojay();
 })
