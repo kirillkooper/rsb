@@ -5,13 +5,14 @@ import 'flickity/css/flickity.css';
 
 export default function urojay() {
 
-    let carouselControl = new Flickity( document.getElementById('control'), {
-        cellAlign: 'left',
-        pageDots: false,
-        autoPlay: 2000,
-        wrapAround: true
-    } );
+
     window.onload = function() {
+        let carouselControl = new Flickity( document.getElementById('control'), {
+            cellAlign: 'left',
+            pageDots: false,
+            autoPlay: 2000,
+            wrapAround: true
+        } );
         carouselControl.resize();
     }
     tabs(document.querySelector('.tabs'));
