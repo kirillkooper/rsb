@@ -38,8 +38,8 @@ import smoothScroll from 'Components/smooth-scroll';
 //import payring from 'Pages/payring/script';
 //import inkas from 'Pages/inkasation/script';
 //import farmer from 'Pages/farmer/script';
-import contact from 'Pages/contact/script';
-//import urojay from 'Pages/urojay/script';
+//import contact from 'Pages/contact/script';
+import urojay from 'Pages/urojay/script';
 //import broker from 'Pages/broker/script';
 
 
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
   //payring();
   //inkas();
   //farmer();
-  contact();
+  //contact();
   //broker();
-  //urojay();
+  urojay();
 })

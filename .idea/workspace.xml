@@ -6,55 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="30e4d0d8-f9cd-40dc-89ec-88023220dab7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/anticor/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/anticor/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/anticor/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/broker/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/broker/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/broker/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/career/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/career/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/career/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/chat/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/chat/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/chat/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/contact/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/contact/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/contact/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/dohod/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/dohod/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/dohod/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/farmer/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/farmer/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/farmer/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/finradar/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/finradar/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/finradar/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/inkasation/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/inkasation/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/inkasation/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/main.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/mobile-bank/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/mobile-bank/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/mobile-bank/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/moe-vremya/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/moe-vremya/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/moe-vremya/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/nps/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/nps/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/nps/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/obl/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/obl/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/obl/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/partners/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/partners/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/partners/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/payring/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/payring/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/payring/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/purchase/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/purchase/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/purchase/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/sokolov/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/sokolov/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/sokolov/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/students/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/students/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/students/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/svoe/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/svoe/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/svoe/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/topbanner/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/topbanner/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/topbanner/style.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/urojay/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/urojay/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/urojay/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/urojay/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/urojay/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/app.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/js/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/vendor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/vendor.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/vendor.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/vendor.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/urojay.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/urojay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/urojay/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/urojay/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/urojay/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/urojay/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/pages/urojay.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/pages/urojay.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,6 +199,9 @@
       <workItem from="1620646527981" duration="15461000" />
       <workItem from="1620797362723" duration="3040000" />
       <workItem from="1620899352741" duration="840000" />
+      <workItem from="1621328268268" duration="9000000" />
+      <workItem from="1621406719069" duration="4228000" />
+      <workItem from="1621417453273" duration="1645000" />
     </task>
     <task id="LOCAL-00001" summary="обновление карусели контакт">
       <created>1616061625966</created>
@@ -273,66 +238,58 @@
       <screen x="1920" y="-109" width="2560" height="1415" />
     </state>
     <state x="2503" y="283" key="EditFileWatcherDialog/1920.-109.2560.1415/0.25.1920.1120@1920.-109.2560.1415" timestamp="1618562540019" />
-    <state width="1878" height="284" key="GridCell.Tab.0.bottom" timestamp="1620747414180">
-      <screen x="0" y="25" width="1920" height="1175" />
+    <state width="1878" height="284" key="GridCell.Tab.0.bottom" timestamp="1621433401839">
+      <screen x="1920" y="-109" width="2560" height="1415" />
     </state>
     <state width="1878" height="176" key="GridCell.Tab.0.bottom/-2560.-69.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1613629034955" />
-    <state width="1878" height="388" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1612779155148" />
     <state width="1878" height="170" key="GridCell.Tab.0.bottom/0.25.1920.1120@0.25.1920.1120" timestamp="1618067952331" />
     <state width="1878" height="284" key="GridCell.Tab.0.bottom/0.25.3008.1667/1884.1717.1920.1120@1884.1717.1920.1120" timestamp="1620228375194" />
     <state width="1878" height="622" key="GridCell.Tab.0.bottom/0.25.3840.2080@0.25.3840.2080" timestamp="1615621942476" />
     <state width="1878" height="419" key="GridCell.Tab.0.bottom/1920.-109.2560.1360/0.25.1920.1120@0.25.1920.1120" timestamp="1615796479437" />
     <state width="2233" height="285" key="GridCell.Tab.0.bottom/1920.-109.2560.1360/0.25.1920.1175@1920.-109.2560.1360" timestamp="1619177912188" />
-    <state width="1878" height="170" key="GridCell.Tab.0.bottom/1920.-109.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1617880873277" />
-    <state width="975" height="358" key="GridCell.Tab.0.bottom/1920.-109.2560.1415/0.25.1920.1120@1920.-109.2560.1415" timestamp="1619622137864" />
+    <state width="1878" height="284" key="GridCell.Tab.0.bottom/1920.-109.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1621330288818" />
+    <state width="1878" height="284" key="GridCell.Tab.0.bottom/1920.-109.2560.1415/0.25.1920.1120@1920.-109.2560.1415" timestamp="1621433401839" />
     <state width="1878" height="284" key="GridCell.Tab.0.bottom/1920.25.1920.1000/0.25.1920.1175@0.25.1920.1175" timestamp="1620747414180" />
     <state width="1878" height="284" key="GridCell.Tab.0.bottom/1920.25.1920.1055/0.25.1920.1120@0.25.1920.1120" timestamp="1620743511592" />
-    <state width="1878" height="388" key="GridCell.Tab.0.bottom/1920.25.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1612534455330" />
-    <state width="1878" height="284" key="GridCell.Tab.0.center" timestamp="1620747414179">
-      <screen x="0" y="25" width="1920" height="1175" />
+    <state width="1878" height="284" key="GridCell.Tab.0.center" timestamp="1621433401838">
+      <screen x="1920" y="-109" width="2560" height="1415" />
     </state>
     <state width="1878" height="176" key="GridCell.Tab.0.center/-2560.-69.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1613629034954" />
-    <state width="1878" height="388" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1612779155146" />
     <state width="1878" height="170" key="GridCell.Tab.0.center/0.25.1920.1120@0.25.1920.1120" timestamp="1618067952284" />
     <state width="1878" height="284" key="GridCell.Tab.0.center/0.25.3008.1667/1884.1717.1920.1120@1884.1717.1920.1120" timestamp="1620228375193" />
     <state width="1878" height="622" key="GridCell.Tab.0.center/0.25.3840.2080@0.25.3840.2080" timestamp="1615621942475" />
     <state width="1878" height="419" key="GridCell.Tab.0.center/1920.-109.2560.1360/0.25.1920.1120@0.25.1920.1120" timestamp="1615796479436" />
     <state width="2233" height="285" key="GridCell.Tab.0.center/1920.-109.2560.1360/0.25.1920.1175@1920.-109.2560.1360" timestamp="1619177912187" />
-    <state width="1878" height="170" key="GridCell.Tab.0.center/1920.-109.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1617880873271" />
-    <state width="975" height="358" key="GridCell.Tab.0.center/1920.-109.2560.1415/0.25.1920.1120@1920.-109.2560.1415" timestamp="1619622137863" />
+    <state width="1878" height="284" key="GridCell.Tab.0.center/1920.-109.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1621330288817" />
+    <state width="1878" height="284" key="GridCell.Tab.0.center/1920.-109.2560.1415/0.25.1920.1120@1920.-109.2560.1415" timestamp="1621433401838" />
     <state width="1878" height="284" key="GridCell.Tab.0.center/1920.25.1920.1000/0.25.1920.1175@0.25.1920.1175" timestamp="1620747414179" />
     <state width="1878" height="284" key="GridCell.Tab.0.center/1920.25.1920.1055/0.25.1920.1120@0.25.1920.1120" timestamp="1620743511590" />
-    <state width="1878" height="388" key="GridCell.Tab.0.center/1920.25.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1612534455328" />
-    <state width="1878" height="284" key="GridCell.Tab.0.left" timestamp="1620747414179">
-      <screen x="0" y="25" width="1920" height="1175" />
+    <state width="1878" height="284" key="GridCell.Tab.0.left" timestamp="1621433401837">
+      <screen x="1920" y="-109" width="2560" height="1415" />
     </state>
     <state width="1878" height="176" key="GridCell.Tab.0.left/-2560.-69.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1613629034953" />
-    <state width="1878" height="388" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1612779155143" />
     <state width="1878" height="170" key="GridCell.Tab.0.left/0.25.1920.1120@0.25.1920.1120" timestamp="1618067952261" />
     <state width="1878" height="284" key="GridCell.Tab.0.left/0.25.3008.1667/1884.1717.1920.1120@1884.1717.1920.1120" timestamp="1620228375191" />
     <state width="1878" height="622" key="GridCell.Tab.0.left/0.25.3840.2080@0.25.3840.2080" timestamp="1615621942474" />
     <state width="1878" height="419" key="GridCell.Tab.0.left/1920.-109.2560.1360/0.25.1920.1120@0.25.1920.1120" timestamp="1615796479435" />
     <state width="2233" height="285" key="GridCell.Tab.0.left/1920.-109.2560.1360/0.25.1920.1175@1920.-109.2560.1360" timestamp="1619177912186" />
-    <state width="1878" height="170" key="GridCell.Tab.0.left/1920.-109.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1617880873265" />
-    <state width="975" height="358" key="GridCell.Tab.0.left/1920.-109.2560.1415/0.25.1920.1120@1920.-109.2560.1415" timestamp="1619622137863" />
+    <state width="1878" height="284" key="GridCell.Tab.0.left/1920.-109.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1621330288816" />
+    <state width="1878" height="284" key="GridCell.Tab.0.left/1920.-109.2560.1415/0.25.1920.1120@1920.-109.2560.1415" timestamp="1621433401837" />
     <state width="1878" height="284" key="GridCell.Tab.0.left/1920.25.1920.1000/0.25.1920.1175@0.25.1920.1175" timestamp="1620747414179" />
     <state width="1878" height="284" key="GridCell.Tab.0.left/1920.25.1920.1055/0.25.1920.1120@0.25.1920.1120" timestamp="1620743511589" />
-    <state width="1878" height="388" key="GridCell.Tab.0.left/1920.25.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1612534455327" />
-    <state width="1878" height="284" key="GridCell.Tab.0.right" timestamp="1620747414180">
-      <screen x="0" y="25" width="1920" height="1175" />
+    <state width="1878" height="284" key="GridCell.Tab.0.right" timestamp="1621433401839">
+      <screen x="1920" y="-109" width="2560" height="1415" />
     </state>
     <state width="1878" height="176" key="GridCell.Tab.0.right/-2560.-69.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1613629034954" />
-    <state width="1878" height="388" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1612779155146" />
     <state width="1878" height="170" key="GridCell.Tab.0.right/0.25.1920.1120@0.25.1920.1120" timestamp="1618067952316" />
     <state width="1878" height="284" key="GridCell.Tab.0.right/0.25.3008.1667/1884.1717.1920.1120@1884.1717.1920.1120" timestamp="1620228375193" />
     <state width="1878" height="622" key="GridCell.Tab.0.right/0.25.3840.2080@0.25.3840.2080" timestamp="1615621942475" />
     <state width="1878" height="419" key="GridCell.Tab.0.right/1920.-109.2560.1360/0.25.1920.1120@0.25.1920.1120" timestamp="1615796479436" />
     <state width="2233" height="285" key="GridCell.Tab.0.right/1920.-109.2560.1360/0.25.1920.1175@1920.-109.2560.1360" timestamp="1619177912187" />
-    <state width="1878" height="170" key="GridCell.Tab.0.right/1920.-109.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1617880873273" />
-    <state width="975" height="358" key="GridCell.Tab.0.right/1920.-109.2560.1415/0.25.1920.1120@1920.-109.2560.1415" timestamp="1619622137864" />
+    <state width="1878" height="284" key="GridCell.Tab.0.right/1920.-109.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1621330288818" />
+    <state width="1878" height="284" key="GridCell.Tab.0.right/1920.-109.2560.1415/0.25.1920.1120@1920.-109.2560.1415" timestamp="1621433401839" />
     <state width="1878" height="284" key="GridCell.Tab.0.right/1920.25.1920.1000/0.25.1920.1175@0.25.1920.1175" timestamp="1620747414180" />
     <state width="1878" height="284" key="GridCell.Tab.0.right/1920.25.1920.1055/0.25.1920.1120@0.25.1920.1120" timestamp="1620743511591" />
-    <state width="1878" height="388" key="GridCell.Tab.0.right/1920.25.2560.1415/0.25.1920.1120@0.25.1920.1120" timestamp="1612534455329" />
     <state x="2353" y="137" key="SettingsEditor" timestamp="1618562542328">
       <screen x="1920" y="-109" width="2560" height="1415" />
     </state>

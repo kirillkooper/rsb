@@ -327,6 +327,12 @@ img{
       &.active{
         display: block;
       }
+      @media (min-width: 768px) {
+        padding: 20px;
+      }
+      @media (min-width: 1600px) {
+        padding: 24px;
+      }
     }
   }
   &-connect{
@@ -336,6 +342,29 @@ img{
       padding: 0;
       font-size: .85em;
       list-style: none;
+    }
+  }
+  &-svoya{
+    background: #f3f3f3;
+    &-option{
+      background: #fff;
+      border-radius: 10px;
+      height: 100%;
+      margin-bottom: 24px;
+      p{
+        font-size: .85em;
+        &:last-child{
+          margin-bottom: 0;
+        }
+      }
+      h5{
+        font-size: 1em;
+        margin-bottom: 1em;
+      }
+      span{
+        color: #000;
+        font-weight: 600;
+      }
     }
   }
   &-app{
